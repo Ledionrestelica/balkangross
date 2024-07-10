@@ -1,13 +1,21 @@
 "use client";
 // components/PdfButton.jsx
 import React, { useContext } from "react";
-import { PDFDownloadLink } from "@react-pdf/renderer";
+import dynamic from "next/dynamic";
+
 import CartContext from "@/CartContext"; // Adjust the path as per your project structure
 import CartPDF from "@/utils/CartPDF"; // Adjust the path as per your project structure
 import Image from "next/image";
 
 const PdfButton = () => {
   const { cart } = useContext(CartContext);
+  const PDFDownloadLink = dynamic(
+    () => import("@react-pdf/renderer").then((mod) => mod.PDFDownloadLink),
+    {
+      ssr: false,
+      loading: () => <p>Loading...</p>,
+    }
+  );
 
   return (
     <div>
