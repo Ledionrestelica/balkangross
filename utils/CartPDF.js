@@ -1,3 +1,5 @@
+"use client";
+
 // components/CartPDF.js
 import React from "react";
 import { Document, Page, Text, View, StyleSheet } from "@react-pdf/renderer";
