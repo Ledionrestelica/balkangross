@@ -4,10 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useContext } from "react";
 import CartContext from "@/CartContext";
+import { urlFor } from "@/utils/sanity/_imageBuilder";
 
-const Product = ({ _id, artNum, ean, active, price, name }) => {
+const Product = ({ _id, artNum, ean, active, price, name, imgUrl }) => {
   const { cart, addItemToCart, deleteItemFromCart } = useContext(CartContext);
+
   const cartItem = cart?.cartItems?.find((item) => item.product === _id);
+
   const increaseQty = (cartItem) => {
     const newQty = cartItem?.quantity + 1;
     const item = { ...cartItem, quantity: newQty };
@@ -33,6 +36,7 @@ const Product = ({ _id, artNum, ean, active, price, name }) => {
       name: name,
       price: price,
       articleNumber: artNum,
+      image: urlFor(imgUrl),
     });
   };
 
@@ -43,13 +47,11 @@ const Product = ({ _id, artNum, ean, active, price, name }) => {
     >
       <div className="relative flex-1 flex justify-center items-center">
         <Link href={`product/${_id}`}>
-          <Image
-            quality={100}
-            width={80}
-            height={80}
-            src="/product.png"
-            alt="product"
-          />
+          {imgUrl ? (
+            <img src={urlFor(imgUrl).width(50).url()}></img>
+          ) : (
+            <p>No image available</p>
+          )}
         </Link>
       </div>
 
@@ -65,14 +67,14 @@ const Product = ({ _id, artNum, ean, active, price, name }) => {
           <p className="flex items-center gap-1 font-light text-[16px] text-[#585858]">
             Stock:
             {active ? (
-              <span class="relative flex h-3 w-3">
-                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-3 w-3 bg-green-400"></span>
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-green-400"></span>
               </span>
             ) : (
-              <span class="relative flex h-3 w-3">
-                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-700 opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-3 w-3 bg-red-700"></span>
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-700 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-700"></span>
               </span>
             )}
           </p>

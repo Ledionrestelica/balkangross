@@ -13,7 +13,12 @@ const PdfButton = () => {
     () => import("@react-pdf/renderer").then((mod) => mod.PDFDownloadLink),
     {
       ssr: false,
-      loading: () => <p>Loading...</p>,
+      loading: () => (
+        <p className="btn disabled:opacity-30 flex items-center gap-2 border border-[#C9C9C9] rounded-[8px] text-[14px] py-[7px] px-[17px] text-[#212121]">
+          Loading...
+          <Image src="/pdf.png" alt="pdf" width={20} height={20} />
+        </p>
+      ),
     }
   );
 

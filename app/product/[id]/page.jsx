@@ -6,15 +6,12 @@ import CsvButton from "@/app/components/CsvButton";
 import CartButton from "@/app/components/CartButton";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
 
-const getProduct = async (id) => {
-  const product = await client.fetch(
-    `*[_type == "product" && _id == "${id}"][0]`
-  );
-  return product;
-};
+const productQuery = `*[_type == "product" && _id == $id][0]`;
 
 export default async function Page({ params }) {
-  const product = await getProduct(params.id);
+  const { id } = params;
+  const product = await client.fetch(productQuery, { id });
+
   return (
     <>
       <AnnouncementBoard text="Announcement board" link="/" />
@@ -53,8 +50,23 @@ export default async function Page({ params }) {
           price={product.price}
           active={product.active}
           artNum={product.articleNumber}
+          imgUrl={product.image && product.image.asset._ref}
         />
       </div>
     </>
   );
 }
+
+export async function generateStaticParams() {
+  const pathsQuery = `*[_type == "product"]{
+    _id
+  }`;
+  const products = await client.fetch(pathsQuery);
+
+  return products.map((product) => ({
+    id: product._id,
+  }));
+}
+
+// Define ISR configuration
+export const revalidate = 60;

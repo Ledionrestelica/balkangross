@@ -3,8 +3,9 @@
 import { useContext } from "react";
 import CartContext from "@/CartContext";
 import Image from "next/image";
+import { urlFor } from "@/utils/sanity/_imageBuilder";
 
-const SingleProduct = ({ _id, name, artNum, active, price }) => {
+const SingleProduct = ({ _id, name, artNum, active, price, imgUrl }) => {
   const { cart, addItemToCart, deleteItemFromCart } = useContext(CartContext);
   const cartItem = cart?.cartItems?.find((item) => item.product === _id);
   const increaseQty = (cartItem) => {
@@ -32,6 +33,7 @@ const SingleProduct = ({ _id, name, artNum, active, price }) => {
       name: name,
       price: price,
       articleNumber: artNum,
+      image: urlFor(imgUrl),
     });
   };
 
@@ -40,7 +42,11 @@ const SingleProduct = ({ _id, name, artNum, active, price }) => {
       <div key={_id} className="w-full flex md:flex-row flex-col">
         <div className="flex-1  pr-[30px]">
           <div className="md:w-full flex items-center justify-center relative w-1/2 aspect-square border borded-[#E7E7E7] rounded-[8px] ">
-            <Image src="/product.png" width={100} height={100} />
+            {imgUrl ? (
+              <img src={urlFor(imgUrl).width(50).url()}></img>
+            ) : (
+              <p>No image available</p>
+            )}
           </div>
         </div>
         <div className="flex-1 mt-[50px] flex flex-col gap-[30px] pl-[30px]">

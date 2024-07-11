@@ -9,6 +9,7 @@ import CsvButton from "./components/CsvButton";
 
 export default async function Home() {
   const products = await getProducts();
+
   return (
     <>
       <AnnouncementBoard text="New Products just launched" link="" />
@@ -29,6 +30,7 @@ export default async function Home() {
               active={product.active}
               name={product.name}
               price={product.price}
+              imgUrl={product.image && product.image.asset._ref}
             />
           ))}
         </div>
@@ -37,3 +39,5 @@ export default async function Home() {
     </>
   );
 }
+
+export const revalidate = 60;
