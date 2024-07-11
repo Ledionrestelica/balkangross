@@ -54,14 +54,7 @@ const CartProduct = ({ _id, name, price, quantity, artNum }) => {
       </div>
       <div className="flex gap-2 pb-[21px] border-b border-b-[#F1F1F1]">
         <div className="rounded-lg flex items-center justify-center w-[60px] h-[60px] relative bg-secondary">
-          <Image
-            src="/product.png"
-            width={15}
-            height={15}
-            quality={100}
-            alt="product"
-            objectFit="contain"
-          />
+          <p>No image available</p>
         </div>
         <div className="flex flex-col gap-2 line-clamp-1">
           <p className="text-[#292e33] text-[18px] font-medium">{name}</p>

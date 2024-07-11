@@ -36,7 +36,6 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl }) => {
       name: name,
       price: price,
       articleNumber: artNum,
-      image: urlFor(imgUrl),
     });
   };
 
