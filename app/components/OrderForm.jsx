@@ -26,6 +26,7 @@ const OrderForm = () => {
     email: "",
     adress: "",
     comment: "",
+    cartItems: [],
   });
   const [touched, setTouched] = useState({});
   const [isSuccesful, setIsSuccesful] = useState(null);
@@ -37,6 +38,13 @@ const OrderForm = () => {
       setFormData(savedOrderData);
     }
   }, []);
+
+  useEffect(() => {
+    setFormData((prevData) => ({
+      ...prevData,
+      cartItems: cart?.cartItems || [],
+    }));
+  }, [cart]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -76,7 +84,6 @@ const OrderForm = () => {
 
   const { name, lastName, phone, organization, email, adress, comment } =
     formData;
-
   return (
     <>
       <Toaster />

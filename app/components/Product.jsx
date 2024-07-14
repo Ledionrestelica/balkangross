@@ -47,7 +47,7 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl }) => {
       <div className="relative flex-1 flex justify-center items-center">
         <Link href={`product/${_id}`}>
           {imgUrl ? (
-            <img src={urlFor(imgUrl).width(50).url()}></img>
+            <img src={urlFor(imgUrl).width(200).url()}></img>
           ) : (
             <p>No image available</p>
           )}
