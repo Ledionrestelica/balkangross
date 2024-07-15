@@ -29,6 +29,11 @@ export default {
       title: 'Unit',
     },
     {
+      name: 'vikt',
+      type: 'string',
+      title: 'Vikt',
+    },
+    {
       name: 'price',
       type: 'number',
       title: 'Price',

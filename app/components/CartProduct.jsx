@@ -3,7 +3,7 @@ import { useState } from "react";
 import CartContext from "@/CartContext";
 import { useContext } from "react";
 
-const CartProduct = ({ _id, name, price, quantity, artNum }) => {
+const CartProduct = ({ _id, name, price, quantity, artNum, imgUrl }) => {
   const [editMode, setEditMode] = useState(false);
   const { cart, addItemToCart, deleteItemFromCart } = useContext(CartContext);
   const cartItem = cart?.cartItems?.find((item) => item.product === _id);
@@ -55,7 +55,13 @@ const CartProduct = ({ _id, name, price, quantity, artNum }) => {
       <div className="flex gap-2 pb-[21px] border-b border-b-[#F1F1F1]">
         <div className="rounded-lg flex items-center justify-center w-[60px] h-[60px] relative bg-secondary">
           <p>
-            <img src="/no-image.png" alt="no image available" />
+            <Image
+              src={imgUrl}
+              alt="no image available"
+              width={40}
+              height={40}
+              quality={100}
+            />
           </p>
         </div>
         <div className="flex flex-col gap-2 line-clamp-1">
@@ -74,7 +80,7 @@ const CartProduct = ({ _id, name, price, quantity, artNum }) => {
         </div>
         <div className="flex flex-col gap-3">
           <p className="text-[#4C5760] text-[16px]">Total</p>
-          <p className="text-[18px]">{price * quantity}</p>
+          <p className="text-[18px]">{(price * quantity).toFixed(2)}</p>
         </div>
       </div>
       {editMode && (

@@ -5,6 +5,7 @@ import CartProduct from "../components/CartProduct";
 import CartContext from "@/CartContext";
 import { useContext } from "react";
 import OrderForm from "../components/OrderForm";
+import Link from "next/link";
 
 const page = () => {
   const { cart } = useContext(CartContext);
@@ -20,11 +21,17 @@ const page = () => {
               height={300}
               alt="cart"
             ></Image>
+            <Link
+              href="/"
+              className="px-4 py-2 rounded-lg text-black text-sm bg-primary"
+            >
+              Go Back
+            </Link>
           </div>
         ) : (
           <div className="flex-1 max-w-[506px]">
             <div className="text-[#A4ACB9] text-[14px] font-normal flex items-center gap-3">
-              <p>Order #1</p>
+              <p>Order #</p>
               <div>
                 <Image
                   src="/logo.png"
@@ -47,6 +54,7 @@ const page = () => {
                   price={item.price}
                   quantity={item.quantity}
                   artNum={item.articleNumber}
+                  imgUrl={item.image}
                 />
               ))}
             </div>

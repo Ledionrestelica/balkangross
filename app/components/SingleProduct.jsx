@@ -33,7 +33,7 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl }) => {
       name: name,
       price: price,
       articleNumber: artNum,
-      image: urlFor(imgUrl),
+      image: urlFor(imgUrl).url(),
     });
   };
 
@@ -43,7 +43,12 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl }) => {
         <div className="flex-1  pr-[30px]">
           <div className="md:w-full flex items-center justify-center relative w-1/2 aspect-square border borded-[#E7E7E7] rounded-[8px] ">
             {imgUrl ? (
-              <img src={urlFor(imgUrl).width(50).url()}></img>
+              <Image
+                width={300}
+                height={300}
+                alt="product"
+                src={urlFor(imgUrl).url()}
+              ></Image>
             ) : (
               <p>No image available</p>
             )}

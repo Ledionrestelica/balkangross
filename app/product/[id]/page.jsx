@@ -50,7 +50,11 @@ export default async function Page({ params }) {
           price={product.price}
           active={product.active}
           artNum={product.articleNumber}
-          imgUrl={product.image && product.image.asset._ref}
+          imgUrl={
+            product.image && product.image.asset
+              ? product.image.asset._ref
+              : null
+          }
         />
       </div>
     </>

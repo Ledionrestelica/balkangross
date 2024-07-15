@@ -30,7 +30,11 @@ export default async function Home() {
               active={product.active}
               name={product.name}
               price={product.price}
-              imgUrl={product.image && product.image.asset._ref}
+              imgUrl={
+                product.image && product.image.asset
+                  ? product.image.asset._ref
+                  : null
+              }
             />
           ))}
         </div>

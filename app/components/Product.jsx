@@ -36,6 +36,7 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl }) => {
       name: name,
       price: price,
       articleNumber: artNum,
+      image: urlFor(imgUrl).url(),
     });
   };
 
@@ -47,7 +48,11 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl }) => {
       <div className="relative flex-1 flex justify-center items-center">
         <Link href={`product/${_id}`}>
           {imgUrl ? (
-            <img src={urlFor(imgUrl).width(200).url()}></img>
+            <Image
+              className="object-contain"
+              src={urlFor(imgUrl).url()}
+              fill
+            ></Image>
           ) : (
             <p>No image available</p>
           )}
