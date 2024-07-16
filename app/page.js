@@ -35,6 +35,7 @@ export default async function Home() {
                   ? product.image.asset._ref
                   : null
               }
+              vikt={product.vikt}
             />
           ))}
         </div>

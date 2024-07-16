@@ -45,6 +45,8 @@ export async function POST(request) {
             <th style="border: 1px solid #ddd; padding: 8px;">Product Name</th>
             <th style="border: 1px solid #ddd; padding: 8px;">Quantity</th>
             <th style="border: 1px solid #ddd; padding: 8px;">Price</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Article Number</th>
+
           </tr>
         </thead>
         <tbody>
@@ -55,7 +57,7 @@ export async function POST(request) {
               <td style="border: 1px solid #ddd; padding: 8px;">${item.name}</td>
               <td style="border: 1px solid #ddd; padding: 8px;">${item.quantity}</td>
               <td style="border: 1px solid #ddd; padding: 8px;">${item.price}</td>
-              <td style="border: 1px solid #ddd; padding: 8px;">${item.artNum}</td>
+              <td style="border: 1px solid #ddd; padding: 8px;">${item.articleNumber}</td>
             </tr>
           `
             )

@@ -6,7 +6,7 @@ import { useContext } from "react";
 import CartContext from "@/CartContext";
 import { urlFor } from "@/utils/sanity/_imageBuilder";
 
-const Product = ({ _id, artNum, ean, active, price, name, imgUrl }) => {
+const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
   const { cart, addItemToCart, deleteItemFromCart } = useContext(CartContext);
 
   const cartItem = cart?.cartItems?.find((item) => item.product === _id);
@@ -83,9 +83,15 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl }) => {
             )}
           </p>
         </div>
-        <p className="font-light text-[16px] text-[#585858]">
-          Price: <span className="font-semibold text-[#585858]">{price}</span>
-        </p>
+        <div className="flex justify-between">
+          <p className="font-light text-[16px] text-[#585858]">
+            Price: <span className="font-semibold text-[#585858]">{price}</span>
+          </p>
+          <p className="font-light text-[16px] text-[#585858]">
+            Vikt: <span className="font-semibold text-[#585858]">{vikt}</span>
+          </p>
+        </div>
+
         {cartItem ? (
           <div
             className="rounded-[8px] border border-[#E0E0E0] h-[42.5px] font-normal
