@@ -69,7 +69,7 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
             <span className="font-semibold text-[#585858]">{artNum}</span>
           </p>
           <p className="flex items-center gap-1 font-light text-[16px] text-[#585858]">
-            Stock:
+            Lagerstatus:
             {active ? (
               <span className="relative flex h-3 w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
@@ -85,7 +85,7 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
         </div>
         <div className="flex justify-between">
           <p className="font-light text-[16px] text-[#585858]">
-            Price: <span className="font-semibold text-[#585858]">{price}</span>
+            Pris: <span className="font-semibold text-[#585858]">{price}</span>
           </p>
           <p className="font-light text-[16px] text-[#585858]">
             Vikt: <span className="font-semibold text-[#585858]">{vikt}</span>
@@ -117,7 +117,7 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
             text-[15px] text-[#585858]  flex gap-3 justify-center items-center"
             onClick={addToCartHandler}
           >
-            Add Product
+            Lägg Till Produkt
             <span className="relative flex justify-center items-center">
               <div className="w-[1.5px] rounded-lg h-[13px] absolute bg-[#323F4B] rotate-90"></div>
               <div className="w-[1.5px] rounded-lg h-[13px] absolute bg-[#323F4B]"></div>

@@ -30,7 +30,7 @@ const OrderForm = () => {
   });
   const [touched, setTouched] = useState({});
   const [isSuccesful, setIsSuccesful] = useState(null);
-  const [isLoading, setIsLoading] = useState("Submit");
+  const [isLoading, setIsLoading] = useState("Slutför Beställning");
 
   useEffect(() => {
     const savedOrderData = JSON.parse(localStorage.getItem("orderFormData"));
@@ -95,16 +95,14 @@ const OrderForm = () => {
       >
         <div className="flex items-center gap-4 mb-[20px]">
           <Image src="/order.png" width={50} height={50} alt="logo"></Image>
-          Order Request
+          Beställningsinformation
         </div>
         <div className="flex lg:flex-row flex-col gap-6  items-center justify-between">
           <FormControl
             className="w-full relative"
             isInvalid={touched.name && !formData.name}
           >
-            <FormLabel className="text-[14px] font-normal">
-              First Name
-            </FormLabel>
+            <FormLabel className="text-[14px] font-normal">Förnamn</FormLabel>
             <Input
               type="text"
               className="w-full h-[36px] placeholder:text-[14px] placeholder:font-light bg-[#F8FAFB] p-2 outline-none border border-gray-300 rounded-md "
@@ -112,7 +110,7 @@ const OrderForm = () => {
               value={formData.name}
               onChange={handleChange}
               onBlur={onBlur}
-              placeholder="Enter your name"
+              placeholder="Förnamn"
               required
             />
             <FormErrorMessage className="text-red-600 absolute">
@@ -125,7 +123,7 @@ const OrderForm = () => {
             isInvalid={touched.lastName && !formData.lastName}
           >
             <FormLabel className="text-[14px] font-normal">
-              Last Name:
+              Efternamn:
             </FormLabel>
             <Input
               className="w-full h-[36px] placeholder:text-[14px] placeholder:font-light bg-[#F8FAFB] p-2 outline-none border border-gray-300 rounded-md "
@@ -133,7 +131,7 @@ const OrderForm = () => {
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
-              placeholder="Enter your Last Name"
+              placeholder="Efternamn"
               onBlur={onBlur}
               required
             />
@@ -147,14 +145,14 @@ const OrderForm = () => {
             className="w-full relative"
             isInvalid={touched.phone && !formData.phone}
           >
-            <FormLabel className="text-[14px] font-normal">Phone</FormLabel>
+            <FormLabel className="text-[14px] font-normal">Telnummer</FormLabel>
             <Input
               className="w-full h-[36px] placeholder:text-[14px] placeholder:font-light bg-[#F8FAFB] p-2 outline-none border border-gray-300 rounded-md "
               type="phone-number"
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              placeholder="Enter your phone number"
+              placeholder="Telnummer"
               onBlur={onBlur}
               required
             />
@@ -166,16 +164,14 @@ const OrderForm = () => {
             className="w-full relative"
             isInvalid={touched.organization && !formData.organization}
           >
-            <FormLabel className="text-[14px] font-normal">
-              Organization
-            </FormLabel>
+            <FormLabel className="text-[14px] font-normal">Företag</FormLabel>
             <Input
               className="w-full h-[36px] placeholder:text-[14px] placeholder:font-light bg-[#F8FAFB] p-2 outline-none border border-gray-300 rounded-md "
               type="text"
               name="organization"
               value={formData.organization}
               onChange={handleChange}
-              placeholder="Enter your organization name"
+              placeholder="Företag"
               onBlur={onBlur}
               required
             />
@@ -226,7 +222,7 @@ const OrderForm = () => {
         </div>
 
         <FormControl isInvalid={touched.message && !formData.message}>
-          <FormLabel className="text-[14px] font-normal">Message</FormLabel>
+          <FormLabel className="text-[14px] font-normal">Meddelande</FormLabel>
           <Textarea
             name="message"
             type="text"
@@ -234,7 +230,7 @@ const OrderForm = () => {
             className="w-full h-[36px] placeholder:text-[14px] placeholder:font-light bg-[#F8FAFB] p-2 outline-none border border-gray-300 rounded-md "
             value={formData.message}
             onBlur={onBlur}
-            placeholder="Write any additional info"
+            placeholder="Meddelande"
           />
           <FormErrorMessage className="text-red-600">
             Field is required.

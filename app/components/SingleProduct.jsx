@@ -109,18 +109,25 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl }) => {
 
           <button
             onClick={addToCartHandler}
-            className="w-full bg-primary text-black text-[18px] border border-[#E0E0E0] rounded-[8px] py-[14px]"
+            className="w-full bg-primary flex items-center justify-center text-black text-[18px] border border-[#E0E0E0] rounded-[8px] py-[14px]"
           >
-            {cartItem ? "Added!" : "Add product"}
+            {cartItem ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="size-6"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            ) : (
+              "Lägg Till Produkt"
+            )}
           </button>
-          <div className="flex flex-col gap-2">
-            <div className="w-full px-[12px]  text-black text-[18px] border border-[#E0E0E0] rounded-[8px] py-[14px]">
-              shipping info
-            </div>
-            <div className="w-full px-[12px]  text-black text-[18px] border border-[#E0E0E0] rounded-[8px] py-[14px]">
-              delivery time
-            </div>
-          </div>
         </div>
       </div>
     </>

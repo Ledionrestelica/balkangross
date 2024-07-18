@@ -9,7 +9,7 @@ const AnnouncementBoard = ({ text, link }) => {
           className="text-[#060606] font-medium text-[14px] hover:underline "
           href={`/${link}`}
         >
-          Learn More &gt;
+          SE MER &gt;
         </Link>
       </div>
     </div>

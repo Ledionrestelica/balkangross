@@ -19,7 +19,7 @@ const CartButton = () => {
         href="/cart"
       >
         <div className="w-max px-3 flex items-center h-[43px] text-[14px] bg-primary  rounded-[8px] cursor-pointer ">
-          Make order ({cart?.cartItems?.length || 0})
+          Slutför Beställning ({cart?.cartItems?.length || 0})
         </div>
       </Link>
     </button>

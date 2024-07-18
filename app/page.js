@@ -20,7 +20,7 @@ export default async function Home() {
 
   return (
     <>
-      <AnnouncementBoard text="New Products just launched" link="" />
+      <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex justify-between">

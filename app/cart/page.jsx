@@ -14,7 +14,7 @@ const page = () => {
       <div className="flex-1 pt-[100px] flex justify-end overflow-y-scroll bg-secondary pl-[42px] pr-[68px]">
         {!cart?.cartItems?.length > 0 ? (
           <div className="w-full text-4xl flex flex-col items-center gap-5">
-            Your cart is empty
+            Din varukorg är tom
             <Image
               src="/shopping.png"
               width={300}
@@ -25,7 +25,7 @@ const page = () => {
               href="/"
               className="px-4 py-2 rounded-lg text-black text-sm bg-primary"
             >
-              Go Back
+              Gà tillbaka
             </Link>
           </div>
         ) : (
@@ -43,7 +43,7 @@ const page = () => {
               </div>
             </div>
             <div className="text-[#2A3640] text-[28px] mb-[24px] font-normal">
-              You are ordering {cart?.cartItems?.length} products
+              Du beställer följande {cart?.cartItems?.length} produkter
             </div>
             <div className="flex flex-col gap-4 pb-10">
               {cart?.cartItems?.map((item) => (
