@@ -7,13 +7,14 @@ import CsvButton from "@/app/components/CsvButton";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import CartButton from "@/app/components/CartButton";
+import SelectCatalog from "@/app/components/SelectCatalog";
 
 const query = `*[_type == "catalog" && _id == $id] {
   _id,
   title,
   "products": products[]->{
     _id,
-    title,
+    name,
     articleNumber,
     description,
     price,
@@ -21,6 +22,10 @@ const query = `*[_type == "catalog" && _id == $id] {
     active,
     vikt,
   }
+}`;
+const catalogQuery = `*[_type == "catalog"]{
+  _id,
+  title,
 }`;
 
 const getCatalogById = async (id) => {
@@ -31,6 +36,7 @@ const getCatalogById = async (id) => {
 export default async function Page({ params }) {
   const { id } = params;
   const catalog = await getCatalogById(id);
+  const catalogs = await client.fetch(catalogQuery);
 
   return (
     <>
@@ -39,7 +45,7 @@ export default async function Page({ params }) {
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex justify-between">
           <div className="flex items-center">
-            <h1>{catalog.title}</h1>
+            <SelectCatalog catalogs={catalogs} />
           </div>
           <div className="flex flex-1 justify-end gap-4 items-center py-[30px]">
             <CartButton />

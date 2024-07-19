@@ -1,5 +1,4 @@
-// app/components/SelectCatalog.jsx
-"use client"; // This directive is required to use hooks in client components
+"use client";
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
