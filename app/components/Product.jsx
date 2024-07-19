@@ -46,7 +46,7 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
       className="flex px-[16px] pb-[17px] flex-col border border-[#E7E7E7] w-[295px] h-[480px] rounded-[12px]"
     >
       <div className="relative flex-1 flex justify-center items-center">
-        <Link href={`product/${_id}`}>
+        <Link href={`/product/${_id}`}>
           {imgUrl ? (
             <Image
               className="object-contain"
