@@ -3,13 +3,21 @@ import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req) {
-  const { name, email, businessName } = await req.json();
+  const {
+    foretagsnamn,
+    organisationsnummer,
+    telefonforetag,
+    mobil,
+    mejladress,
+    leveransadress,
+    fakturaadress,
+    postnummer,
+    ort,
+  } = await req.json();
 
   // Ensure environment variables are loaded
   const emailUser = process.env.EMAIL_USER;
   const emailPass = process.env.EMAIL_PASS;
-
-  console.log("EMAIL_USER:", process.env.EMAIL_USER);
 
   if (!emailUser || !emailPass) {
     return NextResponse.json(
@@ -30,7 +38,49 @@ export async function POST(req) {
     from: emailUser,
     to: "ledionrestelica7@gmail.com", // replace with your email address
     subject: "New Contact Form Submission",
-    text: `Name: ${name}\nEmail: ${email}\nBusiness Name: ${businessName}`,
+    html: `
+      <div style="font-family: Arial, sans-serif; line-height: 1.5;">
+        <h2 style="color: #333;">New Contact Form Submission</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Foretagsnamn:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${foretagsnamn}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Organisationsnummer:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${organisationsnummer}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Telefon företag:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${telefonforetag}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Mobil:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${mobil}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Mejladress:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${mejladress}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Leveransadress:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${leveransadress}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Fakturaadress:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${fakturaadress}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Postnummer:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${postnummer}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Ort:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">${ort}</td>
+          </tr>
+        </table>
+      </div>
+    `,
   };
 
   try {

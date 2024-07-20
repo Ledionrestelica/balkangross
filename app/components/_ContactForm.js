@@ -13,9 +13,15 @@ import toast, { Toaster } from "react-hot-toast";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    businessName: "",
+    foretagsnamn: "",
+    organisationsnummer: "",
+    telefonforetag: "",
+    mobil: "",
+    mejladress: "",
+    leveransadress: "",
+    fakturaadress: "",
+    postnummer: "",
+    ort: "",
   });
   const [touched, setTouched] = useState({});
   const [isSuccesful, setIsSuccesful] = useState(null);
@@ -60,7 +66,17 @@ const ContactForm = () => {
     }
   };
 
-  const { name, email, businessName } = formData;
+  const {
+    foretagsnamn,
+    organisationsnummer,
+    telefonforetag,
+    mobil,
+    mejladress,
+    leveransadress,
+    fakturaadress,
+    postnummer,
+    ort,
+  } = formData;
 
   return (
     <>
@@ -71,49 +87,144 @@ const ContactForm = () => {
         }`}
         onSubmit={handleSubmit}
       >
-        <FormControl isInvalid={touched.name && !name}>
-          <FormLabel>Name:</FormLabel>
+        <FormControl isInvalid={touched.foretagsnamn && !foretagsnamn}>
+          <FormLabel>Foretagsnamn:</FormLabel>
           <Input
             type="text"
-            name="name"
+            name="foretagsnamn"
             className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
             variant="outline"
-            value={formData.name}
+            value={formData.foretagsnamn}
             onChange={handleChange}
-            placeholder="Enter your name"
+            placeholder="Foretagsnamn"
             onBlur={onBlur}
             required
           />
           <FormErrorMessage>Field is required.</FormErrorMessage>
         </FormControl>
-        <FormControl isInvalid={touched.email && !name}>
-          <FormLabel>Email:</FormLabel>
+        <FormControl
+          isInvalid={touched.organisationsnummer && !organisationsnummer}
+        >
+          <FormLabel>Organisationsnummer:</FormLabel>
           <Input
-            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            placeholder="Enter your email address"
-            onBlur={onBlur}
-            required
-          />
-          <FormErrorMessage>Field is required.</FormErrorMessage>
-        </FormControl>
-        <FormControl isInvalid={touched.businessName && !name}>
-          <FormLabel>Business Name:</FormLabel>
-          <Input
-            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
             type="text"
-            name="businessName"
-            value={formData.businessName}
+            name="organisationsnummer"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.organisationsnummer}
             onChange={handleChange}
-            placeholder="Enter your business name"
+            placeholder="Organisationsnummer"
             onBlur={onBlur}
             required
           />
           <FormErrorMessage>Field is required.</FormErrorMessage>
         </FormControl>
+        <FormControl isInvalid={touched.telefonforetag && !telefonforetag}>
+          <FormLabel>Telefon företag:</FormLabel>
+          <Input
+            type="text"
+            name="telefonforetag"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.telefonforetag}
+            onChange={handleChange}
+            placeholder="Telefon företag"
+            onBlur={onBlur}
+            required
+          />
+          <FormErrorMessage>Field is required.</FormErrorMessage>
+        </FormControl>
+        <FormControl isInvalid={touched.mobil && !mobil}>
+          <FormLabel>Mobil:</FormLabel>
+          <Input
+            type="text"
+            name="mobil"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.mobil}
+            onChange={handleChange}
+            placeholder="Mobil"
+            onBlur={onBlur}
+            required
+          />
+          <FormErrorMessage>Field is required.</FormErrorMessage>
+        </FormControl>
+        <FormControl isInvalid={touched.mejladress && !mejladress}>
+          <FormLabel>Mejladress:</FormLabel>
+          <Input
+            type="email"
+            name="mejladress"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.mejladress}
+            onChange={handleChange}
+            placeholder="Mejladress"
+            onBlur={onBlur}
+            required
+          />
+          <FormErrorMessage>Field is required.</FormErrorMessage>
+        </FormControl>
+        <FormControl isInvalid={touched.leveransadress && !leveransadress}>
+          <FormLabel>Leveransadress:</FormLabel>
+          <Input
+            type="text"
+            name="leveransadress"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.leveransadress}
+            onChange={handleChange}
+            placeholder="Leveransadress"
+            onBlur={onBlur}
+            required
+          />
+          <FormErrorMessage>Field is required.</FormErrorMessage>
+        </FormControl>
+        <FormControl isInvalid={touched.fakturaadress && !fakturaadress}>
+          <FormLabel>Fakturaadress:</FormLabel>
+          <Input
+            type="text"
+            name="fakturaadress"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.fakturaadress}
+            onChange={handleChange}
+            placeholder="Fakturaadress"
+            onBlur={onBlur}
+            required
+          />
+          <FormErrorMessage>Field is required.</FormErrorMessage>
+        </FormControl>
+        <FormControl isInvalid={touched.postnummer && !postnummer}>
+          <FormLabel>Postnummer:</FormLabel>
+          <Input
+            type="text"
+            name="postnummer"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.postnummer}
+            onChange={handleChange}
+            placeholder="Postnummer"
+            onBlur={onBlur}
+            required
+          />
+          <FormErrorMessage>Field is required.</FormErrorMessage>
+        </FormControl>
+        <FormControl isInvalid={touched.ort && !ort}>
+          <FormLabel>Ort:</FormLabel>
+          <Input
+            type="text"
+            name="ort"
+            className="w-full p-2 outline-none border border-gray-300 rounded-md focus:border-[#BFFE1A] focus:ring-2 focus:ring-[#747474] focus:ring-opacity-50"
+            variant="outline"
+            value={formData.ort}
+            onChange={handleChange}
+            placeholder="Ort"
+            onBlur={onBlur}
+            required
+          />
+          <FormErrorMessage>Field is required.</FormErrorMessage>
+        </FormControl>
+
         <button
           className="border flex items-center justify-center gap-4 w-full px-8 py-4 rounded-md bg-[#BFFE1A] mt-4 font-bold"
           type="submit"
