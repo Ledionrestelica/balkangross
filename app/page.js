@@ -8,6 +8,7 @@ import PdfButton from "./components/PdfButton";
 import CsvButton from "./components/CsvButton";
 import SelectCatalog from "./components/SelectCatalog";
 import { client } from "@/utils/sanity/_client";
+import SearchBar from "./components/SearchBar";
 
 const query = `*[_type == "catalog"]{
   _id,
@@ -24,8 +25,9 @@ export default async function Home() {
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex justify-between">
-          <div className="flex-1 flex items-center">
+          <div className="flex-1 flex items-center gap-2">
             <SelectCatalog catalogs={catalogs} />
+            <SearchBar />
           </div>
           <div className="flex flex-1 justify-end gap-4 items-center py-[30px]">
             <CartButton />

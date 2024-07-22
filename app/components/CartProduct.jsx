@@ -55,13 +55,20 @@ const CartProduct = ({ _id, name, price, quantity, artNum, imgUrl }) => {
       <div className="flex gap-2 pb-[21px] border-b border-b-[#F1F1F1]">
         <div className="rounded-lg flex items-center justify-center w-[60px] h-[60px] relative bg-secondary">
           <p>
-            <Image
-              src={imgUrl}
-              alt="no image available"
-              width={40}
-              height={40}
-              quality={100}
-            />
+            {imgUrl ? (
+              <Image
+                src={imgUrl}
+                alt={name || "Product Image"}
+                width={40}
+                height={40}
+                quality={100}
+                className="object-cover"
+              />
+            ) : (
+              <div className="w-full h-full  flex items-center justify-center text-gray-500">
+                <Image src="/no-image.png" width={50} height={50}></Image>
+              </div>
+            )}
           </p>
         </div>
         <div className="flex flex-col gap-2 line-clamp-1">
