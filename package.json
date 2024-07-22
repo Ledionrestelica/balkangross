@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
-    "@clerk/nextjs": "^5.2.2",
+    "@clerk/nextjs": "^5.2.4",
     "@react-pdf/renderer": "^3.4.4",
     "@sanity/client": "^6.20.1",
     "@sanity/image-url": "^1.0.2",

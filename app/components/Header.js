@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import { UserButton } from "@clerk/nextjs";
 
 const Header = () => {
   return (
     <div className="bg-secondary border-b relative border-[#E6E6E6] overflow-hidden px-4">
+      <div className="absolute top-2 right-2">
+        <UserButton />
+      </div>
       <div className="absolute top-[-100px] flex gap-4 h-[400px] right-[150px] rotate-12">
         <div className="bg-[#D9D9D9] z-0 w-6 h-[400px]"></div>
         <div className="bg-[#EAEAEA] z-0 w-6 h-[400px]"></div>

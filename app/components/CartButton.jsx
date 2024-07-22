@@ -6,12 +6,10 @@ import CartContext from "@/CartContext";
 
 const CartButton = () => {
   const { cart } = useContext(CartContext);
+  const isDisabled = cart?.cartItems?.length === 0;
 
   return (
-    <button
-      className=" disabled:opacity-30"
-      disabled={cart?.cartItems?.length === 0}
-    >
+    <button className=" disabled:opacity-30" disabled={isDisabled}>
       <Link
         className={`${
           cart?.cartItems?.length === 0 ? "pointer-events-none" : ""

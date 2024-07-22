@@ -53,7 +53,7 @@ export default function SearchBar() {
         onFocus={() => setFocus(true)}
         onBlur={() => setTimeout(() => setFocus(false), 100)}
       />
-      {filteredProducts.length > 0 && (
+      {focus && filteredProducts.length > 0 && (
         <div className="relative">
           <div className="absolute bg-[#E9E9E9] top-0 w-full border border-[#E9E9E9] rounded-[8px] z-10">
             {filteredProducts.map((product) => (
