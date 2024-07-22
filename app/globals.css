@@ -5,3 +5,46 @@
 .cl-footerAction {
   display: none;
 }
+
+/* styles.css */
+.search-products {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.results-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: white;
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.result-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-item h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.result-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.result-item img {
+  max-width: 100%;
+  height: auto;
+}

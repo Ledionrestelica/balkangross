@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -10,14 +11,14 @@ const Header = () => {
       </div>
       <div className="container z-10 mx-auto max-w-[1240px] py-[56px]">
         <div className="flex gap-4  items-center">
-          <Image src="/logo.png" alt="logo" width={60} height={60} />
+          <Link href="/">
+            <Image src="/logo-2.png" alt="logo" width={400} height={250} />
+          </Link>
+
           <p className="text-black font-normal text-[28px]">
             Balkangross Ab Shop
           </p>
         </div>
-        <p className="text-[20px] font-normal text-[#8F8F8F] mt-[12px]">
-          Short description of the shop here.
-        </p>
       </div>
     </div>
   );
