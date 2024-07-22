@@ -16,7 +16,7 @@ const Footer = () => {
             <li>Fruits and vegetables</li>
             <li>Meat</li>
             <li>Cheese</li>
-            <li>Dry foods</li>
+            <li>Dry food</li>
           </ul>
         </div>
         <div className="flex-1 text-[#0F172A] font-light">
