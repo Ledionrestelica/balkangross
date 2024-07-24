@@ -36,7 +36,7 @@ export async function POST(req) {
 
   const mailOptions = {
     from: emailUser,
-    to: "ledionrestelica7@gmail.com", // replace with your email address
+    to: "info@balkanboden.se", // replace with your email address
     subject: "New Contact Form Submission",
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.5;">
