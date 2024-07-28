@@ -51,5 +51,11 @@ export default {
         source: 'name',
       },
     },
+    {
+      name: 'brand',
+      title: 'Brand',
+      type: 'reference',
+      to: [{type: 'brand'}],
+    },
   ],
 }

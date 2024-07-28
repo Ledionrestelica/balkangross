@@ -6,7 +6,18 @@ import CsvButton from "@/app/components/CsvButton";
 import CartButton from "@/app/components/CartButton";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
 
-const productQuery = `*[_type == "product" && _id == $id][0]`;
+const productQuery = `*[_type == "product" && _id == $id]{
+  _id,
+  name,
+  price,
+  active,
+  ean,
+  articleNumber,
+  image,
+  "brand": brand->{
+      title,
+    }
+}[0]`;
 
 export default async function Page({ params }) {
   const { id } = params;
@@ -55,6 +66,7 @@ export default async function Page({ params }) {
               ? product.image.asset._ref
               : null
           }
+          brand={product.brand ? product.brand.title : "No brand Available"}
         />
       </div>
     </>

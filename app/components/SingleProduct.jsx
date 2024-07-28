@@ -5,7 +5,7 @@ import CartContext from "@/CartContext";
 import Image from "next/image";
 import { urlFor } from "@/utils/sanity/_imageBuilder";
 
-const SingleProduct = ({ _id, name, artNum, active, price, imgUrl }) => {
+const SingleProduct = ({ _id, name, artNum, active, price, imgUrl, brand }) => {
   const { cart, addItemToCart, deleteItemFromCart } = useContext(CartContext);
   const cartItem = cart?.cartItems?.find((item) => item.product === _id);
   const increaseQty = (cartItem) => {
@@ -82,6 +82,14 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl }) => {
                 price:{" "}
                 <span className="font-bold text-[18px] text-[#585858]">
                   {price}
+                </span>
+              </p>
+            </div>
+            <div>
+              <p className="text-[18px] font-normal text-[#585858]">
+                Brand:{" "}
+                <span className="font-bold text-[18px] text-[#585858]">
+                  {brand}
                 </span>
               </p>
             </div>
