@@ -20,7 +20,7 @@ export default function SearchBar() {
   useEffect(() => {
     const handler = setTimeout(() => {
       setDebouncedSearchTerm(searchTerm);
-    }, 500); // 1 second debounce time
+    }, 500); // 0.5 second debounce time
 
     // Cleanup function to clear the timeout if searchTerm changes
     return () => {
@@ -31,9 +31,14 @@ export default function SearchBar() {
   // Filter products based on the debounced search term
   useEffect(() => {
     if (debouncedSearchTerm) {
+      const lowercasedTerm = debouncedSearchTerm.toLowerCase();
       const filtered = products
-        .filter((product) =>
-          product.name.toLowerCase().includes(debouncedSearchTerm.toLowerCase())
+        .filter(
+          (product) =>
+            product.name.toLowerCase().includes(lowercasedTerm) ||
+            (product.articleNumber &&
+              product.articleNumber.toLowerCase().includes(lowercasedTerm)) ||
+            (product.ean && product.ean.toString().includes(lowercasedTerm))
         )
         .slice(0, 20);
       setFilteredProducts(filtered);
@@ -57,11 +62,8 @@ export default function SearchBar() {
         <div className="relative">
           <div className="absolute bg-[#E9E9E9] top-0 w-full border border-[#E9E9E9] rounded-[8px] z-10">
             {filteredProducts.map((product) => (
-              <Link href={`/product/${product._id}`}>
-                <div
-                  className="py-3 px-4 cursor-pointer hover:bg-white"
-                  key={product._id}
-                >
+              <Link href={`/product/${product._id}`} key={product._id}>
+                <div className="py-3 px-4 cursor-pointer hover:bg-white">
                   <h3>{product.name}</h3>
                 </div>
               </Link>

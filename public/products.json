@@ -1,2306 +1,3464 @@
 [
   {
     "_id": "006d94fb-ed2f-42b5-8f2b-82c8057734ff",
-    "name": "Kolonya Med Citron Doft 380ml"
+    "name": "Kolonya Med Citron Doft 380ml",
+    "articleNumber": "110204",
+    "ean": 5319991751309
   },
   {
     "_id": "00b79715-2cf6-4891-9f2e-fe79321e3ad5",
-    "name": "VALNÖTTER UTAN SKALADE"
+    "name": "VALNÖTTER UTAN SKALADE",
+    "articleNumber": "420",
+    "ean": 50001562
   },
   {
     "_id": "01ddcf0c-52e9-4d12-ab6a-add5d29de3f8",
-    "name": "Köy Sefasi Svarta Sele Oliver 1500g"
+    "name": "Köy Sefasi Svarta Sele Oliver 1500g",
+    "articleNumber": "4004",
+    "ean": 8696591062002
   },
   {
     "_id": "026b2463-65d7-4373-83e8-60d1e5c95b4d",
-    "name": "Hushållspapper Lambi 3-pack"
+    "name": "Hushållspapper Lambi 3-pack",
+    "articleNumber": "63381",
+    "ean": 7316970259090
   },
   {
     "_id": "02e893dd-66f0-4cd8-b371-7074377f24b4",
-    "name": "ANATOLIA  VALNÖTTER  500GR"
+    "name": "ANATOLIA  VALNÖTTER  500GR",
+    "articleNumber": "4010",
+    "ean": 8717973294665
   },
   {
     "_id": "0318de33-d307-436a-85f6-58b58f8a1000",
-    "name": "NICE TVÄTTMEDEL 10KG "
+    "name": "NICE TVÄTTMEDEL 10KG ",
+    "articleNumber": "2407",
+    "ean": 8594163901660
   },
   {
     "_id": "035c82a6-ab17-49a6-87b7-5242b0490b6c",
-    "name": "GRÖN TEA I PÅSE - 100 påsar"
+    "name": "GRÖN TEA I PÅSE - 100 påsar",
+    "articleNumber": "430GBG",
+    "ean": 4796002511892
   },
   {
     "_id": "040db11d-3cc6-4206-879b-4aff700da56d",
-    "name": "VETEMJÖL TIP400 ZLATNO ZRNO 1kg"
+    "name": "VETEMJÖL TIP400 ZLATNO ZRNO 1kg",
+    "articleNumber": "7093",
+    "ean": 3831001824749
   },
   {
     "_id": "0410bbb1-b0f5-4789-8662-366d79db63d3",
-    "name": "MAJSSTÄRKELSE (NISHESTE) 800g"
+    "name": "MAJSSTÄRKELSE (NISHESTE) 800g",
+    "articleNumber": "517",
+    "ean": 3902136970110
   },
   {
     "_id": "04648dac-d32d-4646-8735-77658fd8f6f4",
-    "name": "AGADEER KYCKLING FÖTTER 1KG"
+    "name": "AGADEER KYCKLING FÖTTER 1KG",
+    "articleNumber": "2071470",
+    "ean": null
   },
   {
     "_id": "051bef99-73df-4499-9d02-c43fdd4a7c4f",
-    "name": "BAMBI LANE BARN KEX 600G"
+    "name": "BAMBI LANE BARN KEX 600G",
+    "articleNumber": "2202P",
+    "ean": 8600043003314
   },
   {
     "_id": "054f268f-844a-40d9-afec-14b4fa016c74",
-    "name": "TORKAD PERSILJA 50g"
+    "name": "TORKAD PERSILJA 50g",
+    "articleNumber": "515",
+    "ean": 3902136970219
   },
   {
     "_id": "0563764d-e283-44e4-b878-962254e53440",
-    "name": "BALKANBODEN GRILLKRYDDA 580G"
+    "name": "BALKANBODEN GRILLKRYDDA 580G",
+    "articleNumber": "R090039",
+    "ean": 7350114190931
   },
   {
     "_id": "05f156c0-00f9-4980-8b36-69bb427146f7",
-    "name": "Mjukost Bredbar Puck 500g"
+    "name": "Mjukost Bredbar Puck 500g",
+    "articleNumber": "14837",
+    "ean": 5760466738040
   },
   {
     "_id": "06b85f33-7f30-4dfa-9e31-c95e46d9c19a",
-    "name": "Rostade Mix Feferoni 550g"
+    "name": "Rostade Mix Feferoni 550g",
+    "articleNumber": "2446",
+    "ean": 858567002650
   },
   {
     "_id": "06c50fc3-564e-4dea-acd9-bcaff5f9ed90",
-    "name": "Tea Smak English Breakfast 500g"
+    "name": "Tea Smak English Breakfast 500g",
+    "articleNumber": "6652",
+    "ean": 54881009683
   },
   {
     "_id": "06d2a40b-898f-4f2d-a3e5-1c864ae10d39",
-    "name": "Krossade Tomater 400g"
+    "name": "Krossade Tomater 400g",
+    "articleNumber": "101211",
+    "ean": 7393460100100
   },
   {
     "_id": "078d79d4-c6be-46ba-ba70-17d3a73f9c7c",
-    "name": "100% Färsk Pressad Granatäpple Dryck 200ml"
+    "name": "100% Färsk Pressad Granatäpple Dryck 200ml",
+    "articleNumber": "40897",
+    "ean": 3904837860257
   },
   {
     "_id": "084cb5ea-cebb-4f84-bddd-3fbe84c16fa0",
-    "name": "Sirma Parmak Sucuk (Kryddig Oxkorv) 1kg"
+    "name": "Sirma Parmak Sucuk (Kryddig Oxkorv) 1kg",
+    "articleNumber": "17286",
+    "ean": 4017979021000
   },
   {
     "_id": "086764a5-1eaf-4878-b39e-a39f51325bec",
-    "name": "100% Färsk Pressad Körsbär Dryck 200ml"
+    "name": "100% Färsk Pressad Körsbär Dryck 200ml",
+    "articleNumber": "400887",
+    "ean": 3904837860042
   },
   {
     "_id": "0883dc48-46f8-4be5-a2a8-8ffc66fc96e4",
-    "name": "Röd Vinäger 1L"
+    "name": "Röd Vinäger 1L",
+    "articleNumber": "889323",
+    "ean": 5319990918024
   },
   {
     "_id": "08ff7b55-f7c9-456c-b805-cb69b723479c",
-    "name": "Sköljmedel Pink Diamant 1,6L"
+    "name": "Sköljmedel Pink Diamant 1,6L",
+    "articleNumber": "9459",
+    "ean": 8606015846989
   },
   {
     "_id": "0921e96d-f0b6-4740-b72a-33f1996e8b4a",
-    "name": "Tvättmedel Lavendel Jorgovan 6kg"
+    "name": "Tvättmedel Lavendel Jorgovan 6kg",
+    "articleNumber": "9449",
+    "ean": 8606013177009
   },
   {
     "_id": "0a0f6d2c-a2ed-4df4-b566-8a2041bee040",
-    "name": "AntiKalk rengrings Spray 500ml"
+    "name": "AntiKalk rengrings Spray 500ml",
+    "articleNumber": "889304",
+    "ean": 5319990918826
   },
   {
     "_id": "0bca94d2-9e81-46fb-8437-e671aec60148",
-    "name": "ARGETA TONFISK PASTEJ M SOLTORKAD TOMATER 95G"
+    "name": "ARGETA TONFISK PASTEJ M SOLTORKAD TOMATER 95G",
+    "articleNumber": "53620",
+    "ean": 3838471040068
   },
   {
     "_id": "0beaf53b-240e-4bcb-af35-17cb2b3dd785",
-    "name": "COCOSBRICO 1KG"
+    "name": "COCOSBRICO 1KG",
+    "articleNumber": "4000596822037",
+    "ean": 50001972
   },
   {
     "_id": "0c827ea9-7246-477b-9cb4-81694a8f4135",
-    "name": "Napolitanke M Mjölk&Choklad Överdrag 145g"
+    "name": "Napolitanke M Mjölk&Choklad Överdrag 145g",
+    "articleNumber": "700400",
+    "ean": 8606017633693
   },
   {
     "_id": "0cba5469-ec3b-431f-b3e5-8f4be4c6677a",
-    "name": "ZWAN KYCKLING LUNCHEON 340G"
+    "name": "ZWAN KYCKLING LUNCHEON 340G",
+    "articleNumber": "231008",
+    "ean": 8714555001666
   },
   {
     "_id": "0d069331-274b-40f1-b330-20a1fe2ad37f",
-    "name": "Qibbla Köttbullar Med Biff 900g"
+    "name": "Qibbla Köttbullar Med Biff 900g",
+    "articleNumber": "148788",
+    "ean": 7330989005073
   },
   {
     "_id": "0d9837c8-af82-4232-b46a-7c3629dca3ee",
-    "name": "Bondbönor Skalade 400g"
+    "name": "Bondbönor Skalade 400g",
+    "articleNumber": "148480",
+    "ean": 6224007833087
   },
   {
     "_id": "0e89097c-2d36-41f0-a55f-016e64739e82",
-    "name": "Diskmedel Citron Doft 3L"
+    "name": "Diskmedel Citron Doft 3L",
+    "articleNumber": "889309",
+    "ean": 5319990918468
   },
   {
     "_id": "0f26bd8b-c9d0-41a1-a9f6-7672c562ac32",
-    "name": "FÖRVARINGS LÅDA 2400ML"
+    "name": "FÖRVARINGS LÅDA 2400ML",
+    "articleNumber": "40566",
+    "ean": 4047125405668
   },
   {
     "_id": "0f556fd8-9c7b-44a3-af35-2ef8d33e506c",
-    "name": "Waffer Sticks Med Vanilj Fyllning 140g"
+    "name": "Waffer Sticks Med Vanilj Fyllning 140g",
+    "articleNumber": "1655",
+    "ean": 8606017638797
   },
   {
     "_id": "0fa57a51-6395-42d7-9022-fc5d84029380",
-    "name": "EMONA CEYLON TE 800G"
+    "name": "EMONA CEYLON TE 800G",
+    "articleNumber": "3402",
+    "ean": 3903515250823
   },
   {
     "_id": "0fdfc6da-81d6-40b1-bb26-234c42e0b810",
-    "name": "PODRAVKA VEGETA ALLKRYDDA 1KG"
+    "name": "PODRAVKA VEGETA ALLKRYDDA 1KG",
+    "articleNumber": "1001",
+    "ean": 3850104047046
   },
   {
     "_id": "10487261-29cb-499a-af7d-991bd394d658",
-    "name": "Tvättmedel Universal 8kg"
+    "name": "Tvättmedel Universal 8kg",
+    "articleNumber": "9453",
+    "ean": 8606013178778
   },
   {
     "_id": "10d098cd-a237-4859-9ac0-acba45d0768b",
-    "name": "PASTA MANTI 500GR"
+    "name": "PASTA MANTI 500GR",
+    "articleNumber": "MT00015",
+    "ean": 8690946170008
   },
   {
     "_id": "11bbe240-4c00-43d7-8cb7-f9b65b378dc3",
-    "name": "Basmati Ris Karoon 5kg"
+    "name": "Basmati Ris Karoon 5kg",
+    "articleNumber": "734017",
+    "ean": 7554215555150
   },
   {
     "_id": "124a5c04-5cf4-48a7-8b04-c3e594955d35",
-    "name": "DAMAS GRÖNA OLIVER (SALKINI) 2800G"
+    "name": "DAMAS GRÖNA OLIVER (SALKINI) 2800G",
+    "articleNumber": "39",
+    "ean": 40835879488
   },
   {
     "_id": "126043c3-c428-4c46-a51b-8070829b95a9",
-    "name": "BINGO SOFT SKÖLJMEDEL 1440ML SENSITIVE"
+    "name": "BINGO SOFT SKÖLJMEDEL 1440ML SENSITIVE",
+    "articleNumber": "422135",
+    "ean": 8690536901647
   },
   {
     "_id": "126948eb-6c27-479c-817f-6ec29855a542",
-    "name": "NESTLE NIDO MJÖLK PULVER 2,5KG"
+    "name": "NESTLE NIDO MJÖLK PULVER 2,5KG",
+    "articleNumber": "170191",
+    "ean": 8715000931842
   },
   {
     "_id": "1340eff2-8f75-4bae-a761-a847f1256940",
-    "name": "Körsbärs Sylt 700g"
+    "name": "Körsbärs Sylt 700g",
+    "articleNumber": "2415",
+    "ean": 3904837850272
   },
   {
     "_id": "139df5e1-990f-45db-826e-409fbb39f17e",
-    "name": "Kebabskav Av Nöt 750g"
+    "name": "Kebabskav Av Nöt 750g",
+    "articleNumber": "148798",
+    "ean": 7330989000986
   },
   {
     "_id": "14df83a8-39fa-46c7-bf69-b0c46a5b7070",
-    "name": "PASTA PENNE 500G"
+    "name": "PASTA PENNE 500G",
+    "articleNumber": "8978",
+    "ean": 8690946190006
   },
   {
     "_id": "15fff1e9-c1f1-409d-9b08-0693699c502f",
-    "name": "Plvit Burek Med Ost Paj 560g"
+    "name": "Plvit Burek Med Ost Paj 560g",
+    "articleNumber": "2281",
+    "ean": 7350039279160
   },
   {
     "_id": "187bd452-28fd-4c8d-bab8-f398f1d7d6db",
-    "name": "Päron Mos (Pekmez) 700g"
+    "name": "Päron Mos (Pekmez) 700g",
+    "articleNumber": "2416",
+    "ean": 3901826090114
   },
   {
     "_id": "196dd33f-39c7-4850-a6d7-7b2b39be114d",
-    "name": "PAPRIKA PULVER MALEN MILD 500g"
+    "name": "PAPRIKA PULVER MALEN MILD 500g",
+    "articleNumber": "529",
+    "ean": 3902136970233
   },
   {
     "_id": "1a8633fe-e319-487b-a236-ff72883c2c2c",
-    "name": "Mjölk 3,2%"
+    "name": "Mjölk 3,2%",
+    "articleNumber": "2853",
+    "ean": 5900820000011
   },
   {
     "_id": "1ae87d66-8658-41ac-b721-8bfd1f90d9f8",
-    "name": "ALADIIN KOKOS ARGILE KOL 1KG"
+    "name": "ALADIIN KOKOS ARGILE KOL 1KG",
+    "articleNumber": "27345",
+    "ean": 6291103684332
   },
   {
     "_id": "1b8baa21-5dea-4de9-bdc7-797b494a473b",
-    "name": "Vivien Hand Sopa Hawai Blue 500ml"
+    "name": "Vivien Hand Sopa Hawai Blue 500ml",
+    "articleNumber": "210322",
+    "ean": 5319990918406
   },
   {
     "_id": "1c152a90-3037-4347-9a73-ba30a122ae21",
-    "name": "Kyckling innrefile 80%"
+    "name": "Kyckling innrefile 80%",
+    "articleNumber": "44802",
+    "ean": 7350074853391
   },
   {
     "_id": "1cc0760d-6b72-4836-b407-b11ad602c3da",
-    "name": "Hemgjord Ajvar Mild 550g"
+    "name": "Hemgjord Ajvar Mild 550g",
+    "articleNumber": "9353",
+    "ean": 3904837850012
   },
   {
     "_id": "1dcd3c27-df81-454b-a8fa-3bc3e94848cf",
-    "name": "Smoki Jordnöttsbågar 250G"
+    "name": "Smoki Jordnöttsbågar 250G",
+    "articleNumber": "5152",
+    "ean": 8600939507025
   },
   {
     "_id": "1e4fcaad-1f12-4eb7-bcb4-ba54745bec47",
-    "name": "PASTA FIYONK 500G"
+    "name": "PASTA FIYONK 500G",
+    "articleNumber": "11271",
+    "ean": 8690946110004
   },
   {
     "_id": "1e653883-94f7-47f9-8ead-611e321e66cf",
-    "name": "AHMAD TEA GREEN TEA 100PACK"
+    "name": "AHMAD TEA GREEN TEA 100PACK",
+    "articleNumber": "3051",
+    "ean": 54881004787
   },
   {
     "_id": "1e7ed765-32da-4773-9288-91533ce7b02b",
-    "name": "Tomater Gröna Hel 2,35kg"
+    "name": "Tomater Gröna Hel 2,35kg",
+    "articleNumber": "2456",
+    "ean": 890089002411
   },
   {
     "_id": "1ec8c4f4-fae9-40e9-a8d4-78a154d5feed",
-    "name": "Lamm Huvud kg/pris"
+    "name": "Lamm Huvud kg/pris",
+    "articleNumber": "51974",
+    "ean": 50002311
   },
   {
     "_id": "20029382-3976-42a8-87f0-20f844a4b6f7",
-    "name": "Kyckling Korv Mild 340g"
+    "name": "Kyckling Korv Mild 340g",
+    "articleNumber": "150742",
+    "ean": 7350000320077
   },
   {
     "_id": "20adc70a-926e-40dc-9efc-24f3f3edc042",
-    "name": "GAME OVER WARM UP CHIPS 113G"
+    "name": "GAME OVER WARM UP CHIPS 113G",
+    "articleNumber": "721A",
+    "ean": 7350140820314
   },
   {
     "_id": "20e5391d-f7f8-4073-9674-e665f88509d8",
-    "name": "SOPPNUDLAR RESHTE ASHT 700g"
+    "name": "SOPPNUDLAR RESHTE ASHT 700g",
+    "articleNumber": "47359",
+    "ean": 6261541900103
   },
   {
     "_id": "220bb63c-d817-457d-b4b6-3f11cee6e063",
-    "name": "MERAY DAKOTA SOLROSFRÖ ORGINAL LILA 300G"
+    "name": "MERAY DAKOTA SOLROSFRÖ ORGINAL LILA 300G",
+    "articleNumber": "3289",
+    "ean": 4251032612709
   },
   {
     "_id": "22841a98-c2e1-484e-9689-465368d4ecd0",
-    "name": "Vit Ost TRAVNIK 55% 800g"
+    "name": "Vit Ost TRAVNIK 55% 800g",
+    "articleNumber": "14831",
+    "ean": 7350039276628
   },
   {
     "_id": "22929ca5-a3ee-4ae4-b322-0d4c9d8a83e1",
-    "name": "VIPA CHIPS MED KETCHUP 140G"
+    "name": "VIPA CHIPS MED KETCHUP 140G",
+    "articleNumber": "339",
+    "ean": 3902634650095
   },
   {
     "_id": "229348cf-b67a-4d13-9f4b-b492432e0493",
-    "name": "Mimis Ajvar (Bara Med Paprika) Stark 550g"
+    "name": "Mimis Ajvar (Bara Med Paprika) Stark 550g",
+    "articleNumber": "2459",
+    "ean": 890089002626
   },
   {
     "_id": "22b215cb-0767-4aae-9613-ebb8dcfb527a",
-    "name": "Tea Smak av Earl Grey Smak 100 påsar"
+    "name": "Tea Smak av Earl Grey Smak 100 påsar",
+    "articleNumber": "7753",
+    "ean": 54881005951
   },
   {
     "_id": "2362a4b2-db5f-4408-93f9-bcb7a0821a12",
-    "name": "Kent Petit Beurre 1Kg"
+    "name": "Kent Petit Beurre 1Kg",
+    "articleNumber": "4018",
+    "ean": 3870353000197
   },
   {
     "_id": "23c2dcb2-838f-4c5f-a814-8d14cb478827",
-    "name": "Banan Paprika 1kg"
+    "name": "Banan Paprika 1kg",
+    "articleNumber": "2440",
+    "ean": 890089002794
   },
   {
     "_id": "23efec08-1bb1-43a3-803b-e6242c946fd3",
-    "name": "Kebab Nöt 1kg"
+    "name": "Kebab Nöt 1kg",
+    "articleNumber": "5841",
+    "ean": 5701222190559
   },
   {
     "_id": "245ba26b-a4d3-4ade-b857-bd40155d5ea9",
-    "name": "Diskmedel Äpple Doft 1L"
+    "name": "Diskmedel Äpple Doft 1L",
+    "articleNumber": "889313",
+    "ean": 5319990918291
   },
   {
     "_id": "249928e9-500b-48a6-9999-71a33465fbd8",
-    "name": "Cevapcici Banjaluka"
+    "name": "Cevapcici Banjaluka",
+    "articleNumber": "7815",
+    "ean": 9120018530069
   },
   {
     "_id": "24a0b353-9e60-4029-bd0c-6cc3202c8176",
-    "name": "Doux Kyckling Korv Med Ost  340G"
+    "name": "Doux Kyckling Korv Med Ost  340G",
+    "articleNumber": "3630",
+    "ean": 3280316014244
   },
   {
     "_id": "24b6274d-f8aa-4fe7-aa2e-0130e6d273f2",
-    "name": "100% Färsk Pressad Apelsin Dryck 200ml"
+    "name": "100% Färsk Pressad Apelsin Dryck 200ml",
+    "articleNumber": "400898",
+    "ean": 3904837851002
   },
   {
     "_id": "24fd6164-ea3f-4c1f-8fc4-039aca50a267",
-    "name": "Paprika Somborka 2,5kg"
+    "name": "Paprika Somborka 2,5kg",
+    "articleNumber": "9312",
+    "ean": 3904837860752
   },
   {
     "_id": "2513be79-ca10-4f7d-957f-9ae83f67cd11",
-    "name": "Kyckling Ben 2,5kg"
+    "name": "Kyckling Ben 2,5kg",
+    "articleNumber": "148785",
+    "ean": 7330989004106
   },
   {
     "_id": "25295f37-09e8-4997-b429-32fe4512801e",
-    "name": "SVENSK FRYST HÖNA"
+    "name": "SVENSK FRYST HÖNA",
+    "articleNumber": "14872",
+    "ean": 2070313000000
   },
   {
     "_id": "255d1177-bda9-4049-be4d-ceb88c4cc6d0",
-    "name": "GAME OVER ICE HEAT CHIPS 113G"
+    "name": "GAME OVER ICE HEAT CHIPS 113G",
+    "articleNumber": "720A",
+    "ean": 7350140820321
   },
   {
     "_id": "27696629-e8e3-45d8-bb62-7d9c2202cd9c",
-    "name": "Vit Ost Piknik 60% 1kg"
+    "name": "Vit Ost Piknik 60% 1kg",
+    "articleNumber": "10110",
+    "ean": 5701638196244
   },
   {
     "_id": "277990fa-aa33-44bc-a0cf-aff835428711",
-    "name": "Feferoni Stark Brians 550g"
+    "name": "Feferoni Stark Brians 550g",
+    "articleNumber": "2473",
+    "ean": 890089002220
   },
   {
     "_id": "277a1f0d-9807-4de3-b443-999b6149614d",
-    "name": "Nypon Mos (Pekmez) 375g"
+    "name": "Nypon Mos (Pekmez) 375g",
+    "articleNumber": "2420",
+    "ean": 3904837850197
   },
   {
     "_id": "27de4d5a-bb93-47c6-9508-b4eacd975079",
-    "name": "INDOMIE NUDLAR MED VEGETARISK 5PACK 350G"
+    "name": "INDOMIE NUDLAR MED VEGETARISK 5PACK 350G",
+    "articleNumber": "2391",
+    "ean": 89686170115
   },
   {
     "_id": "286bf656-a48f-4f83-9f2d-0ccc7eaa349f",
-    "name": "Rund Ris 5kg"
+    "name": "Rund Ris 5kg",
+    "articleNumber": "223535",
+    "ean": 5285001624096
   },
   {
     "_id": "28dbe2be-9801-4397-8f91-959dcce42d17",
-    "name": "BONA FOOD VIT VINÄGER 9% 5L"
+    "name": "BONA FOOD VIT VINÄGER 9% 5L",
+    "articleNumber": "219395",
+    "ean": 5319991751233
   },
   {
     "_id": "297ec21f-55de-479c-bd3f-f8495ec9805a",
-    "name": "NESTLE NIDO MJÖLKPULVER 1,8KG"
+    "name": "NESTLE NIDO MJÖLKPULVER 1,8KG",
+    "articleNumber": "170190",
+    "ean": 8715000998654
   },
   {
     "_id": "299fe4d2-75fb-45c0-ab53-67e13e5efad1",
-    "name": "Kyckling Hel Qibbla"
+    "name": "Kyckling Hel Qibbla",
+    "articleNumber": "148795",
+    "ean": 7330989004243
   },
   {
     "_id": "2b46ed41-4cd8-441b-b8fa-970398a57e18",
-    "name": "Mjukost Bredbar Puck 910g"
+    "name": "Mjukost Bredbar Puck 910g",
+    "articleNumber": "14836",
+    "ean": 5760466743181
   },
   {
     "_id": "2b575a14-c2a6-420c-a886-7af47d56eb7f",
-    "name": "ALR TAHINI 800G"
+    "name": "ALR TAHINI 800G",
+    "articleNumber": "2375",
+    "ean": null
   },
   {
     "_id": "2ba9cfc0-301b-49bd-b699-890a2d4a4bbc",
-    "name": "DO GHAZAL CEYLON TEA 100PACK RÖD"
+    "name": "DO GHAZAL CEYLON TEA 100PACK RÖD",
+    "articleNumber": "405",
+    "ean": 5014176001117
   },
   {
     "_id": "2c5f23f3-9db1-474e-acd0-21484852c5de",
-    "name": "Hemgjord Pindjur 300g"
+    "name": "Hemgjord Pindjur 300g",
+    "articleNumber": "9322",
+    "ean": 3901826090091
   },
   {
     "_id": "2ca5fe0b-821c-4416-8fa0-b96ae7625d6a",
-    "name": "SOCKER PULVER 200g"
+    "name": "SOCKER PULVER 200g",
+    "articleNumber": "524",
+    "ean": 3902136970493
   },
   {
     "_id": "2cdf03e4-accf-4854-8d0c-1ae5ea4d3fdb",
-    "name": "BABYTLON GARDEN SEED DRINK MANGO 290ML"
+    "name": "BABYTLON GARDEN SEED DRINK MANGO 290ML",
+    "articleNumber": "362606",
+    "ean": 7350106064493
   },
   {
     "_id": "2d5b0e90-7589-4f4b-959a-ddbe8e90e406",
-    "name": "Kyckling Hjärta"
+    "name": "Kyckling Hjärta",
+    "articleNumber": "160718",
+    "ean": 5789000062342
   },
   {
     "_id": "2dea2b7b-cf1f-46a8-ae64-72b55102ba37",
-    "name": "Argeta Kyckling Pastej Halal 95g"
+    "name": "Argeta Kyckling Pastej Halal 95g",
+    "articleNumber": "53531",
+    "ean": 3838975566675
   },
   {
     "_id": "2e088142-bed4-4e98-8ad6-d0f7d839fdf1",
-    "name": "Giardinera Inlagd Grönsaks Mix 2,35kg"
+    "name": "Giardinera Inlagd Grönsaks Mix 2,35kg",
+    "articleNumber": "2445",
+    "ean": 890089002466
   },
   {
     "_id": "2e5b3896-8603-4076-ae1a-62a163480fc5",
-    "name": "Pudding Jordgubb 3+1GRATIS 160g"
+    "name": "Pudding Jordgubb 3+1GRATIS 160g",
+    "articleNumber": "543",
+    "ean": 3902136970776
   },
   {
     "_id": "2ee23cf5-c76d-49c6-b0df-e0a7f4e483a6",
-    "name": "BURCU GRANATÄPPLE SYRAP 720GR"
+    "name": "BURCU GRANATÄPPLE SYRAP 720GR",
+    "articleNumber": "22929",
+    "ean": 8691573088711
   },
   {
     "_id": "2ef4a55f-e8b3-4493-9e30-bf3e16bf11ba",
-    "name": "Grädd Pulver Med Vanilj Smak 40g"
+    "name": "Grädd Pulver Med Vanilj Smak 40g",
+    "articleNumber": "120090",
+    "ean": 8606011520340
   },
   {
     "_id": "2f933ee1-7d4d-4aaf-9afa-481d461cc290",
-    "name": "Vivien Diskmedel Citron Doft 920ml"
+    "name": "Vivien Diskmedel Citron Doft 920ml",
+    "articleNumber": "210326",
+    "ean": 5319991751101
   },
   {
     "_id": "2ffaf043-9284-43dd-8904-4b078c65ed7e",
-    "name": "LIPTON YELLOW TE 100PACK"
+    "name": "LIPTON YELLOW TE 100PACK",
+    "articleNumber": "5076",
+    "ean": 8720608009275
   },
   {
     "_id": "300e2fd5-bcef-4b20-9d03-831e65ded0d9",
-    "name": "DORINA RISCHOKLAD 220GR"
+    "name": "DORINA RISCHOKLAD 220GR",
+    "articleNumber": "205821",
+    "ean": 3850102123450
   },
   {
     "_id": "30b56a7d-7991-47fa-903a-3ef579b2d892",
-    "name": "KYCKLING LUNCHEON MILD 830g"
+    "name": "KYCKLING LUNCHEON MILD 830g",
+    "articleNumber": "6101",
+    "ean": 4260495870021
   },
   {
     "_id": "30cd6e95-440c-4730-b96d-f95deffcaa7c",
-    "name": "Diskmedel Sjajno Citron Doft 4L "
+    "name": "Diskmedel Sjajno Citron Doft 4L ",
+    "articleNumber": "889307",
+    "ean": 5319990918246
   },
   {
     "_id": "30f0d782-1c17-4889-b7ee-156eb83879f5",
-    "name": "ARGETA KYCKLING PASTEJ PIKANT 95G"
+    "name": "ARGETA KYCKLING PASTEJ PIKANT 95G",
+    "articleNumber": "53611",
+    "ean": 3838471007443
   },
   {
     "_id": "31624bcd-93bd-4cb6-b103-1ddda7c11c8c",
-    "name": "Cappuccino Classic Smak 24pack"
+    "name": "Cappuccino Classic Smak 24pack",
+    "articleNumber": "400104",
+    "ean": 8606011528971
   },
   {
     "_id": "32f40235-66f0-43ea-9311-0df70ac81b61",
-    "name": "DASTY FETTLÖSARE 1L SPRAY"
+    "name": "DASTY FETTLÖSARE 1L SPRAY",
+    "articleNumber": "23813",
+    "ean": 8051566120949
   },
   {
     "_id": "34ab48fd-2bf4-4211-a046-3437cb7d1a69",
-    "name": "Bentax Ad Blue 10L"
+    "name": "Bentax Ad Blue 10L",
+    "articleNumber": "210315",
+    "ean": 5319991751192
   },
   {
     "_id": "353e493e-0dd7-4e4e-b011-1e42ef59a6ee",
-    "name": "Area Diskmedel Citron Doft 4L"
+    "name": "Area Diskmedel Citron Doft 4L",
+    "articleNumber": "210312",
+    "ean": 5319991751286
   },
   {
     "_id": "3540d03a-2e55-47e6-9cee-04132fa76d23",
-    "name": "CAFE KAFICA CAPPUCCINO CHOKLAD SMAK 24PACK"
+    "name": "CAFE KAFICA CAPPUCCINO CHOKLAD SMAK 24PACK",
+    "articleNumber": "400103",
+    "ean": 8606011528988
   },
   {
     "_id": "35693015-d726-4292-b9e9-068b5eb604b8",
-    "name": "MICHELINO FÖRVARINGSLÅDA 10,5L NR"
+    "name": "MICHELINO FÖRVARINGSLÅDA 10,5L NR",
+    "articleNumber": "40701",
+    "ean": 4047125407011
   },
   {
     "_id": "3692434f-f1a2-435d-a777-c7a71e44538d",
-    "name": "Area Hand Sopa Kokos Doft 1L"
+    "name": "Area Hand Sopa Kokos Doft 1L",
+    "articleNumber": "210307",
+    "ean": 5319990918550
   },
   {
     "_id": "37781aa9-c71e-45ed-9123-aebcdef3951c",
-    "name": "Sköljmedel Shiny Family 1,6L"
+    "name": "Sköljmedel Shiny Family 1,6L",
+    "articleNumber": "9456",
+    "ean": 8606015845982
   },
   {
     "_id": "38a02628-3f57-4428-a9a0-5f933d000e91",
-    "name": "Cornichons Gurka 2,5kg"
+    "name": "Cornichons Gurka 2,5kg",
+    "articleNumber": "9314",
+    "ean": 3904837860226
   },
   {
     "_id": "38a9c03d-352c-4dc4-b211-54a87ccd8dc6",
-    "name": "CEYLON TEA LÖS 800g"
+    "name": "CEYLON TEA LÖS 800g",
+    "articleNumber": "6705",
+    "ean": 5281014000025
   },
   {
     "_id": "3921c5ff-6019-4580-a21c-41c7dde6e89f",
-    "name": "AYDOGMUS SVARTA OLIVER SELE 900G"
+    "name": "AYDOGMUS SVARTA OLIVER SELE 900G",
+    "articleNumber": "29953",
+    "ean": 8698566681638
   },
   {
     "_id": "39952640-d056-46c4-8625-346a2af7b743",
-    "name": "Pudding Choklad 45g"
+    "name": "Pudding Choklad 45g",
+    "articleNumber": "522",
+    "ean": 3902136970011
   },
   {
     "_id": "39b5baa2-9e4d-45fb-82f2-cdbd24b16ab0",
-    "name": "ALLKRYDDA I PÅSE 500g"
+    "name": "ALLKRYDDA I PÅSE 500g",
+    "articleNumber": "536",
+    "ean": 3902136970318
   },
   {
     "_id": "39eee2db-7aac-4370-9621-e547cc3af148",
-    "name": "Tomater Gröna Skivade 2,35kg"
+    "name": "Tomater Gröna Skivade 2,35kg",
+    "articleNumber": "2457",
+    "ean": 890089002879
   },
   {
     "_id": "3a79f70a-a891-485b-b4b7-5ceb986354dd",
-    "name": "Hemlagad Ajvar Mild Mamas 550g"
+    "name": "Hemlagad Ajvar Mild Mamas 550g",
+    "articleNumber": "1275",
+    "ean": 5310146002627
   },
   {
     "_id": "3a9e6a08-fb8c-4b3d-a4a8-ee3f90367b02",
-    "name": "Ayran Dryck 1L"
+    "name": "Ayran Dryck 1L",
+    "articleNumber": "14879",
+    "ean": 7350056796000
   },
   {
     "_id": "3aafbc27-1b84-4faf-bd3e-3849dd48d701",
-    "name": "Paprika Marinerad Lång Röd 2,35kg"
+    "name": "Paprika Marinerad Lång Röd 2,35kg",
+    "articleNumber": "2433",
+    "ean": 890089002190
   },
   {
     "_id": "3acae005-fdcc-4719-9217-4aa2add6aa08",
-    "name": "Kebab Kyckling Shawarma 600g"
+    "name": "Kebab Kyckling Shawarma 600g",
+    "articleNumber": "148781",
+    "ean": 7330989005226
   },
   {
     "_id": "3bad8709-ad49-4223-8571-3d2e3ca44225",
-    "name": "ARF CREAM CITRON 400ML"
+    "name": "ARF CREAM CITRON 400ML",
+    "articleNumber": "4150",
+    "ean": 3850105181596
   },
   {
     "_id": "3bd42e0c-268b-4198-a3b8-45dabeb21428",
-    "name": "Cappuccino Choklad Smak 24Pack"
+    "name": "Cappuccino Choklad Smak 24Pack",
+    "articleNumber": "400103",
+    "ean": 8606011528988
   },
   {
     "_id": "3be48ff0-5c5e-4a80-9c40-f813cfd10e6f",
-    "name": "Lindahls Turkiska Yoghurt 1Kg"
+    "name": "Lindahls Turkiska Yoghurt 1Kg",
+    "articleNumber": "219287",
+    "ean": 7392672104104
   },
   {
     "_id": "3c5b55c3-ce95-4c42-b039-d5f08922dc43",
-    "name": "BAKPULVER 10G 5+1GRATIS 50g"
+    "name": "BAKPULVER 10G 5+1GRATIS 50g",
+    "articleNumber": "544",
+    "ean": 3902136970783
   },
   {
     "_id": "3cd165f2-f65d-468c-b2a7-d4d1749cccfe",
-    "name": "YESIM GRÖNA OLIVER CIZIK 1250GR"
+    "name": "YESIM GRÖNA OLIVER CIZIK 1250GR",
+    "articleNumber": "23750",
+    "ean": 8698566689207
   },
   {
     "_id": "3cd5e7d3-13db-4d36-bfdb-0bb6070b7e41",
-    "name": "PASTA KELEBEK"
+    "name": "PASTA KELEBEK",
+    "articleNumber": "55827",
+    "ean": 8690946270159
   },
   {
     "_id": "3d500559-d67a-4d60-938b-4a2e6f979be6",
-    "name": "NESTLE NIDO MJÖLKPULVER 400G"
+    "name": "NESTLE NIDO MJÖLKPULVER 400G",
+    "articleNumber": "170188",
+    "ean": 8715000998630
   },
   {
     "_id": "3df39ea7-fc72-4bf4-ab8e-859836c291be",
-    "name": "SVARTPEPPAR MALEN 500g"
+    "name": "SVARTPEPPAR MALEN 500g",
+    "articleNumber": "538",
+    "ean": 3902136970462
   },
   {
     "_id": "3e1301f9-0475-433e-9c14-56811d7bb49c",
-    "name": "PUCK KAYMAK 170G"
+    "name": "PUCK KAYMAK 170G",
+    "articleNumber": "2858",
+    "ean": 5711953142017
   },
   {
     "_id": "3e23bf85-b3fe-4935-8576-09a1168b6d21",
-    "name": "Pudding Vanilj 3+1GRATIS 180g"
+    "name": "Pudding Vanilj 3+1GRATIS 180g",
+    "articleNumber": "542",
+    "ean": 3902136970769
   },
   {
     "_id": "3e2e4ca8-ed3d-417e-94b3-ed9da3e92c07",
-    "name": "Napolitanke Cubs M Citron Fyllning 800g"
+    "name": "Napolitanke Cubs M Citron Fyllning 800g",
+    "articleNumber": "700200",
+    "ean": 8606017638339
   },
   {
     "_id": "3e565007-87e4-4438-a581-aa0d0c89b327",
-    "name": "Beef Burgare 36Pack - 2,34kg"
+    "name": "Beef Burgare 36Pack - 2,34kg",
+    "articleNumber": "502087",
+    "ean": 7300000502003
   },
   {
     "_id": "3f629431-7e36-45b5-b4ea-b76294608a15",
-    "name": "Area Sköljmedel 1L 1Gratis"
+    "name": "Area Sköljmedel 1L 1Gratis",
+    "articleNumber": "210306",
+    "ean": 5319991751217
   },
   {
     "_id": "3f645c28-f4ab-482c-a784-c6c390906617",
-    "name": "Plommon Mos (Pekmez) 700g"
+    "name": "Plommon Mos (Pekmez) 700g",
+    "articleNumber": "2417",
+    "ean": 3904837850159
   },
   {
     "_id": "3f650a8f-7887-4652-89df-6ac8d0bdf8d9",
-    "name": "Malidzano (Aubergin Stuvning) Mild Brians"
+    "name": "Malidzano (Aubergin Stuvning) Mild Brians",
+    "articleNumber": "2465",
+    "ean": 890089005580
   },
   {
     "_id": "40396e00-2d75-4549-b2ad-65619b465131",
-    "name": "Tvättmedel Soft Lotus 8kg"
+    "name": "Tvättmedel Soft Lotus 8kg",
+    "articleNumber": "9431",
+    "ean": 8606013178068
   },
   {
     "_id": "404e78b2-8c11-4dd9-a65a-927e22dc45a1",
-    "name": "100% Färsk Pressad Rödbets Dryck 1L "
+    "name": "100% Färsk Pressad Rödbets Dryck 1L ",
+    "articleNumber": "400417",
+    "ean": 3904837860967
   },
   {
     "_id": "408b5a19-4727-4215-b612-9b2d467dd321",
-    "name": "Soppa M Kyckling Smak & Vermicelli 58g"
+    "name": "Soppa M Kyckling Smak & Vermicelli 58g",
+    "articleNumber": "120502",
+    "ean": 8606011528247
   },
   {
     "_id": "41211b64-ddb9-4c67-90f3-63e3fed7817b",
-    "name": "CEYLON TEA LÖS TE 500g"
+    "name": "CEYLON TEA LÖS TE 500g",
+    "articleNumber": "9010350",
+    "ean": 4796002516538
   },
   {
     "_id": "41d5bc8f-107d-4e90-bcbd-59d1966f771e",
-    "name": "Paprika Tomat Hel 1,7kg"
+    "name": "Paprika Tomat Hel 1,7kg",
+    "articleNumber": "2451",
+    "ean": 890089002305
   },
   {
     "_id": "421322e6-8ecd-443e-9bd4-1adb54a93231",
-    "name": "ALLKRYDDA I BURK 450g"
+    "name": "ALLKRYDDA I BURK 450g",
+    "articleNumber": "534",
+    "ean": 3902136970882
   },
   {
     "_id": "4216fae8-7054-4dda-a3e0-5ea6a7a167f2",
-    "name": "SVARTPEPPAR MALEN 50g"
+    "name": "SVARTPEPPAR MALEN 50g",
+    "articleNumber": "540",
+    "ean": 3902136970455
   },
   {
     "_id": "421b7879-b819-4a96-a807-62566e5c3811",
-    "name": "Sköljmedel Soft Lotus 1,6L"
+    "name": "Sköljmedel Soft Lotus 1,6L",
+    "articleNumber": "9457",
+    "ean": 8606015846880
   },
   {
     "_id": "42e7bf7a-9650-4612-abb5-aa000298b22e",
-    "name": "Ledo Papalina Skarpsill 500g"
+    "name": "Ledo Papalina Skarpsill 500g",
+    "articleNumber": "2598",
+    "ean": 3850116887678
   },
   {
     "_id": "42f27495-35aa-4583-a934-bd1debc1f92c",
-    "name": "LANE PLAZMA KEX 300G"
+    "name": "LANE PLAZMA KEX 300G",
+    "articleNumber": "2200PLIVBIT",
+    "ean": 8600043003307
   },
   {
     "_id": "42f58bd4-be9e-4d95-85b0-fcc375bcfc8b",
-    "name": "Sköljmedel ORTANCE 1440ml"
+    "name": "Sköljmedel ORTANCE 1440ml",
+    "articleNumber": "21506",
+    "ean": 8690536901739
   },
   {
     "_id": "435da0e3-6af3-4357-8b1a-95126068ac2e",
-    "name": "Körsbärs Paprika Röd Med Ostfyllning Brians"
+    "name": "Körsbärs Paprika Röd Med Ostfyllning Brians",
+    "articleNumber": "2468",
+    "ean": 890089002688
   },
   {
     "_id": "454c0c2d-0b98-4f2c-8c77-3006d620bf7d",
-    "name": "Yoghurt Naturel 1Kg"
+    "name": "Yoghurt Naturel 1Kg",
+    "articleNumber": "14856",
+    "ean": 7350056793030
   },
   {
     "_id": "457f2b4e-2983-44aa-acab-820b48e2d3f7",
-    "name": "Napolitanke M Mjölk&Choklad Fyllning 400g"
+    "name": "Napolitanke M Mjölk&Choklad Fyllning 400g",
+    "articleNumber": "700202",
+    "ean": 8606017633358
   },
   {
     "_id": "465d47b4-0471-4b99-835a-d221070f33f5",
-    "name": "Napolitanke M Choklad Överdrag 145g"
+    "name": "Napolitanke M Choklad Överdrag 145g",
+    "articleNumber": "700401",
+    "ean": 8606017633709
   },
   {
     "_id": "47a59ffb-5a78-4e60-9501-bb06f13fad23",
-    "name": "100% Färsk Pressad Persika Dryck 200ml"
+    "name": "100% Färsk Pressad Persika Dryck 200ml",
+    "articleNumber": "400487",
+    "ean": 3904837860035
   },
   {
     "_id": "48a9b0de-00e0-490d-812d-37dfb3dfb897",
-    "name": "CHTOURA HOMMUS TAHINA 480g"
+    "name": "CHTOURA HOMMUS TAHINA 480g",
+    "articleNumber": "223141",
+    "ean": 5285001400010
   },
   {
     "_id": "49071aa5-884a-4aab-9ed5-66de2d834834",
-    "name": "VIMTO SKOGSFRUKTDRYCK KONCENTRERAD 710ML"
+    "name": "VIMTO SKOGSFRUKTDRYCK KONCENTRERAD 710ML",
+    "articleNumber": "9011099",
+    "ean": 6281034001063
   },
   {
     "_id": "49c840b5-a7cf-4cf8-b3d5-df7ffb801302",
-    "name": "Cocktail Sallad (Balkan Style) 1,7kg"
+    "name": "Cocktail Sallad (Balkan Style) 1,7kg",
+    "articleNumber": "2437",
+    "ean": 858567002681
   },
   {
     "_id": "4a3908d9-a4e8-4695-8839-2e449ebebbe6",
-    "name": "Burek Med Spenat&Ost 300g"
+    "name": "Burek Med Spenat&Ost 300g",
+    "articleNumber": "11503",
+    "ean": 7350039279186
   },
   {
     "_id": "4bc6e546-513e-4489-bed9-ea6cd3fdabc2",
-    "name": "Fresh (Stirak) Koncetrerad Tvättmedel Flytande"
+    "name": "Fresh (Stirak) Koncetrerad Tvättmedel Flytande",
+    "articleNumber": "210316",
+    "ean": 5319990918260
   },
   {
     "_id": "4bfbe319-6009-4185-8c62-f1f1123e996c",
-    "name": "Paprika Rostad Med Vitlök & Persilja 1kg"
+    "name": "Paprika Rostad Med Vitlök & Persilja 1kg",
+    "articleNumber": "2430",
+    "ean": 858567002568
   },
   {
     "_id": "4cc530cb-f345-4879-a2c2-508dff1bede9",
-    "name": "100% Färsk Pressad Tranbärs Dryck 1L"
+    "name": "100% Färsk Pressad Tranbärs Dryck 1L",
+    "articleNumber": "472",
+    "ean": 3901826090060
   },
   {
     "_id": "4d0926d6-a989-4cc1-b6c4-19c2efc402b2",
-    "name": "Area WC Rengöring Tall Doft 750ml"
+    "name": "Area WC Rengöring Tall Doft 750ml",
+    "articleNumber": "210313",
+    "ean": 5319990918499
   },
   {
     "_id": "4d0fa6ab-4913-4041-bc01-e0811b2d0ec4",
-    "name": "BizBize Petibör 700g"
+    "name": "BizBize Petibör 700g",
+    "articleNumber": "4000",
+    "ean": null
   },
   {
     "_id": "4e17fe44-06ed-4a17-ab42-40f79455c48a",
-    "name": "Podravka Biff Soppa 65g"
+    "name": "Podravka Biff Soppa 65g",
+    "articleNumber": "4017",
+    "ean": 3850104003134
   },
   {
     "_id": "4f131b1c-590d-403b-b3cb-c1dd2962b1d1",
-    "name": "Kyckling Korv 340g"
+    "name": "Kyckling Korv 340g",
+    "articleNumber": "14853",
+    "ean": 5760725150187
   },
   {
     "_id": "4faeb0a6-331a-406c-8db4-3fea93174e0a",
-    "name": "Hemgjord Lutenica 550g"
+    "name": "Hemgjord Lutenica 550g",
+    "articleNumber": "9317",
+    "ean": 3904837850913
   },
   {
     "_id": "4fd41ded-f76d-425d-9953-a3eac22948c3",
-    "name": "Plvit Burek Med Nöttfärs 560g"
+    "name": "Plvit Burek Med Nöttfärs 560g",
+    "articleNumber": "2280",
+    "ean": 7350039279155
   },
   {
     "_id": "500061f1-1217-4975-82d8-0d62f6eafd8f",
-    "name": "Basmati Ris Sella 1121 - 5kg"
+    "name": "Basmati Ris Sella 1121 - 5kg",
+    "articleNumber": null,
+    "ean": 8904049650801
   },
   {
     "_id": "50aeb0a3-f9af-4e3e-b300-22970fa83473",
-    "name": "Area Hand Sopa Lilia Doft 1L"
+    "name": "Area Hand Sopa Lilia Doft 1L",
+    "articleNumber": "210308",
+    "ean": 5319990918611
   },
   {
     "_id": "510b4653-eda0-48c3-96f5-b1b2b7787f23",
-    "name": "Kalv mage Vakumerad"
+    "name": "Kalv mage Vakumerad",
+    "articleNumber": "52114",
+    "ean": 8713246014176
   },
   {
     "_id": "5181d541-6008-4664-a008-e3c8a935148e",
-    "name": "BUTTER GHEE 2KG"
+    "name": "BUTTER GHEE 2KG",
+    "articleNumber": "60001B",
+    "ean": 5019124024002
   },
   {
     "_id": "538412b8-bffe-4310-bac6-ea9d7bc042a9",
-    "name": "DAMAS INLAGDA ARTICHOKE 1000G (KRONÄRTSKOCKA)"
+    "name": "DAMAS INLAGDA ARTICHOKE 1000G (KRONÄRTSKOCKA)",
+    "articleNumber": "3654DAMAS",
+    "ean": 40835877710
   },
   {
     "_id": "543fabc2-35d9-4ebb-9506-157b47773bea",
-    "name": "Tomat Pure Al Ahlam 800g"
+    "name": "Tomat Pure Al Ahlam 800g",
+    "articleNumber": "7732",
+    "ean": 6210701981032
   },
   {
     "_id": "545f37af-c894-4224-b8eb-57219397d552",
-    "name": "EL MALEKA PASTA BURCU 500G"
+    "name": "EL MALEKA PASTA BURCU 500G",
+    "articleNumber": "4000596822043",
+    "ean": 6223001510659
   },
   {
     "_id": "56fe7961-c88b-4a8d-98f4-79bc4b17e0f6",
-    "name": "100% Färsk Pressad Arona Bär Dryck 1L"
+    "name": "100% Färsk Pressad Arona Bär Dryck 1L",
+    "articleNumber": "474",
+    "ean": 3904837860943
   },
   {
     "_id": "582482d3-6c00-4ba1-807d-47da2def00b0",
-    "name": "Duru Bulgur Iri Pilavlik 1KG"
+    "name": "Duru Bulgur Iri Pilavlik 1KG",
+    "articleNumber": "2363",
+    "ean": 8691440401001
   },
   {
     "_id": "58716ec8-4592-4bd0-bd79-d2436b431eee",
-    "name": "100% Färsk Pressad A+C+E Multivitamin Dryck 1l"
+    "name": "100% Färsk Pressad A+C+E Multivitamin Dryck 1l",
+    "articleNumber": "400215",
+    "ean": 3904837860301
   },
   {
     "_id": "58bd204d-0d18-46a0-81c4-fb9720055f85",
-    "name": "BASHIR SESAME OLJA 2L"
+    "name": "BASHIR SESAME OLJA 2L",
+    "articleNumber": "348",
+    "ean": 50002178
   },
   {
     "_id": "58da521a-a728-4a73-8644-87a6e57cc091",
-    "name": "OMO FLYTANDE TVÄTTMEDEL 5L"
+    "name": "OMO FLYTANDE TVÄTTMEDEL 5L",
+    "articleNumber": "20814",
+    "ean": 8710447380543
   },
   {
     "_id": "596293a5-5143-4a24-b12f-23e8aee6263f",
-    "name": "Completa Gräddpulver Till Kaffe 1Kg"
+    "name": "Completa Gräddpulver Till Kaffe 1Kg",
+    "articleNumber": "206001",
+    "ean": 8716200134910
   },
   {
     "_id": "5a894463-189b-41b5-9b7e-92391703b84a",
-    "name": "Hemgjord Lutenica 300g"
+    "name": "Hemgjord Lutenica 300g",
+    "articleNumber": "9321",
+    "ean": 3901826090015
   },
   {
     "_id": "5c15ebd2-9047-4351-92e5-7bd521a963e9",
-    "name": "PAPRIKA PULVER MALEN MILD 100g"
+    "name": "PAPRIKA PULVER MALEN MILD 100g",
+    "articleNumber": "527",
+    "ean": 3902136970226
   },
   {
     "_id": "5c7b6d17-a587-4f2a-9e22-b5b107949cc7",
-    "name": "CEDEVITA VITAMINDRYCK APELSIN SMAK 900G"
+    "name": "CEDEVITA VITAMINDRYCK APELSIN SMAK 900G",
+    "articleNumber": "3042",
+    "ean": 3850322015389
   },
   {
     "_id": "5e26ddbf-bc79-45dd-8a18-59ac793b60ea",
-    "name": "Kroketter 560g"
+    "name": "Kroketter 560g",
+    "articleNumber": "5466",
+    "ean": 4026279970505
   },
   {
     "_id": "5e5e3eb9-a952-4c90-9bbc-04297de4270b",
-    "name": "Paprika Malen (Biber) Mild 100g"
+    "name": "Paprika Malen (Biber) Mild 100g",
+    "articleNumber": "120140",
+    "ean": 8606011521699
   },
   {
     "_id": "5f23c5d3-0986-4882-9d78-d59a9e9584dc",
-    "name": "Paprika Krossad För Suxhuk&Pleskavic Stark 70g"
+    "name": "Paprika Krossad För Suxhuk&Pleskavic Stark 70g",
+    "articleNumber": "120148",
+    "ean": 8606017633556
   },
   {
     "_id": "5ff1e520-4ff2-43d2-9690-6f03ce79a0f0",
-    "name": "HUNKAR RÖDA LINSER 1KG"
+    "name": "HUNKAR RÖDA LINSER 1KG",
+    "articleNumber": "28728",
+    "ean": 4262396730206
   },
   {
     "_id": "6002145b-fa16-40fd-9a69-7dc75c97d67c",
-    "name": "Cappuccino Vanilj Smak 24 Pack"
+    "name": "Cappuccino Vanilj Smak 24 Pack",
+    "articleNumber": "400105",
+    "ean": 8606011528964
   },
   {
     "_id": "6018819f-335d-47d0-811d-4cf4973405ce",
-    "name": "BUFFE POTATIS MOS 12PORTSONER 4PACK"
+    "name": "BUFFE POTATIS MOS 12PORTSONER 4PACK",
+    "articleNumber": "291511",
+    "ean": 7393460280055
   },
   {
     "_id": "6092a60d-9eb4-4af4-8a04-66df7a655db6",
-    "name": "Adelina Vita Bönor Tetova Style 1kg"
+    "name": "Adelina Vita Bönor Tetova Style 1kg",
+    "articleNumber": "430",
+    "ean": 7350000755275
   },
   {
     "_id": "60fe31a9-5850-4328-b1e4-973fe09d7df0",
-    "name": "Sardiner med pikant 115g"
+    "name": "Sardiner med pikant 115g",
+    "articleNumber": "1182",
+    "ean": 3859888140080
   },
   {
     "_id": "61470765-1fc7-4dbb-add2-ef1a05c65a1e",
-    "name": "Hemgjord Ajvar Stark 300g"
+    "name": "Hemgjord Ajvar Stark 300g",
+    "articleNumber": "9319",
+    "ean": 3904837850043
   },
   {
     "_id": "61b61cd0-2965-4366-af69-d803fb61b6a7",
-    "name": "Trämöbel Rengöring 500ml"
+    "name": "Trämöbel Rengöring 500ml",
+    "articleNumber": "889306",
+    "ean": 5319990918802
   },
   {
     "_id": "6244bf86-6159-4ba5-865b-c6172da53250",
-    "name": "Lutenica Extra Pikant (Stark) 550g"
+    "name": "Lutenica Extra Pikant (Stark) 550g",
+    "articleNumber": "2461",
+    "ean": 890089002046
   },
   {
     "_id": "6271da16-48ac-43dd-a910-b983d1c13d98",
-    "name": "Stenungs Bakad Samon Bröd 2Pack 400g"
+    "name": "Stenungs Bakad Samon Bröd 2Pack 400g",
+    "articleNumber": "87272",
+    "ean": 7331669001934
   },
   {
     "_id": "629311a4-c6ed-4356-b536-33151588d221",
-    "name": "YESIM GRÖNA OLIVER 900G KIRMA"
+    "name": "YESIM GRÖNA OLIVER 900G KIRMA",
+    "articleNumber": "23748",
+    "ean": 8698566680945
   },
   {
     "_id": "62e8bc5e-ebb8-4fc2-8e32-748d18bbcbe2",
-    "name": "Napolitanke M Hasselnöts Fyllning 400g"
+    "name": "Napolitanke M Hasselnöts Fyllning 400g",
+    "articleNumber": "700201",
+    "ean": 8606017633334
   },
   {
     "_id": "644bee34-455e-4a93-9722-6c72443a0761",
-    "name": "DURU BULGUR KÖFTELIK/ PILAVLIK 5KG"
+    "name": "DURU BULGUR KÖFTELIK/ PILAVLIK 5KG",
+    "articleNumber": "2366",
+    "ean": 8691440205005
   },
   {
     "_id": "645dadd8-918b-4861-92ce-291d82422630",
-    "name": "Napolitanke Med Skogsbär 400g"
+    "name": "Napolitanke Med Skogsbär 400g",
+    "articleNumber": "700203",
+    "ean": 62240007341982
   },
   {
     "_id": "64cd68b0-593f-41fa-a976-495b3b8d1a94",
-    "name": "Qibbla Nött Färs Block 750g"
+    "name": "Qibbla Nött Färs Block 750g",
+    "articleNumber": "148790",
+    "ean": 7330989000962
   },
   {
     "_id": "65125c8f-53ba-4893-aa57-18b79c5e3d97",
-    "name": "Vim Pulver Form 800g "
+    "name": "Vim Pulver Form 800g ",
+    "articleNumber": "889303",
+    "ean": 5319990918116
   },
   {
     "_id": "657b28c4-400f-4d23-b274-a27bd032b3a4",
-    "name": "Vivien Hand Sopa Sensitiv White 500ml"
+    "name": "Vivien Hand Sopa Sensitiv White 500ml",
+    "articleNumber": "210323",
+    "ean": 5319990918383
   },
   {
     "_id": "65ed78f1-8d5e-40f8-9967-ce647358eca7",
-    "name": "Ajvar Pastöriserad Mild 690g"
+    "name": "Ajvar Pastöriserad Mild 690g",
+    "articleNumber": "1072",
+    "ean": 3850104051012
   },
   {
     "_id": "66223037-95ca-4efb-b939-19cba6197a65",
-    "name": "EARL GREY TEA LÖS TE 500g"
+    "name": "EARL GREY TEA LÖS TE 500g",
+    "articleNumber": "6400",
+    "ean": 5014176007539
   },
   {
     "_id": "66239776-d693-4aba-b6cd-5260563ddf31",
-    "name": "Feferoni Stark 2,5kg"
+    "name": "Feferoni Stark 2,5kg",
+    "articleNumber": "9311",
+    "ean": 3900472530128
   },
   {
     "_id": "664d8afc-71ea-4e4b-8659-5d02461bc34e",
-    "name": "VETEMJÖL 2kg"
+    "name": "VETEMJÖL 2kg",
+    "articleNumber": "100025",
+    "ean": 4820196912804
   },
   {
     "_id": "666e7bbe-23ae-4ae3-8919-4ecec1c60439",
-    "name": "Tomat Pure Durra 800g"
+    "name": "Tomat Pure Durra 800g",
+    "articleNumber": "613151",
+    "ean": 6210241014276
   },
   {
     "_id": "66b606bd-c5f0-4d61-a5d0-dab940aff60c",
-    "name": "Bizbize Finger Kex 700g"
+    "name": "Bizbize Finger Kex 700g",
+    "articleNumber": "4001",
+    "ean": 8691796100030
   },
   {
     "_id": "66d57f8e-6187-4eb3-8d50-1bbaf7c14673",
-    "name": "PG TIPS TE I PÅSE 300ST"
+    "name": "PG TIPS TE I PÅSE 300ST",
+    "articleNumber": "900991",
+    "ean": 8717163923825
   },
   {
     "_id": "674dc060-4555-4463-8852-0f0aa2deec5e",
-    "name": "Allkrydda Balkan Style 250G"
+    "name": "Allkrydda Balkan Style 250G",
+    "articleNumber": "120037",
+    "ean": 8606011520814
   },
   {
     "_id": "67fa9870-6942-4d9a-b05a-da85a1f28003",
-    "name": "Area Glas Rengöring Spray Refil 1L"
+    "name": "Area Glas Rengöring Spray Refil 1L",
+    "articleNumber": "210304",
+    "ean": 5319990918796
   },
   {
     "_id": "68189b10-9225-4139-b469-c8e3eaf45748",
-    "name": "Petit Beurre Smörkex 750g"
+    "name": "Petit Beurre Smörkex 750g",
+    "articleNumber": "160020",
+    "ean": 8606017638698
   },
   {
     "_id": "69895ec1-8988-4e05-bde9-d381665c8223",
-    "name": "Hemgjord Ajvar Mild 550g"
+    "name": "Hemgjord Ajvar Mild 550g",
+    "articleNumber": "2472",
+    "ean": 858567002384
   },
   {
     "_id": "69970163-08ab-4d5a-ba78-fe82fd5bd780",
-    "name": "KONDENSERAD MJÖLK SÖT "
+    "name": "KONDENSERAD MJÖLK SÖT ",
+    "articleNumber": "206006",
+    "ean": 8716200085175
   },
   {
     "_id": "69fa1d43-a080-42fe-840b-1fa0a1c971f7",
-    "name": "LAMBI TOALETTPAPPER FAMILY PACK 24PACK"
+    "name": "LAMBI TOALETTPAPPER FAMILY PACK 24PACK",
+    "articleNumber": "215658",
+    "ean": 6414300084129
   },
   {
     "_id": "6af55648-36b8-4ac0-b9d9-f7f06f73fd5d",
-    "name": "Pudding Jordgubb 800g"
+    "name": "Pudding Jordgubb 800g",
+    "articleNumber": "520",
+    "ean": 3902136970080
   },
   {
     "_id": "6bf92c9a-d260-4d0a-af8a-199561a4ebaa",
-    "name": "ALWAID SOLROSOLJA 5L"
+    "name": "ALWAID SOLROSOLJA 5L",
+    "articleNumber": "3236",
+    "ean": 7350125490082
   },
   {
     "_id": "6ca30421-1fdc-469e-b361-df630af9ee2f",
-    "name": "NAJJAR KAFFE MED KAREMUMMA 450G"
+    "name": "NAJJAR KAFFE MED KAREMUMMA 450G",
+    "articleNumber": "1114",
+    "ean": 22644006385
   },
   {
     "_id": "6d5ba393-a52a-424e-928e-283aaa1c783e",
-    "name": "Soppa M Kyckling Smak Krämig 53g"
+    "name": "Soppa M Kyckling Smak Krämig 53g",
+    "articleNumber": "120559",
+    "ean": 8606011528186
   },
   {
     "_id": "6d967fd5-4175-4013-a72d-cc9eda69e6e4",
-    "name": "Köy Sefasi Premium Oliver 800g"
+    "name": "Köy Sefasi Premium Oliver 800g",
+    "articleNumber": "4007",
+    "ean": 8696591066093
   },
   {
     "_id": "6debd1c6-1f10-46e0-a5e4-2cc70a2f3bc0",
-    "name": "Ellas Basmati Ris 1121 Premium XXL 5kg"
+    "name": "Ellas Basmati Ris 1121 Premium XXL 5kg",
+    "articleNumber": "2020",
+    "ean": null
   },
   {
     "_id": "6fbacef4-5077-47a9-9b88-4729c5d25dd9",
-    "name": "100% Färsk Pressad Morots Dryck 1L"
+    "name": "100% Färsk Pressad Morots Dryck 1L",
+    "articleNumber": "475",
+    "ean": 3904837860936
   },
   {
     "_id": "6fcfb9a3-1a4f-4437-b00e-4690fb4638da",
-    "name": "Area Diskmedel Äppel Doft 1L"
+    "name": "Area Diskmedel Äppel Doft 1L",
+    "articleNumber": "210311",
+    "ean": 5319990918673
   },
   {
     "_id": "7003e6ad-c8aa-499a-8c99-1b7e422fcf85",
-    "name": "Kyckling Vingar Panerade Mild 2kg"
+    "name": "Kyckling Vingar Panerade Mild 2kg",
+    "articleNumber": "14078",
+    "ean": 5900757063943
   },
   {
     "_id": "70dbf642-001b-40ad-ab85-a74f67e5b1e5",
-    "name": "Capri sun Dryck Safari Smak 10pack"
+    "name": "Capri sun Dryck Safari Smak 10pack",
+    "articleNumber": "40078",
+    "ean": 4000177158425
   },
   {
     "_id": "727e62a8-0fd7-48a4-80c2-319220431e7d",
-    "name": "CEYLON TEA LÖS 400g"
+    "name": "CEYLON TEA LÖS 400g",
+    "articleNumber": "9236",
+    "ean": 7350060084124
   },
   {
     "_id": "72f78f16-af20-425e-8b32-bcf67741725d",
-    "name": "DURU PILAVLIK BULGUR M TEL SEHRIYELI 1KG"
+    "name": "DURU PILAVLIK BULGUR M TEL SEHRIYELI 1KG",
+    "articleNumber": "3839",
+    "ean": 8691440307365
   },
   {
     "_id": "734d20ae-757b-4ecc-8b22-a042b165eea3",
-    "name": "Kyckling Lever 500g"
+    "name": "Kyckling Lever 500g",
+    "articleNumber": "17111",
+    "ean": 5789000062328
   },
   {
     "_id": "737a07a5-5976-46b5-9bff-ad0d64e1b381",
-    "name": "ARGETA KYCKLING PASTEJ HALAL 3pack"
+    "name": "ARGETA KYCKLING PASTEJ HALAL 3pack",
+    "articleNumber": "5354",
+    "ean": 3838471047777
   },
   {
     "_id": "7383bd64-bc4e-45d5-951d-36469a68b129",
-    "name": "Napolitanke M Mjölk&Choklad Fyllning 170g"
+    "name": "Napolitanke M Mjölk&Choklad Fyllning 170g",
+    "articleNumber": "700701",
+    "ean": 8606017637912
   },
   {
     "_id": "73eb95c4-1e6c-4680-a908-9cd8b5d2011f",
-    "name": "Körsbärs Sylt 375g"
+    "name": "Körsbärs Sylt 375g",
+    "articleNumber": "2421",
+    "ean": 3904837850289
   },
   {
     "_id": "74dee523-9168-482a-8c1e-24220932ea71",
-    "name": "Kalv Fötter Sågade kg/pris"
+    "name": "Kalv Fötter Sågade kg/pris",
+    "articleNumber": "52280",
+    "ean": 2000205100000
   },
   {
     "_id": "75408969-e114-484a-8d3d-31c6362831c9",
-    "name": "Area Diskmedel Citron Doft 1L"
+    "name": "Area Diskmedel Citron Doft 1L",
+    "articleNumber": "210310",
+    "ean": 5319990918666
   },
   {
     "_id": "76d4eb2f-c251-400d-b619-8e957cda2aa2",
-    "name": "Hemgjord Pindjur 550g "
+    "name": "Hemgjord Pindjur 550g ",
+    "articleNumber": "9318",
+    "ean": 3901826090107
   },
   {
     "_id": "776258b1-bdf8-4ab8-b89e-641504b6d44b",
-    "name": "Indisk  Makrill 1kg"
+    "name": "Indisk  Makrill 1kg",
+    "articleNumber": "7975",
+    "ean": 5701145705007
   },
   {
     "_id": "77a51365-5f7c-495b-9cb6-45f863dad0df",
-    "name": "Paprika Malen (Biber) Stark 100g"
+    "name": "Paprika Malen (Biber) Stark 100g",
+    "articleNumber": "120145",
+    "ean": 8606017630647
   },
   {
     "_id": "77b3e1f4-1522-4b14-a86f-e39e4fe4ee5b",
-    "name": "Napolitanke Cubs M Choklad Fyllning 1kg"
+    "name": "Napolitanke Cubs M Choklad Fyllning 1kg",
+    "articleNumber": "700150",
+    "ean": 8606017636700
   },
   {
     "_id": "78969193-fdfb-42c5-8623-066a6e818e19",
-    "name": "Kent Napolitanke kex Kakao 700g"
+    "name": "Kent Napolitanke kex Kakao 700g",
+    "articleNumber": "4019",
+    "ean": 3870353002610
   },
   {
     "_id": "7978c78e-56a1-4d61-bbe1-48775e79a100",
-    "name": "Sköljmedel YILDIZ 1440ml"
+    "name": "Sköljmedel YILDIZ 1440ml",
+    "articleNumber": "21505",
+    "ean": 8690536903979
   },
   {
     "_id": "7abd595e-60c0-423f-831f-5f9b20b0ac1c",
-    "name": "Vivien Diskmedel Äppel Doft 920ml"
+    "name": "Vivien Diskmedel Äppel Doft 920ml",
+    "articleNumber": "210327",
+    "ean": 5319991751118
   },
   {
     "_id": "7af658ac-3f78-4b91-9748-b40dbd720542",
-    "name": "HUNKAR SVARTA OLIVER VAKUM  800G"
+    "name": "HUNKAR SVARTA OLIVER VAKUM  800G",
+    "articleNumber": "29956",
+    "ean": 4262396732989
   },
   {
     "_id": "7b6cccae-6c34-42e5-a0e8-8cd51ad9d588",
-    "name": "Diskmedel Citron 500ml"
+    "name": "Diskmedel Citron 500ml",
+    "articleNumber": "9823",
+    "ean": 5319990918185
   },
   {
     "_id": "7ba17cd1-2824-4f07-b5e9-34689b462a09",
-    "name": "ZWAN KYCKLING LUNCHEON HOT&SPICY  850G"
+    "name": "ZWAN KYCKLING LUNCHEON HOT&SPICY  850G",
+    "articleNumber": "231003",
+    "ean": 8714555000478
   },
   {
     "_id": "7bc4dc8d-6148-43a5-bf29-48dff72ff167",
-    "name": "Soppa Med Grönsaker & Vermicell 58g"
+    "name": "Soppa Med Grönsaker & Vermicell 58g",
+    "articleNumber": "120541",
+    "ean": 8606011528230
   },
   {
     "_id": "7be50164-bf9c-4e3a-8335-3b4de77c98bf",
-    "name": "Brians Paprika Tomat Hel 2,35kg"
+    "name": "Brians Paprika Tomat Hel 2,35kg",
+    "articleNumber": "2470",
+    "ean": 890089002312
   },
   {
     "_id": "7c2be0d2-16cb-40b9-8dbc-9a0dd3b0b461",
-    "name": "KYCKLING LUNCHEON STARK/MILD 850g"
+    "name": "KYCKLING LUNCHEON STARK/MILD 850g",
+    "articleNumber": "1249",
+    "ean": 5705251032606
   },
   {
     "_id": "7c2e7857-233b-422c-b708-95ab5c9656c2",
-    "name": "KAROON BASMATI RIS 1KG"
+    "name": "KAROON BASMATI RIS 1KG",
+    "articleNumber": "4066",
+    "ean": 7350004220014
   },
   {
     "_id": "7c3ec884-d9ff-42fa-b676-b109626f308f",
-    "name": "Höna Hel 1,5kg"
+    "name": "Höna Hel 1,5kg",
+    "articleNumber": "16092",
+    "ean": 3280310114223
   },
   {
     "_id": "7c5be431-f8b2-4f44-b4ad-189b114d8938",
-    "name": "Vit Ost Bosnisk 800g"
+    "name": "Vit Ost Bosnisk 800g",
+    "articleNumber": "14829",
+    "ean": 7350039278264
   },
   {
     "_id": "7c85a07a-2fa1-4cfa-891d-d417890b2508",
-    "name": "BUTTER GHEE 1KG"
+    "name": "BUTTER GHEE 1KG",
+    "articleNumber": "5193",
+    "ean": 5017689534110
   },
   {
     "_id": "7cb516d9-1782-497a-8e6f-4a4fe70b9c1b",
-    "name": "PODRAVKA HÖNS SOPPA 62G"
+    "name": "PODRAVKA HÖNS SOPPA 62G",
+    "articleNumber": "14838",
+    "ean": 3850104003189
   },
   {
     "_id": "7cc0811a-bf6a-4777-9576-4122bd6de9fe",
-    "name": "PIE MARSHMALLOW BISCUIT 176G"
+    "name": "PIE MARSHMALLOW BISCUIT 176G",
+    "articleNumber": "31411",
+    "ean": 8690661088107
   },
   {
     "_id": "7d627903-184b-43d0-bb26-18edf164c1bc",
-    "name": "Sköljmedel Blue Angel 2,45L"
+    "name": "Sköljmedel Blue Angel 2,45L",
+    "articleNumber": "9458",
+    "ean": 8606015846699
   },
   {
     "_id": "7dc6ee7e-f9e0-40ec-9dd8-f6239c6ebee5",
-    "name": "BALKANBODEN ALLKRYDDA 450G"
+    "name": "BALKANBODEN ALLKRYDDA 450G",
+    "articleNumber": "R090036",
+    "ean": 7350114190924
   },
   {
     "_id": "7ebfbfa9-b6da-46d3-9922-383acce9fa93",
-    "name": "ANATOLIA CASHEWNÖTTER ROSTADE&SALTADE 750GR"
+    "name": "ANATOLIA CASHEWNÖTTER ROSTADE&SALTADE 750GR",
+    "articleNumber": "4008",
+    "ean": 8717973294535
   },
   {
     "_id": "7ed66fa1-0482-4552-a8f1-313762766808",
-    "name": "Paprika Somborka Hel 1,5kg"
+    "name": "Paprika Somborka Hel 1,5kg",
+    "articleNumber": "2449",
+    "ean": 890089002640
   },
   {
     "_id": "7f5554bf-ba8b-423f-b7b5-d7f11b89ae29",
-    "name": "Kras Napolitanke Nougatkex 840g"
+    "name": "Kras Napolitanke Nougatkex 840g",
+    "articleNumber": "4021",
+    "ean": 3850102326198
   },
   {
     "_id": "819550b1-a71e-4cc5-97a2-847bd41f53fb",
-    "name": "Päron Mos (Pekmez) 375g"
+    "name": "Päron Mos (Pekmez) 375g",
+    "articleNumber": "2422",
+    "ean": 3901826090121
   },
   {
     "_id": "820b0747-d774-47b3-bfcc-c462a3ab225e",
-    "name": "KAMIL SVARTA OLIVER KÄRNFRIA 850GR"
+    "name": "KAMIL SVARTA OLIVER KÄRNFRIA 850GR",
+    "articleNumber": "23543",
+    "ean": 6111229000369
   },
   {
     "_id": "823fe590-f04b-42ac-a0af-ae9d5ef4812d",
-    "name": "Fisk Tilapia Röd 600-800g"
+    "name": "Fisk Tilapia Röd 600-800g",
+    "articleNumber": "124177",
+    "ean": 50000495
   },
   {
     "_id": "824384ad-9737-454b-8366-dae64a8de29b",
-    "name": "Meggle Mjölk 2,5% 1L"
+    "name": "Meggle Mjölk 2,5% 1L",
+    "articleNumber": "8264",
+    "ean": 3870085010051
   },
   {
     "_id": "8285684c-5142-4529-9da6-69d81cf906cb",
-    "name": "Sköljmedel Happy Family 1,6L"
+    "name": "Sköljmedel Happy Family 1,6L",
+    "articleNumber": "9455",
+    "ean": 8606015846941
   },
   {
     "_id": "82ff373f-4e9f-46be-a778-24a6dd2d1761",
-    "name": "Sköljmedel Love Actually 6L"
+    "name": "Sköljmedel Love Actually 6L",
+    "articleNumber": "9442",
+    "ean": 8606015847061
   },
   {
     "_id": "83e74f2e-8af0-41f7-bd39-f3b7151200c4",
-    "name": "SVARTPEPPAR MALEN 100g"
+    "name": "SVARTPEPPAR MALEN 100g",
+    "articleNumber": "539",
+    "ean": 3902136970516
   },
   {
     "_id": "83fc0f2a-b519-4ee5-82a6-7ab337ea3007",
-    "name": "Vit Vinäger 9% 3L"
+    "name": "Vit Vinäger 9% 3L",
+    "articleNumber": "889320",
+    "ean": 5319991751224
   },
   {
     "_id": "8513d57b-ee91-4a32-a0b6-0e63bc10fb3a",
-    "name": "Kyckling Ben Panerade Stark 2kg"
+    "name": "Kyckling Ben Panerade Stark 2kg",
+    "articleNumber": "45783",
+    "ean": 5900757063981
   },
   {
     "_id": "85954bdf-37ea-4d3f-a4db-3fc26d9a1514",
-    "name": "Kyckling Hel 1,7kg"
+    "name": "Kyckling Hel 1,7kg",
+    "articleNumber": "14862",
+    "ean": 5701402038497
   },
   {
     "_id": "85deba87-f08e-424d-9ad8-17526d069cef",
-    "name": "Paprika Vezana 750g"
+    "name": "Paprika Vezana 750g",
+    "articleNumber": "2447",
+    "ean": 890089002169
   },
   {
     "_id": "860130ab-6995-4cd6-8c33-297b35c1d1a1",
-    "name": "SOLROSOLJA 5L"
+    "name": "SOLROSOLJA 5L",
+    "articleNumber": "100082",
+    "ean": 4820196912736
   },
   {
     "_id": "86bd165e-4035-4cf8-b4a2-ef384b97f362",
-    "name": "Kaffe Mix 3in1 Classic 24Pack"
+    "name": "Kaffe Mix 3in1 Classic 24Pack",
+    "articleNumber": "400101",
+    "ean": 8606011528957
   },
   {
     "_id": "8793c60a-61b8-43ae-872a-61bba7c922a6",
-    "name": "100% Färsk Pressad Vild Blåbärs Dryck 1L"
+    "name": "100% Färsk Pressad Vild Blåbärs Dryck 1L",
+    "articleNumber": "477",
+    "ean": 3904837860950
   },
   {
     "_id": "87e4c81b-0d15-47f1-aa2d-87383156c9a9",
-    "name": "BALKANBODEN GRILLKRYDDA 320G"
+    "name": "BALKANBODEN GRILLKRYDDA 320G",
+    "articleNumber": "R090038",
+    "ean": 7350114190948
   },
   {
     "_id": "8898fdc4-1cff-4645-9b96-d5142d371135",
-    "name": "Area Allrengöring Univeral 1l +1Gratis"
+    "name": "Area Allrengöring Univeral 1l +1Gratis",
+    "articleNumber": "210305",
+    "ean": 5319991751088
   },
   {
     "_id": "88fd6fe0-c933-4c46-9b55-7e0418d15035",
-    "name": "Napolitanke M Kokos Fyllning 170g"
+    "name": "Napolitanke M Kokos Fyllning 170g",
+    "articleNumber": "700705",
+    "ean": 8606017637936
   },
   {
     "_id": "8a200bea-c6d4-4766-9259-c43a39f14266",
-    "name": "Paprika Rostad Med Vitlök & Persilja 550g"
+    "name": "Paprika Rostad Med Vitlök & Persilja 550g",
+    "articleNumber": "2429",
+    "ean": 890089002138
   },
   {
     "_id": "8aff7058-bb38-4f42-9b49-26d9222e87de",
-    "name": "Banan Paprika 2,35kg"
+    "name": "Banan Paprika 2,35kg",
+    "articleNumber": "2442",
+    "ean": 890089002251
   },
   {
     "_id": "8b1a50d9-0a43-468c-9aab-1d380e285f49",
-    "name": "Mhk Panerade Kyckling Ben 2Kg Mild"
+    "name": "Mhk Panerade Kyckling Ben 2Kg Mild",
+    "articleNumber": "40784",
+    "ean": 5900757063967
   },
   {
     "_id": "8b98d8cd-7fb8-46dd-866d-28686b5a2cd8",
-    "name": "Piroger (Pide) Med Ostmix 3pack"
+    "name": "Piroger (Pide) Med Ostmix 3pack",
+    "articleNumber": "5270",
+    "ean": 8681820150582
   },
   {
     "_id": "8d13faa8-ab17-4bd3-b8a6-bbece1caabe9",
-    "name": "Kyckling File Braziliask Blockfryst 2kg"
+    "name": "Kyckling File Braziliask Blockfryst 2kg",
+    "articleNumber": "8888",
+    "ean": 7891515952242
   },
   {
     "_id": "8d3fb97a-de8c-4f59-bd9b-fc06350c2c48",
-    "name": "Doux Kyckling Korv Hot&Spicy 340G"
+    "name": "Doux Kyckling Korv Hot&Spicy 340G",
+    "articleNumber": "3685",
+    "ean": 3280316016361
   },
   {
     "_id": "8d6ae476-f5b5-444c-9e99-7a03b2836a4d",
-    "name": "Hemgjord Ajvar Stark 550g"
+    "name": "Hemgjord Ajvar Stark 550g",
+    "articleNumber": "9352",
+    "ean": 3904837850029
   },
   {
     "_id": "8e1c405c-36b9-493d-bd58-fd8a146221a8",
-    "name": "Svart Peppar Malen 50g"
+    "name": "Svart Peppar Malen 50g",
+    "articleNumber": "120147",
+    "ean": 8606017634638
   },
   {
     "_id": "8e940371-ad3a-455b-a8fe-f0eab7180286",
-    "name": "Zakuska Stark Makedonsk Style Mild 550g"
+    "name": "Zakuska Stark Makedonsk Style Mild 550g",
+    "articleNumber": "2463",
+    "ean": 890089002633
   },
   {
     "_id": "8efb6ea3-21b0-4e05-afc0-14e8347202d1",
-    "name": "Sardiner Med Citron 115g"
+    "name": "Sardiner Med Citron 115g",
+    "articleNumber": "1181",
+    "ean": 3859888140073
   },
   {
     "_id": "8f139fa3-ac68-4ffa-a047-e832109cab5e",
-    "name": "Poli Kyckling Salami Med Ost Fyllning 500g"
+    "name": "Poli Kyckling Salami Med Ost Fyllning 500g",
+    "articleNumber": "47171",
+    "ean": 3838977011494
   },
   {
     "_id": "8f2530ea-42a8-4f59-90fc-8e19f141e4b8",
-    "name": "Cocktail Sallad (Balkan Style) 2,35kg"
+    "name": "Cocktail Sallad (Balkan Style) 2,35kg",
+    "articleNumber": "2443",
+    "ean": 890089002398
   },
   {
     "_id": "8f398b09-7c29-4e08-a352-68070aa090be",
-    "name": "LAZZAT VITA BÖNOR 900G"
+    "name": "LAZZAT VITA BÖNOR 900G",
+    "articleNumber": "30046",
+    "ean": 7340000300612
   },
   {
     "_id": "8fc5217c-4249-4153-83e6-f65b81f05841",
-    "name": "INDOMIE NUDLAR MED KYCKLING 5PACK 350G"
+    "name": "INDOMIE NUDLAR MED KYCKLING 5PACK 350G",
+    "articleNumber": "2390",
+    "ean": 89686170115
   },
   {
     "_id": "908a9415-7fe3-4cee-acb5-23245ab37528",
-    "name": "MAJSMJÖL 400g"
+    "name": "MAJSMJÖL 400g",
+    "articleNumber": "512",
+    "ean": 3902136970257
   },
   {
     "_id": "91d82311-0f77-4ba2-8bbd-d6310702950d",
-    "name": "Area Hand Sopa Magnolia Doft 1L"
+    "name": "Area Hand Sopa Magnolia Doft 1L",
+    "articleNumber": "210309",
+    "ean": 5319990918581
   },
   {
     "_id": "9299cab0-baca-4703-a69b-8dee5d24947a",
-    "name": "Area Glas Rengöring Spray 1L"
+    "name": "Area Glas Rengöring Spray 1L",
+    "articleNumber": "210303",
+    "ean": 5319990918789
   },
   {
     "_id": "93088c4d-fceb-47d1-ad93-cf47fcea54bc",
-    "name": "NERA CAFFE MALEN 500G "
+    "name": "NERA CAFFE MALEN 500G ",
+    "articleNumber": "400106",
+    "ean": 8606011526861
   },
   {
     "_id": "9331750e-9ce9-4780-b4e2-2b473c4d1196",
-    "name": "KAROON BASMATI RIS 10KG"
+    "name": "KAROON BASMATI RIS 10KG",
+    "articleNumber": "301166",
+    "ean": 7350059420001
   },
   {
     "_id": "9351a3d0-f564-4281-8c0e-9c9e6e6ea18b",
-    "name": "BIKARBONAT 500g"
+    "name": "BIKARBONAT 500g",
+    "articleNumber": "511",
+    "ean": 3902136970417
   },
   {
     "_id": "93a8e826-033e-458c-9cce-76dd8be19945",
-    "name": "Lamm Framdel Hel kg"
+    "name": "Lamm Framdel Hel kg",
+    "articleNumber": "52779",
+    "ean": 7300000106003
   },
   {
     "_id": "949aa221-5dfa-4591-a5ee-64be14178080",
-    "name": "LAX TVÄTTMEDEL 8KG"
+    "name": "LAX TVÄTTMEDEL 8KG",
+    "articleNumber": "2406",
+    "ean": 8594163901873
   },
   {
     "_id": "94f4f56b-7118-4d41-a8cb-77040ba4e5eb",
-    "name": "PAPRIKA PULVER MALEN MILD 200g"
+    "name": "PAPRIKA PULVER MALEN MILD 200g",
+    "articleNumber": "528",
+    "ean": 3902136970806
   },
   {
     "_id": "95253dc9-0cac-474a-95f5-e4791d8bd95b",
-    "name": "Napolitanke Cubs M Mjölk&Choklad Fyll 800g"
+    "name": "Napolitanke Cubs M Mjölk&Choklad Fyll 800g",
+    "articleNumber": "700155",
+    "ean": 8606017638346
   },
   {
     "_id": "9582575e-61d6-4968-8c01-0372e7919f6a",
-    "name": "Kyckling Hel 1,2kg"
+    "name": "Kyckling Hel 1,2kg",
+    "articleNumber": "14860",
+    "ean": 5902811402491
   },
   {
     "_id": "96e685e4-4f1e-4591-8f57-80b2227ca0a8",
-    "name": "Allrengöring Universal Lilac Flower 1L"
+    "name": "Allrengöring Universal Lilac Flower 1L",
+    "articleNumber": "881102",
+    "ean": 5319990918741
   },
   {
     "_id": "978236c1-e461-4544-a900-472f4f473a6b",
-    "name": "Vit Ost Piknik 60% 400g"
+    "name": "Vit Ost Piknik 60% 400g",
+    "articleNumber": "10100",
+    "ean": 5701638116631
   },
   {
     "_id": "97b3e992-d340-4a6e-aca2-3ce11457e2bd",
-    "name": "Sardiner i Vegetabilisk olja 115g"
+    "name": "Sardiner i Vegetabilisk olja 115g",
+    "articleNumber": "1180",
+    "ean": 3859888140004
   },
   {
     "_id": "97b89a4f-2c20-40a6-8d50-0de1bb418746",
-    "name": "Grädd Pulver Med Vanilj Smak 500G "
+    "name": "Grädd Pulver Med Vanilj Smak 500G ",
+    "articleNumber": "120083",
+    "ean": 8606011529763
   },
   {
     "_id": "982a3634-083d-42c2-b351-a0a4df736e2d",
-    "name": "KAKAO PULVER 80g"
+    "name": "KAKAO PULVER 80g",
+    "articleNumber": "525",
+    "ean": 3902136970127
   },
   {
     "_id": "9914e850-0428-40d3-a385-8b86aa7f1c9d",
-    "name": "Fisk Tilapia Svart"
+    "name": "Fisk Tilapia Svart",
+    "articleNumber": "124178",
+    "ean": 7300000600037
   },
   {
     "_id": "991cc894-763e-486f-a471-a04973e4b73d",
-    "name": "Gräddpulver Med Vanilj Smak 180g"
+    "name": "Gräddpulver Med Vanilj Smak 180g",
+    "articleNumber": "120092",
+    "ean": 8606017638261
   },
   {
     "_id": "99243c47-c7f8-4da3-b711-3fb4eca05172",
-    "name": "Tvättmedel Lavendel Jorgovan 3kg"
+    "name": "Tvättmedel Lavendel Jorgovan 3kg",
+    "articleNumber": "9448",
+    "ean": 8606013176996
   },
   {
     "_id": "99f92ebb-b9f0-4f41-a097-8aab183ae523",
-    "name": "Cornichons Gurka 720ml"
+    "name": "Cornichons Gurka 720ml",
+    "articleNumber": "9323",
+    "ean": 3904837850777
   },
   {
     "_id": "9a2d2f90-5ed8-4151-9d9c-15d21d2efa28",
-    "name": "Kålblad Till Sarma 2,35kg"
+    "name": "Kålblad Till Sarma 2,35kg",
+    "articleNumber": "2454",
+    "ean": 890089002435
   },
   {
     "_id": "9a9acdde-eb8d-4e88-9d48-9d39edb23537",
-    "name": "Köy Sefasi Svarta Sele Oliver 700g"
+    "name": "Köy Sefasi Svarta Sele Oliver 700g",
+    "articleNumber": "4003",
+    "ean": 8696591064402
   },
   {
     "_id": "9b1c3721-4ba7-49fd-b9cd-ef1cababb88f",
-    "name": "BALKANBODEN ALLKRYDDA 850G"
+    "name": "BALKANBODEN ALLKRYDDA 850G",
+    "articleNumber": "R090037",
+    "ean": 7350114190917
   },
   {
     "_id": "9c12fd83-581e-4235-998d-f12568fc328e",
-    "name": "SINDIBAD BASMATI RIS SELA 5KG"
+    "name": "SINDIBAD BASMATI RIS SELA 5KG",
+    "articleNumber": "42063",
+    "ean": 7350043854430
   },
   {
     "_id": "9c1519c7-f6f7-4173-a20e-17a8fd2de177",
-    "name": "Feferoni Stark 1kg"
+    "name": "Feferoni Stark 1kg",
+    "articleNumber": "2448",
+    "ean": 890089002596
   },
   {
     "_id": "9c1cf739-9572-4802-9a11-e573714b6493",
-    "name": "Toalett Papper Leni 24-pack"
+    "name": "Toalett Papper Leni 24-pack",
+    "articleNumber": "749",
+    "ean": 6414301087396
   },
   {
     "_id": "9dd67fa7-8d7e-46ac-af22-f29eeac3794b",
-    "name": "Klor Flytande 1L "
+    "name": "Klor Flytande 1L ",
+    "articleNumber": "889311",
+    "ean": 5319990918420
   },
   {
     "_id": "9dec0749-c66a-4007-a39f-17110f60d200",
-    "name": "ARGETA KYCKLING PASTEJ ORG 95G"
+    "name": "ARGETA KYCKLING PASTEJ ORG 95G",
+    "articleNumber": "53501",
+    "ean": 3838975566606
   },
   {
     "_id": "9e4bffee-1510-423d-8a7a-15de09d6bd06",
-    "name": "Diskmedel Citron Doft 500ml"
+    "name": "Diskmedel Citron Doft 500ml",
+    "articleNumber": "9799",
+    "ean": 5319991751125
   },
   {
     "_id": "9e61bbe0-b03f-4c76-9266-b706ffee1e07",
-    "name": "MICHELINO FÖRVARINGSLÅDA 7L"
+    "name": "MICHELINO FÖRVARINGSLÅDA 7L",
+    "articleNumber": "40700",
+    "ean": 4047125407006
   },
   {
     "_id": "9ecf7ae7-d144-4b97-bc17-6e136117fee6",
-    "name": "DO GHAZAL EARL GREY TEA 100PCS"
+    "name": "DO GHAZAL EARL GREY TEA 100PCS",
+    "articleNumber": "403",
+    "ean": 4796015721929
   },
   {
     "_id": "9f916790-4bc9-4ceb-929e-a3aa27f0b64f",
-    "name": "LAMIS KHANUIM MANGO JUICE 24X250ML"
+    "name": "LAMIS KHANUIM MANGO JUICE 24X250ML",
+    "articleNumber": "2121",
+    "ean": 7350146700467
   },
   {
     "_id": "a02e4f8b-41a8-4c31-ab56-4a5f8170d2f1",
-    "name": "Aprikos Mos (Pekmez) 375g"
+    "name": "Aprikos Mos (Pekmez) 375g",
+    "articleNumber": "2414",
+    "ean": 3904837850630
   },
   {
     "_id": "a061a17b-1930-46f1-ae45-2c028bd00068",
-    "name": "Ajvar Pastöriserad Stark 690g"
+    "name": "Ajvar Pastöriserad Stark 690g",
+    "articleNumber": "1073",
+    "ean": 3850104050572
   },
   {
     "_id": "a0be1d1d-202c-4d84-8d67-c2564f0d5440",
-    "name": "Molokhia Hackad 400g"
+    "name": "Molokhia Hackad 400g",
+    "articleNumber": "148444",
+    "ean": 8594181580809
   },
   {
     "_id": "a12b7154-3edd-4ec5-b614-807119b96f08",
-    "name": "Allkrydda Balkan Style 900g"
+    "name": "Allkrydda Balkan Style 900g",
+    "articleNumber": "120417",
+    "ean": 8606017638483
   },
   {
     "_id": "a3c94981-80f1-4fa8-a10e-fdba60642a33",
-    "name": "YESIM GRÖNA OLIVER 900g CIZIK"
+    "name": "YESIM GRÖNA OLIVER 900g CIZIK",
+    "articleNumber": "23751",
+    "ean": 8698566681027
   },
   {
     "_id": "a49773ac-0d82-4588-b3bc-0f0e05cdc9f7",
-    "name": "ZWAN BIFF LUNCHEON 340G"
+    "name": "ZWAN BIFF LUNCHEON 340G",
+    "articleNumber": "231009",
+    "ean": 8714555001635
   },
   {
     "_id": "a4c1bcb7-2c25-4ed9-b210-b040c4d690f3",
-    "name": "Kyckling File Grillad&Strimlad 2,5kg"
+    "name": "Kyckling File Grillad&Strimlad 2,5kg",
+    "articleNumber": "15310",
+    "ean": 7350074851286
   },
   {
     "_id": "a4d0cab5-ab3b-462c-bc68-c519097a823e",
-    "name": "Kras Napolitanke Choklad kräm 840g"
+    "name": "Kras Napolitanke Choklad kräm 840g",
+    "articleNumber": "4022",
+    "ean": 3850102326198
   },
   {
     "_id": "a594ecb0-ab9d-499a-bb78-369c101017a6",
-    "name": "Soppa M Biff Smak & Vermicelli 58g"
+    "name": "Soppa M Biff Smak & Vermicelli 58g",
+    "articleNumber": "120531",
+    "ean": 8606011528223
   },
   {
     "_id": "a5cf1aa2-26a0-41ae-a037-4814ae9c339d",
-    "name": "Cornichon Gurka 720g"
+    "name": "Cornichon Gurka 720g",
+    "articleNumber": "2438",
+    "ean": 858567002667
   },
   {
     "_id": "a5dd287d-8762-4ff7-9a27-d0bc78f6d304",
-    "name": "Zakuska Stark Makedonsk Style Stark 550g"
+    "name": "Zakuska Stark Makedonsk Style Stark 550g",
+    "articleNumber": "2462",
+    "ean": 890089002725
   },
   {
     "_id": "a5e0ecfd-2867-428e-9199-201762e67a69",
-    "name": "Pudding Choklad - 800g"
+    "name": "Pudding Choklad - 800g",
+    "articleNumber": "518",
+    "ean": 3902136970097
   },
   {
     "_id": "a670125a-b847-4420-bc21-fd6b6ff03aed",
-    "name": "Diskmedel Sjajno Citron Doft 1L "
+    "name": "Diskmedel Sjajno Citron Doft 1L ",
+    "articleNumber": "889308",
+    "ean": 5319990918277
   },
   {
     "_id": "a68a7a45-6d24-4f3f-87bb-9e369a58ae6c",
-    "name": "Kyckling Cordon Blue 600g"
+    "name": "Kyckling Cordon Blue 600g",
+    "articleNumber": "121482",
+    "ean": 3850159141522
   },
   {
     "_id": "a68c6bc0-3e31-4f3d-8f0f-dfd379e7da8e",
-    "name": "Fava Bönor Foul Madammas 400g"
+    "name": "Fava Bönor Foul Madammas 400g",
+    "articleNumber": "22330",
+    "ean": 5285001400096
   },
   {
     "_id": "a72c1ca1-d84a-4022-beec-db97f956768f",
-    "name": "AHMAD TEA CEYLON TEA 100 Påsar"
+    "name": "AHMAD TEA CEYLON TEA 100 Påsar",
+    "articleNumber": "2342",
+    "ean": 54881001632
   },
   {
     "_id": "a82492d7-a70b-423f-9be3-9e560b0faad6",
-    "name": "EL MALEKA SPAGHETTI 1KG"
+    "name": "EL MALEKA SPAGHETTI 1KG",
+    "articleNumber": "3669",
+    "ean": 6223001510497
   },
   {
     "_id": "a8a33f53-021b-4e6e-a13e-95d335180594",
-    "name": "Napolitanke M Citron Fyllning 170g"
+    "name": "Napolitanke M Citron Fyllning 170g",
+    "articleNumber": "700703",
+    "ean": 8606017637899
   },
   {
     "_id": "a948581d-0a1e-46ef-a376-34ed7e9451e1",
-    "name": "KRAS NAPOLITANKE CHOCO 500G"
+    "name": "KRAS NAPOLITANKE CHOCO 500G",
+    "articleNumber": "2001",
+    "ean": 3850102320073
   },
   {
     "_id": "a962d11d-c4fa-4607-a1e6-dfdd7cc67423",
-    "name": "ANATOLIA CASHEWNÖTTER NATURAL 750GR"
+    "name": "ANATOLIA CASHEWNÖTTER NATURAL 750GR",
+    "articleNumber": "4009",
+    "ean": 8717973294740
   },
   {
     "_id": "a966d9b2-22ba-423e-87e3-7ef518ba97b8",
-    "name": "Malen Kaffe Rostad Gold 500G"
+    "name": "Malen Kaffe Rostad Gold 500G",
+    "articleNumber": "400100",
+    "ean": 8606011522191
   },
   {
     "_id": "a9760bea-da49-45cd-a897-ab10c9790ac2",
-    "name": "VICTORS KYCKLING NUGGETS 1,8KG"
+    "name": "VICTORS KYCKLING NUGGETS 1,8KG",
+    "articleNumber": "25480",
+    "ean": 5706911000539
   },
   {
     "_id": "a979a30a-e97f-4ffe-9cd6-51a9fdad9ac5",
-    "name": "FARAGELLO MANGO 1L"
+    "name": "FARAGELLO MANGO 1L",
+    "articleNumber": "1557",
+    "ean": 62240007341857
   },
   {
     "_id": "a9a706f8-fac4-43d7-9973-e783bde1a9e9",
-    "name": "100% Färsk Pressad Vilda Bär Dryck 1L"
+    "name": "100% Färsk Pressad Vilda Bär Dryck 1L",
+    "articleNumber": "476",
+    "ean": 3904837861001
   },
   {
     "_id": "aaad0c9e-ec38-4294-9674-307b5e62b010",
-    "name": "Nypon Mos (Pekmez) 700g"
+    "name": "Nypon Mos (Pekmez) 700g",
+    "articleNumber": "2418",
+    "ean": 3904837850180
   },
   {
     "_id": "aad1f715-1957-4e20-a596-da96b01bcde7",
-    "name": "Capri sun Dryck Tropical Smak 10pack"
+    "name": "Capri sun Dryck Tropical Smak 10pack",
+    "articleNumber": "40080",
+    "ean": 4000177211328
   },
   {
     "_id": "ac513f90-2d69-4054-809e-c05d92352424",
-    "name": "MERAY DAKOTA SOLROSFRÖN EXTRA SALTADE MÖRKBLÅ 300G"
+    "name": "MERAY DAKOTA SOLROSFRÖN EXTRA SALTADE MÖRKBLÅ 300G",
+    "articleNumber": "2149",
+    "ean": 4251032612747
   },
   {
     "_id": "ac9e1822-6087-4637-acdf-4611cf98ac15",
-    "name": "Pudding Jordgubb 3+1GRATIS 160g"
+    "name": "Pudding Jordgubb 3+1GRATIS 160g",
+    "articleNumber": "543",
+    "ean": 3902136970776
   },
   {
     "_id": "ad15fab4-e5d2-4c36-87fc-7b6ca745459c",
-    "name": "Allrengöring Blue Flowers 1L"
+    "name": "Allrengöring Blue Flowers 1L",
+    "articleNumber": "881101",
+    "ean": 5319990918758
   },
   {
     "_id": "ae76191e-b31d-47f0-9436-9b78bc783c55",
-    "name": "Kålblad Till Sarma 1,7kg"
+    "name": "Kålblad Till Sarma 1,7kg",
+    "articleNumber": "2436",
+    "ean": 890089002428
   },
   {
     "_id": "aed23d7d-2e23-47fc-9c4e-2acc45f02909",
-    "name": "Köy Sefasi Svarta Sele Oliver 1000g"
+    "name": "Köy Sefasi Svarta Sele Oliver 1000g",
+    "articleNumber": "4005",
+    "ean": 8696591063559
   },
   {
     "_id": "aede7002-7fa7-4af8-b6d5-9f8f3482fd75",
-    "name": "Vivien Hand Sopa Floral Green 500ml"
+    "name": "Vivien Hand Sopa Floral Green 500ml",
+    "articleNumber": "210324",
+    "ean": 5319990918390
   },
   {
     "_id": "af832e15-e033-447a-82f1-115bd61db3af",
-    "name": "STOBI FLIPS JORDNÖTSBÅGAR 150G"
+    "name": "STOBI FLIPS JORDNÖTSBÅGAR 150G",
+    "articleNumber": "11677",
+    "ean": 5310005010191
   },
   {
     "_id": "af8340db-efd3-48e0-a92b-6f638b15c4b3",
-    "name": "KYCKLING LUNCHEON STARK 850g"
+    "name": "KYCKLING LUNCHEON STARK 850g",
+    "articleNumber": "1239/1240",
+    "ean": 5705250042804
   },
   {
     "_id": "b03663be-e671-49d5-b315-f057677ebd0f",
-    "name": "Malen Kaffe Rostad Nera 200g"
+    "name": "Malen Kaffe Rostad Nera 200g",
+    "articleNumber": "400109",
+    "ean": 8606011526854
   },
   {
     "_id": "b04e861e-bb0b-4621-8a49-09862e1565f1",
-    "name": "Kaymak Naturel 170g"
+    "name": "Kaymak Naturel 170g",
+    "articleNumber": "14842",
+    "ean": 57020129
   },
   {
     "_id": "b04fd1d5-8f3a-44df-824a-b5acee821da6",
-    "name": "Diskmedel Äppel Doft 500ml"
+    "name": "Diskmedel Äppel Doft 500ml",
+    "articleNumber": "889310",
+    "ean": 5319990918215
   },
   {
     "_id": "b0a5fa9a-51d9-4aa3-a3f5-ec973c20749a",
-    "name": "Sköljmedel BAHCESI 1440ml"
+    "name": "Sköljmedel BAHCESI 1440ml",
+    "articleNumber": "23802",
+    "ean": 8690536901722
   },
   {
     "_id": "b0f3358a-8605-4af8-aaa8-04fbb6a90acc",
-    "name": "Napolitanke M Mjölk Fyllning 800g"
+    "name": "Napolitanke M Mjölk Fyllning 800g",
+    "articleNumber": "700220",
+    "ean": 8606017633716
   },
   {
     "_id": "b12124b8-a478-4c49-9fa8-529b2e8fa66e",
-    "name": "BINGO SOFT SJÖLMEDEL BAHAR 1440ML"
+    "name": "BINGO SOFT SJÖLMEDEL BAHAR 1440ML",
+    "articleNumber": "21501",
+    "ean": 8690536901654
   },
   {
     "_id": "b28959c4-f3db-4e71-bf39-96a78d70ff8b",
-    "name": "BONA FOOD VIT VINÄGER 5L"
+    "name": "BONA FOOD VIT VINÄGER 5L",
+    "articleNumber": "219593",
+    "ean": 5319991751231
   },
   {
     "_id": "b35c22ff-1401-49ea-a068-327da28b141a",
-    "name": "AL-SHAMI KOL DIAMOND 96pack"
+    "name": "AL-SHAMI KOL DIAMOND 96pack",
+    "articleNumber": "1040",
+    "ean": 9171717171732
   },
   {
     "_id": "b3aea69b-91e8-4b26-8be0-fcb4c895309c",
-    "name": "Plvit Burek Med Potatis Paj 560G"
+    "name": "Plvit Burek Med Potatis Paj 560G",
+    "articleNumber": "2282",
+    "ean": 7350039279179
   },
   {
     "_id": "b3f84c61-a430-4c21-b7e8-74d9fa19a56c",
-    "name": "Doux Kyckling Korv 340g"
+    "name": "Doux Kyckling Korv 340g",
+    "articleNumber": "3631",
+    "ean": 3280313830625
   },
   {
     "_id": "b49a52f5-0122-4f5f-9f21-a090e98f70de",
-    "name": "MAJSMJÖL PALENTA 400g"
+    "name": "MAJSMJÖL PALENTA 400g",
+    "articleNumber": "513",
+    "ean": 3902136970639
   },
   {
     "_id": "b4d020d4-8f6d-4208-b683-121e1be29a20",
-    "name": "Lamm Lägg kg"
+    "name": "Lamm Lägg kg",
+    "articleNumber": "52375",
+    "ean": null
   },
   {
     "_id": "b564402f-ba2f-45a5-a159-6910f9014727",
-    "name": "AHMAD TEA KARDEMUMMA I PÅSE 100P"
+    "name": "AHMAD TEA KARDEMUMMA I PÅSE 100P",
+    "articleNumber": "3912",
+    "ean": 54881005920
   },
   {
     "_id": "b59eb62b-40e6-42bc-812f-512f8a0ebf3c",
-    "name": "Oliver Gröna Kokteyl 1250gr"
+    "name": "Oliver Gröna Kokteyl 1250gr",
+    "articleNumber": "10135",
+    "ean": 8698566689191
   },
   {
     "_id": "b5a81c51-500d-4610-a1e7-532e9ec40095",
-    "name": "Vivien Hand Sopa Fantasy Lilic 500ml"
+    "name": "Vivien Hand Sopa Fantasy Lilic 500ml",
+    "articleNumber": "210325",
+    "ean": 5319990918543
   },
   {
     "_id": "b5c5fe09-c30f-4eb3-9688-1e7930e34c01",
-    "name": "KROSSAD PAPRIKA STARK 400g"
+    "name": "KROSSAD PAPRIKA STARK 400g",
+    "articleNumber": "533",
+    "ean": 3902136970547
   },
   {
     "_id": "b770a545-ae62-409e-a72c-2a0dfe0e1ab9",
-    "name": "MB Iskender Kebab Skav 1kg"
+    "name": "MB Iskender Kebab Skav 1kg",
+    "articleNumber": "1969",
+    "ean": 5710557161110
   },
   {
     "_id": "b78c5858-0aa7-4f12-b9b4-e28362674ce7",
-    "name": "ALLKRYDDA I PÅSE 1KG"
+    "name": "ALLKRYDDA I PÅSE 1KG",
+    "articleNumber": "537",
+    "ean": 3902136970301
   },
   {
     "_id": "b7f7916b-ced9-414d-8c70-cf7832a07693",
-    "name": "EARL GREY TEA I PÅSE - 100 påsar"
+    "name": "EARL GREY TEA I PÅSE - 100 påsar",
+    "articleNumber": "E10354",
+    "ean": 4796015721929
   },
   {
     "_id": "b898af62-88b1-4dcd-8985-0d24777572f0",
-    "name": "Körsbärs Paprika Gul Med Ostfyllning Brians "
+    "name": "Körsbärs Paprika Gul Med Ostfyllning Brians ",
+    "articleNumber": "2469",
+    "ean": 890089002282
   },
   {
     "_id": "b9ccfd6b-d08e-44e9-ac6f-f1ec8756ee11",
-    "name": "Basmati Ris Sella 1121 - 5kg"
+    "name": "Basmati Ris Sella 1121 - 5kg",
+    "articleNumber": "4685S",
+    "ean": 7340000300223
   },
   {
     "_id": "ba118198-ca94-4446-9f43-4c63f2fe3baa",
-    "name": "Napolitanke Med Choklad fyllning 800g"
+    "name": "Napolitanke Med Choklad fyllning 800g",
+    "articleNumber": "700222",
+    "ean": 62240007341946
   },
   {
     "_id": "ba3ce0b5-d103-4067-8ea1-c3b1fa0f8a7b",
-    "name": "VICTORS KYCKLING BURGARE"
+    "name": "VICTORS KYCKLING BURGARE",
+    "articleNumber": "25479",
+    "ean": 5706911000546
   },
   {
     "_id": "ba3d03f5-6b42-41a8-bf8e-8bdcf7119d5d",
-    "name": "Tomat Pure 800g"
+    "name": "Tomat Pure 800g",
+    "articleNumber": "10185",
+    "ean": 7350146700092
   },
   {
     "_id": "baa9f282-7372-4d49-8c6d-a5e1d19b1c1c",
-    "name": "QIBBLA KYCKLING KLUBBA 2,5KG"
+    "name": "QIBBLA KYCKLING KLUBBA 2,5KG",
+    "articleNumber": "415",
+    "ean": null
   },
   {
     "_id": "baaed6b4-9c3d-4ce2-9a0a-1ccca9fd338d",
-    "name": "DO GHAZAL SVART TEA M KARDEMUMMA 100PACK GUL"
+    "name": "DO GHAZAL SVART TEA M KARDEMUMMA 100PACK GUL",
+    "articleNumber": "405GBG",
+    "ean": 5014176000097
   },
   {
     "_id": "bb341e7a-dd61-46a1-99ba-7d7111d35ba2",
-    "name": "BIKARBONAT 1kg"
+    "name": "BIKARBONAT 1kg",
+    "articleNumber": "510",
+    "ean": 3902136970684
   },
   {
     "_id": "bb5a5efc-dc6a-49a7-9a39-22f38b4da0ef",
-    "name": "Vitkåls Kärna (Hjärta) 1,7kg"
+    "name": "Vitkåls Kärna (Hjärta) 1,7kg",
+    "articleNumber": "2455",
+    "ean": 858567002100
   },
   {
     "_id": "be51889f-284a-4981-a59b-701a95267c94",
-    "name": "Capri sun Dryck Apelsin Smak 10pack"
+    "name": "Capri sun Dryck Apelsin Smak 10pack",
+    "articleNumber": "40079",
+    "ean": 4000177158227
   },
   {
     "_id": "be8b9f8a-9220-465c-8058-e15bc7fc60df",
-    "name": "Hel Kummel Fisk Utan Huvud 800g"
+    "name": "Hel Kummel Fisk Utan Huvud 800g",
+    "articleNumber": "14866",
+    "ean": 3850116890104
   },
   {
     "_id": "beefd3ae-046b-46d3-bea9-475a43cfde77",
-    "name": "Tvättmedel Planinska Svezina 3kg"
+    "name": "Tvättmedel Planinska Svezina 3kg",
+    "articleNumber": "9452",
+    "ean": 8606013177504
   },
   {
     "_id": "bf7aec17-c650-4009-b3c6-16bb8149419c",
-    "name": "DANAH KEBBAB 280G"
+    "name": "DANAH KEBBAB 280G",
+    "articleNumber": "3920",
+    "ean": 5701222258778
   },
   {
     "_id": "bf9e6a83-3b7f-499c-addd-6f403ec13d50",
-    "name": "JORDNÖTTER ROSTADE SALTADE 700g"
+    "name": "JORDNÖTTER ROSTADE SALTADE 700g",
+    "articleNumber": "531",
+    "ean": 3902136970578
   },
   {
     "_id": "bfce7709-bf16-495d-a91e-092521c8ca0e",
-    "name": "Vit Vinäger 9% 1L"
+    "name": "Vit Vinäger 9% 1L",
+    "articleNumber": "889322",
+    "ean": 5319990918017
   },
   {
     "_id": "c00b52c6-b986-4c6f-b51d-bf2788d134ca",
-    "name": "Paprika Somborka PVC "
+    "name": "Paprika Somborka PVC ",
+    "articleNumber": "9313",
+    "ean": 3901826090039
   },
   {
     "_id": "c0ef5c4e-480c-4fa5-91c6-33963d0773cd",
-    "name": "Tomat Pure Öncu 830g"
+    "name": "Tomat Pure Öncu 830g",
+    "articleNumber": "5894",
+    "ean": 8693891195843
   },
   {
     "_id": "c18b066b-49a7-4f85-95e7-bf2476b392e1",
-    "name": "DURRA TOMAT PURE 400G"
+    "name": "DURRA TOMAT PURE 400G",
+    "articleNumber": "4294",
+    "ean": 6210241014184
   },
   {
     "_id": "c26360b8-867f-4c6f-a228-be7aa71c86d9",
-    "name": "FARAGELLO GUAVA JUICE  1L"
+    "name": "FARAGELLO GUAVA JUICE  1L",
+    "articleNumber": "1558",
+    "ean": 62240007341856
   },
   {
     "_id": "c26ffbde-4dc3-4281-b756-691d7f239641",
-    "name": "Gröt Ris Gulcan 5kg"
+    "name": "Gröt Ris Gulcan 5kg",
+    "articleNumber": "23113G",
+    "ean": 8410769002856
   },
   {
     "_id": "c2b649ca-3521-433e-a4f7-a8045af559d8",
-    "name": "Kaffe Mix 2in1 Instant 24pack"
+    "name": "Kaffe Mix 2in1 Instant 24pack",
+    "articleNumber": "400102",
+    "ean": 8606011528940
   },
   {
     "_id": "c2e963e7-12c7-4ae1-9d50-a8cd57063559",
-    "name": "LANE PLAZMA MALEN FÖR ATT BAKA POSNA 300G"
+    "name": "LANE PLAZMA MALEN FÖR ATT BAKA POSNA 300G",
+    "articleNumber": "2201",
+    "ean": 8600043003321
   },
   {
     "_id": "c3abe1e9-9197-4a1e-aa0f-4d1d49a3479d",
-    "name": "ARGETA TONFISK PASTEJ 95G"
+    "name": "ARGETA TONFISK PASTEJ 95G",
+    "articleNumber": "53601",
+    "ean": 3838975566668
   },
   {
     "_id": "c3e92148-d685-4db2-a44e-9bc29788e2f3",
-    "name": "Köy Sefasi Svarta Gold Oliver 800g"
+    "name": "Köy Sefasi Svarta Gold Oliver 800g",
+    "articleNumber": "4006",
+    "ean": 8696591063269
   },
   {
     "_id": "c407e72a-49ed-4385-8088-d963723dcaa7",
-    "name": "Banan Paprika 1,7kg"
+    "name": "Banan Paprika 1,7kg",
+    "articleNumber": "2441",
+    "ean": 890089002244
   },
   {
     "_id": "c47b0b6d-5496-4f7b-8dd9-36a11a06bd4b",
-    "name": "Hemgjord Ajvar Mild 300g"
+    "name": "Hemgjord Ajvar Mild 300g",
+    "articleNumber": "9320",
+    "ean": 3904837850036
   },
   {
     "_id": "c48752fc-f141-40e3-8c2b-d16be86a0df3",
-    "name": "Soppa M Svamp Krämig 53g"
+    "name": "Soppa M Svamp Krämig 53g",
+    "articleNumber": "120558",
+    "ean": 8606011528179
   },
   {
     "_id": "c4d2607b-e834-4be3-8a65-68cb98aa073c",
-    "name": "Basmati Ris Super 5kg"
+    "name": "Basmati Ris Super 5kg",
+    "articleNumber": null,
+    "ean": 8904049650580
   },
   {
     "_id": "c4deef2f-22b2-41f7-a3d7-02d7dcb95da7",
-    "name": "Tea Smak av Ceylon 500g"
+    "name": "Tea Smak av Ceylon 500g",
+    "articleNumber": "1093",
+    "ean": 54881009737
   },
   {
     "_id": "c4e2f839-0615-4c10-94d5-9eba8ab25faf",
-    "name": "DAMAS MIX INLAGDA GRÖNSAKER 2800G"
+    "name": "DAMAS MIX INLAGDA GRÖNSAKER 2800G",
+    "articleNumber": "3715",
+    "ean": 40835876975
   },
   {
     "_id": "c5fb5789-3061-471d-80cd-c79172b4af6d",
-    "name": "Falafel Orginal 600g"
+    "name": "Falafel Orginal 600g",
+    "articleNumber": "18204",
+    "ean": 7350034470021
   },
   {
     "_id": "c7ddba15-a13e-4c48-9a27-a0b0b7617089",
-    "name": "Kyckling Innrefile 2kg"
+    "name": "Kyckling Innrefile 2kg",
+    "articleNumber": "3696",
+    "ean": 3838977036961
   },
   {
     "_id": "c84cc8d0-8016-42e8-8f4b-d311f7bd0df5",
-    "name": "Kyckling Mage 500g"
+    "name": "Kyckling Mage 500g",
+    "articleNumber": "14858",
+    "ean": 5789000062366
   },
   {
     "_id": "c8abfa14-23ee-4be7-b4f5-11f7bbdbabea",
-    "name": "ZWAN BIFF LUNCHKORV 850G"
+    "name": "ZWAN BIFF LUNCHKORV 850G",
+    "articleNumber": "231013",
+    "ean": 8714555190872
   },
   {
     "_id": "c8fbc285-a11b-4bdf-94bb-0853bfd13297",
-    "name": "Molokhia Blad 400g"
+    "name": "Molokhia Blad 400g",
+    "articleNumber": "149410",
+    "ean": 6224000485504
   },
   {
     "_id": "c98feefb-201b-4837-ae33-736a30f4c566",
-    "name": "EMONA CEYLON TE 400G"
+    "name": "EMONA CEYLON TE 400G",
+    "articleNumber": "3401",
+    "ean": 3903515250816
   },
   {
     "_id": "cb25f983-9f9d-4dec-acaf-23ebb72f37a0",
-    "name": "100% Färsk Pressad Päron Dryck 1L"
+    "name": "100% Färsk Pressad Päron Dryck 1L",
+    "articleNumber": "400852",
+    "ean": 3904837860790
   },
   {
     "_id": "cb7dcb24-94c6-475b-add0-0c61a7dc03d7",
-    "name": "YESIM GRÖNA OLIVER KOKTEYL 900g"
+    "name": "YESIM GRÖNA OLIVER KOKTEYL 900g",
+    "articleNumber": "23745",
+    "ean": 8698566681102
   },
   {
     "_id": "cbc1f0a5-4f8a-459e-a708-4a71df4d0edd",
-    "name": "100% Färsk Pressad Ingefära& Citron Dryck 1L"
+    "name": "100% Färsk Pressad Ingefära& Citron Dryck 1L",
+    "articleNumber": "478",
+    "ean": 3904837860295
   },
   {
     "_id": "cbf90abe-9d99-4ca6-a6d3-7d8eca3b22d9",
-    "name": "100% Färsk Pressad Persika Dryck 1L"
+    "name": "100% Färsk Pressad Persika Dryck 1L",
+    "articleNumber": "400872",
+    "ean": 3904837860974
   },
   {
     "_id": "cc76a100-8c8d-408e-9e8b-16e98a6fb349",
-    "name": "KYCKLING LUNCHEON STARK 850g"
+    "name": "KYCKLING LUNCHEON STARK 850g",
+    "articleNumber": "6062",
+    "ean": 4260495870144
   },
   {
     "_id": "cca2f7ca-1d3a-45d8-9112-d901cd945077",
-    "name": "ALLKRYDDA I BURK 900g"
+    "name": "ALLKRYDDA I BURK 900g",
+    "articleNumber": "535",
+    "ean": 3902136970899
   },
   {
     "_id": "cd311f85-d268-45d0-a0e7-38b90d9da696",
-    "name": "LAZZAT TORKADE KIKÄRTER 12MM 5KG"
+    "name": "LAZZAT TORKADE KIKÄRTER 12MM 5KG",
+    "articleNumber": "30042O6",
+    "ean": 7340000301350
   },
   {
     "_id": "cd829352-832f-414d-8bff-631ea390767c",
-    "name": "INDOMIE NUDLAR MED Biff 5PACK 350G"
+    "name": "INDOMIE NUDLAR MED Biff 5PACK 350G",
+    "articleNumber": "2392",
+    "ean": 89686170115
   },
   {
     "_id": "cdbc607d-e3cc-400c-80a1-9276f7dac1c2",
-    "name": "Mjukost Tärnad 6pack"
+    "name": "Mjukost Tärnad 6pack",
+    "articleNumber": "14820",
+    "ean": 3073786863111
   },
   {
     "_id": "cde0b9e8-029b-4837-93cc-0f49fe67dc48",
-    "name": "Feferoni Stark 720g"
+    "name": "Feferoni Stark 720g",
+    "articleNumber": "9315",
+    "ean": 3904837850395
   },
   {
     "_id": "cde65f11-669c-48f7-91ce-b06aa88599b9",
-    "name": "Area Glas Rengöring Spray Rifil 500ml"
+    "name": "Area Glas Rengöring Spray Rifil 500ml",
+    "articleNumber": "210302",
+    "ean": 5319991751033
   },
   {
     "_id": "ce30442f-0884-4e23-991d-31aa578452b9",
-    "name": "Capri sun Dryck Multivitamin Smak 10pack"
+    "name": "Capri sun Dryck Multivitamin Smak 10pack",
+    "articleNumber": "40077",
+    "ean": 4000177158326
   },
   {
     "_id": "ce5deef7-d486-4ce7-b3e3-5be6ffcbfcf6",
-    "name": "Luxes Sele Svarta Oliver 700gr"
+    "name": "Luxes Sele Svarta Oliver 700gr",
+    "articleNumber": "4002",
+    "ean": 8696591064554
   },
   {
     "_id": "ce5e4896-e320-44f5-a02e-5d18762ef582",
-    "name": "KEREM DAKOTA SOLROSFRÖN ROSTADE&SALTADE 150G"
+    "name": "KEREM DAKOTA SOLROSFRÖN ROSTADE&SALTADE 150G",
+    "articleNumber": "3127",
+    "ean": 4251032608191
   },
   {
     "_id": "cea94b53-8b78-4109-828c-524dcf9fca71",
-    "name": "Aprikos Mos (Pekmez) 700g"
+    "name": "Aprikos Mos (Pekmez) 700g",
+    "articleNumber": "2423",
+    "ean": 3904837850623
   },
   {
     "_id": "cf5a51c6-cbe3-41a9-bf43-0be7c9b91c47",
-    "name": "Propplösare 750ml "
+    "name": "Propplösare 750ml ",
+    "articleNumber": "889301",
+    "ean": 5319990918512
   },
   {
     "_id": "cfd8ce14-61c8-4f69-ab62-0d2c1426d13c",
-    "name": "Mimis Ajvar (Bara Med Paprika) Mild 550g "
+    "name": "Mimis Ajvar (Bara Med Paprika) Mild 550g ",
+    "articleNumber": "2458",
+    "ean": 858567002407
   },
   {
     "_id": "d08b2134-7b99-4ee2-9703-b6840c22e16f",
-    "name": "BABYTLON GARDEN SEED DRINK APELSIN 290ML"
+    "name": "BABYTLON GARDEN SEED DRINK APELSIN 290ML",
+    "articleNumber": "362601",
+    "ean": 7350106064523
   },
   {
     "_id": "d0ab476b-f3cf-4492-9936-b5e730eb67aa",
-    "name": "AHMAD TEA GREEN TEA LÖSVIKT 500G"
+    "name": "AHMAD TEA GREEN TEA LÖSVIKT 500G",
+    "articleNumber": "3448",
+    "ean": 54881008570
   },
   {
     "_id": "d10e92f3-2b9b-450d-9be2-9438082b12aa",
-    "name": "DAMAS LUPIN BÖNOR I GLAS 1000G"
+    "name": "DAMAS LUPIN BÖNOR I GLAS 1000G",
+    "articleNumber": "3636DAMAS",
+    "ean": 40835876715
   },
   {
     "_id": "d1ac8b6e-fccf-485f-a511-48d33de9ac8c",
-    "name": "OMO TVÄTTMEDEL XXXL PACK  7KG WHITE"
+    "name": "OMO TVÄTTMEDEL XXXL PACK  7KG WHITE",
+    "articleNumber": "20812",
+    "ean": 8710908264146
   },
   {
     "_id": "d22725b9-6bfa-4730-965e-8dd48c82f318",
-    "name": "Höna Hel 1,3kg"
+    "name": "Höna Hel 1,3kg",
+    "articleNumber": "16098",
+    "ean": 50002184
   },
   {
     "_id": "d29306e8-e3d7-4f73-a42d-081f71f18884",
-    "name": "Diskmedel Citron Doft 1L"
+    "name": "Diskmedel Citron Doft 1L",
+    "articleNumber": "889312",
+    "ean": 5319990918284
   },
   {
     "_id": "d2fa3706-b648-4481-a625-29cdb42eaa88",
-    "name": "Tvättmedel Aquamarin 6kg"
+    "name": "Tvättmedel Aquamarin 6kg",
+    "articleNumber": "7023",
+    "ean": 3850105121240
   },
   {
     "_id": "d35ba0fb-5185-49c7-acfd-221022c45f7f",
-    "name": "LACIATE  MJÖLK 3,2% 1L"
+    "name": "LACIATE  MJÖLK 3,2% 1L",
+    "articleNumber": "2853",
+    "ean": 5900820000009
   },
   {
     "_id": "d36ac05d-5775-47c6-9b54-478e3bcb9d64",
-    "name": "YESIM GRÖNA OLIVER MED PAPRIKA 900GR"
+    "name": "YESIM GRÖNA OLIVER MED PAPRIKA 900GR",
+    "articleNumber": "22012",
+    "ean": 8698566681153
   },
   {
     "_id": "d3740565-e3b7-4902-8852-a89310cb280c",
-    "name": "Kyckling File Panerad Strimlad 600g"
+    "name": "Kyckling File Panerad Strimlad 600g",
+    "articleNumber": "1215",
+    "ean": 3850159141478
   },
   {
     "_id": "d37597fb-478b-4af6-9ef1-08537643a30f",
-    "name": "SL EUROVAFEL KEX MED HASSELNÖTS SMAK 180G"
+    "name": "SL EUROVAFEL KEX MED HASSELNÖTS SMAK 180G",
+    "articleNumber": "79151PLIVIT",
+    "ean": 3875002210354
   },
   {
     "_id": "d381918e-6103-4e6d-8eef-f82be6f804e6",
-    "name": "Basmati Ris Sella 1121 - 2kg"
+    "name": "Basmati Ris Sella 1121 - 2kg",
+    "articleNumber": "7672",
+    "ean": 7300009029129
   },
   {
     "_id": "d3ff3323-616d-4bef-882a-708c524e0170",
-    "name": "Napolitanke M Choklad Fyllning 400g"
+    "name": "Napolitanke M Choklad Fyllning 400g",
+    "articleNumber": "700156",
+    "ean": 8606017633310
   },
   {
     "_id": "d44a4981-b109-41e3-8844-ac6f1f13ecca",
-    "name": "GRÖN TEA LÖS TE 500g"
+    "name": "GRÖN TEA LÖS TE 500g",
+    "articleNumber": "10360",
+    "ean": 4796002511878
   },
   {
     "_id": "d4535bac-7eed-4f02-aa4b-d5362e03467e",
-    "name": "Paprika Rostad Med Vitlök & Persilja 1,7kg"
+    "name": "Paprika Rostad Med Vitlök & Persilja 1,7kg",
+    "articleNumber": "2431",
+    "ean": 890089002145
   },
   {
     "_id": "d4c6677a-a608-45da-91ad-66c0cc9e9746",
-    "name": "100% Färsk Pressad Sura Körsbär Dryck 1L"
+    "name": "100% Färsk Pressad Sura Körsbär Dryck 1L",
+    "articleNumber": "473",
+    "ean": 3904837860899
   },
   {
     "_id": "d4f1b4c7-a53f-492d-b521-1946fe574f4e",
-    "name": "Sköljmedel Soft Lotus 2,45L"
+    "name": "Sköljmedel Soft Lotus 2,45L",
+    "articleNumber": "9447",
+    "ean": 8606015846903
   },
   {
     "_id": "d525197d-df6e-4db0-a49c-0ac68b0035cc",
-    "name": "Lamm Mage kg/pris"
+    "name": "Lamm Mage kg/pris",
+    "articleNumber": "51676",
+    "ean": 7300000105600
   },
   {
     "_id": "d5895daa-d412-4fd4-be60-7f7a5090770f",
-    "name": "Vit Vinäger 12% 5L"
+    "name": "Vit Vinäger 12% 5L",
+    "articleNumber": "9305",
+    "ean": 5319991751422
   },
   {
     "_id": "d5ff2519-c788-4c90-b44d-7512600b7d1e",
-    "name": "BINGO SOFT SKÖLJMEDEL 1440ML ASKLA GÜL"
+    "name": "BINGO SOFT SKÖLJMEDEL 1440ML ASKLA GÜL",
+    "articleNumber": "21512",
+    "ean": 8690536905553
   },
   {
     "_id": "d61b4c79-44e3-45fa-a99c-81d4df277447",
-    "name": "KYCKLING LUNCHEON MILD 850g"
+    "name": "KYCKLING LUNCHEON MILD 850g",
+    "articleNumber": "1240",
+    "ean": 5705250042802
   },
   {
     "_id": "d773ef3d-ca61-4e44-8055-2c052ce5805a",
-    "name": "Tea Smak av Kademumma Smak 100 påsar"
+    "name": "Tea Smak av Kademumma Smak 100 påsar",
+    "articleNumber": "8199",
+    "ean": 54881017527
   },
   {
     "_id": "d86359d3-5dbb-4216-9661-e62ec22e8ee7",
-    "name": "Paprika Somborka Fyllda Med Vitkål 2,35kg"
+    "name": "Paprika Somborka Fyllda Med Vitkål 2,35kg",
+    "articleNumber": "2435",
+    "ean": 890089002534
   },
   {
     "_id": "d88dd2e2-fa9e-453d-b236-c92fcdb0c4fc",
-    "name": "Pinar Dakota Saltade Solrosfrön 150g"
+    "name": "Pinar Dakota Saltade Solrosfrön 150g",
+    "articleNumber": "4012",
+    "ean": null
   },
   {
     "_id": "d9640510-d6e9-4b58-9e35-88a56afad9a2",
-    "name": "ZWAN KYCKLING LUNCHEON HOT&SPICY 340G"
+    "name": "ZWAN KYCKLING LUNCHEON HOT&SPICY 340G",
+    "articleNumber": "231010",
+    "ean": 8714555000867
   },
   {
     "_id": "d9700a2e-b626-4930-bc15-a16d798b5e46",
-    "name": "LAMIS KHNUM GUAVA JUICE 24X250ML"
+    "name": "LAMIS KHNUM GUAVA JUICE 24X250ML",
+    "articleNumber": "21211",
+    "ean": 7350146700443
   },
   {
     "_id": "db31605b-269e-42fe-9901-a3ce3fd1aebb",
-    "name": "TORKAD ORIGANO 50g"
+    "name": "TORKAD ORIGANO 50g",
+    "articleNumber": "516",
+    "ean": 3902136970615
   },
   {
     "_id": "db875d51-55c5-4113-86fc-5b2df9174118",
-    "name": "Mjukost Tärnad 140g"
+    "name": "Mjukost Tärnad 140g",
+    "articleNumber": "14865",
+    "ean": 3073780774130
   },
   {
     "_id": "dbdbd9dc-5113-4a0c-b575-c2b174ec0a44",
-    "name": "Pudding Jordgubb - 45g"
+    "name": "Pudding Jordgubb - 45g",
+    "articleNumber": "523",
+    "ean": 3902136970035
   },
   {
     "_id": "dc026db1-ac4b-4ffb-941d-ae639e64897f",
-    "name": "SURKÅLSHUVUD VAKUMERAD "
+    "name": "SURKÅLSHUVUD VAKUMERAD ",
+    "articleNumber": "89010",
+    "ean": 2086071000000
   },
   {
     "_id": "dc75f6d6-6dc8-4f14-8fbf-e27cdfd61efc",
-    "name": "NESTLE NIDO MJÖLK PULVER 900G"
+    "name": "NESTLE NIDO MJÖLK PULVER 900G",
+    "articleNumber": "4202",
+    "ean": 8715000998647
   },
   {
     "_id": "dd2dfbf9-8dd0-4864-9b4c-403bf57b64da",
-    "name": "ARABIA GOLD SNABBKAFFE 200G"
+    "name": "ARABIA GOLD SNABBKAFFE 200G",
+    "articleNumber": "6562",
+    "ean": 5901583403088
   },
   {
     "_id": "dddc5ae9-480b-496d-81bf-3fde0bec8072",
-    "name": "NAJJAR KAFFE BLÅ 450G"
+    "name": "NAJJAR KAFFE BLÅ 450G",
+    "articleNumber": "1116",
+    "ean": 22644006378
   },
   {
     "_id": "de2e43e5-15c8-4a38-a1db-88c8c531eeec",
-    "name": "Får Färs Block Qibbla"
+    "name": "Får Färs Block Qibbla",
+    "articleNumber": "148789",
+    "ean": 7330989002522
   },
   {
     "_id": "dea22baa-66f1-4bda-a248-9ef13416b950",
-    "name": "Tea Smak English Breakfast "
+    "name": "Tea Smak English Breakfast ",
+    "articleNumber": "500009",
+    "ean": 54881006002
   },
   {
     "_id": "df4dfbb6-3529-4feb-992d-cc278e7ab234",
-    "name": "Paprika Somborka Fyllda Med Vitkål 1,5kg"
+    "name": "Paprika Somborka Fyllda Med Vitkål 1,5kg",
+    "articleNumber": "2471",
+    "ean": 858567002940
   },
   {
     "_id": "dfdb2736-68fc-46ad-b3a9-9b9344d39593",
-    "name": "Tomat Pure Burcu 830g"
+    "name": "Tomat Pure Burcu 830g",
+    "articleNumber": "9010856",
+    "ean": 8691573001277
+  },
+  {
+    "_id": "drafts.006d94fb-ed2f-42b5-8f2b-82c8057734ff",
+    "name": "Kolonya Med Citron Doft 380ml",
+    "articleNumber": "110204",
+    "ean": 5319991751309
   },
   {
     "_id": "drafts.14df83a8-39fa-46c7-bf69-b0c46a5b7070",
-    "name": "PASTA PENNE 500G"
+    "name": "PASTA PENNE 500G",
+    "articleNumber": "8978",
+    "ean": 8690946190006
   },
   {
     "_id": "drafts.2f933ee1-7d4d-4aaf-9afa-481d461cc290",
-    "name": "Vivien Diskmedel Citron Doft 920ml"
+    "name": "Vivien Diskmedel Citron Doft 920ml",
+    "articleNumber": "210326",
+    "ean": 5319991751101
   },
   {
     "_id": "drafts.32f40235-66f0-43ea-9311-0df70ac81b61",
-    "name": "DASTY FETTLÖSARE 1L SPRAY"
+    "name": "DASTY FETTLÖSARE 1L SPRAY",
+    "articleNumber": "23813",
+    "ean": 8051566120949
   },
   {
     "_id": "drafts.3692434f-f1a2-435d-a777-c7a71e44538d",
-    "name": "Area Hand Sopa Kokos Doft 1L"
+    "name": "Area Hand Sopa Kokos Doft 1L",
+    "articleNumber": "210307",
+    "ean": 5319990918550
   },
   {
     "_id": "drafts.3921c5ff-6019-4580-a21c-41c7dde6e89f",
-    "name": "AYDOGMUS SVARTA OLIVER SELE 900G"
+    "name": "AYDOGMUS SVARTA OLIVER SELE 900G",
+    "articleNumber": "29953",
+    "ean": 8698566681638
   },
   {
     "_id": "drafts.5a894463-189b-41b5-9b7e-92391703b84a",
-    "name": "Hemgjord Lutenica 300g"
+    "name": "Hemgjord Lutenica 300g",
+    "articleNumber": "9321",
+    "ean": 3901826090015
   },
   {
     "_id": "drafts.6244bf86-6159-4ba5-865b-c6172da53250",
-    "name": "Lutenica Extra Pikant (Stark) 550g"
+    "name": "Lutenica Extra Pikant (Stark) 550g",
+    "articleNumber": "2461",
+    "ean": 890089002046
   },
   {
     "_id": "drafts.629311a4-c6ed-4356-b536-33151588d221",
-    "name": "YESIM GRÖNA OLIVER 900G KIRMA"
+    "name": "YESIM GRÖNA OLIVER 900G KIRMA",
+    "articleNumber": "23748",
+    "ean": 8698566680945
   },
   {
     "_id": "drafts.657b28c4-400f-4d23-b274-a27bd032b3a4",
-    "name": "Vivien Hand Sopa Sensitiv White 500ml"
+    "name": "Vivien Hand Sopa Sensitiv White 500ml",
+    "articleNumber": "210323",
+    "ean": 5319990918383
   },
   {
     "_id": "drafts.65ed78f1-8d5e-40f8-9967-ce647358eca7",
-    "name": "Ajvar Pastöriserad Mild 690g"
+    "name": "Ajvar Pastöriserad Mild 690g",
+    "articleNumber": "1072",
+    "ean": 3850104051012
   },
   {
     "_id": "drafts.68189b10-9225-4139-b469-c8e3eaf45748",
-    "name": "Petit Beurre Smörkex 750g"
+    "name": "Petit Beurre Smörkex 750g",
+    "articleNumber": "160020",
+    "ean": 8606017638698
   },
   {
     "_id": "drafts.712c01e0-ece4-4943-8d02-f2978c2b9ec0",
-    "name": "Tvättmedel 10kg"
+    "name": "Tvättmedel 10kg",
+    "articleNumber": null,
+    "ean": null
   },
   {
     "_id": "drafts.74dee523-9168-482a-8c1e-24220932ea71",
-    "name": "Kalv Fötter Sågade kg/pris"
+    "name": "Kalv Fötter Sågade kg/pris",
+    "articleNumber": "52280",
+    "ean": 2000205100000
   },
   {
     "_id": "drafts.7c3ec884-d9ff-42fa-b676-b109626f308f",
-    "name": "Höna Hel 1,5kg"
+    "name": "Höna Hel 1,5kg",
+    "articleNumber": "16092",
+    "ean": 3280310114223
   },
   {
     "_id": "drafts.8b1a50d9-0a43-468c-9aab-1d380e285f49",
-    "name": "Mhk Panerade Kyckling Ben 2Kg Mild"
+    "name": "Mhk Panerade Kyckling Ben 2Kg Mild",
+    "articleNumber": "40784",
+    "ean": 5900757063967
   },
   {
     "_id": "drafts.9582575e-61d6-4968-8c01-0372e7919f6a",
-    "name": "Kyckling Hel 1,2kg"
+    "name": "Kyckling Hel 1,2kg",
+    "articleNumber": "14860",
+    "ean": 5902811402491
   },
   {
     "_id": "drafts.a02e4f8b-41a8-4c31-ab56-4a5f8170d2f1",
-    "name": "Aprikos Mos (Pekmez) 375g"
+    "name": "Aprikos Mos (Pekmez) 375g",
+    "articleNumber": "2414",
+    "ean": 3904837850630
   },
   {
     "_id": "drafts.a0be1d1d-202c-4d84-8d67-c2564f0d5440",
-    "name": "Molokhia Hackad 400g"
+    "name": "Molokhia Hackad 400g",
+    "articleNumber": "148444",
+    "ean": 8594181580809
   },
   {
     "_id": "drafts.aad1f715-1957-4e20-a596-da96b01bcde7",
-    "name": "Capri sun Dryck Tropical Smak 10pack"
+    "name": "Capri sun Dryck Tropical Smak 10pack",
+    "articleNumber": "40080",
+    "ean": 4000177211328
   },
   {
     "_id": "drafts.af832e15-e033-447a-82f1-115bd61db3af",
-    "name": "STOBI FLIPS JORDNÖTSBÅGAR 150G"
+    "name": "STOBI FLIPS JORDNÖTSBÅGAR 150G",
+    "articleNumber": "11677",
+    "ean": 5310005010191
   },
   {
     "_id": "drafts.b564402f-ba2f-45a5-a159-6910f9014727",
-    "name": "AHMAD TEA KARDEMUMMA I PÅSE 100P"
+    "name": "AHMAD TEA KARDEMUMMA I PÅSE 100P",
+    "articleNumber": "3912",
+    "ean": 54881005920
   },
   {
     "_id": "drafts.c26360b8-867f-4c6f-a228-be7aa71c86d9",
-    "name": "FARAGELLO GUAVA JUICE  1L"
+    "name": "FARAGELLO GUAVA JUICE  1L",
+    "articleNumber": "1558",
+    "ean": 62240007341856
   },
   {
     "_id": "drafts.c48752fc-f141-40e3-8c2b-d16be86a0df3",
-    "name": "Soppa M Svamp Krämig 53g"
+    "name": "Soppa M Svamp Krämig 53g",
+    "articleNumber": "120558",
+    "ean": 8606011528179
   },
   {
     "_id": "drafts.c7ddba15-a13e-4c48-9a27-a0b0b7617089",
-    "name": "Perutnina Ptuj Kyckling Innefile "
+    "name": "Perutnina Ptuj Kyckling Innefile ",
+    "articleNumber": "3696",
+    "ean": 3838977036961
   },
   {
     "_id": "drafts.cb7dcb24-94c6-475b-add0-0c61a7dc03d7",
-    "name": "YESIM GRÖNA OLIVER KOKTEYL 900g"
+    "name": "YESIM GRÖNA OLIVER KOKTEYL 900g",
+    "articleNumber": "23745",
+    "ean": 8698566681102
   },
   {
     "_id": "drafts.cbc1f0a5-4f8a-459e-a708-4a71df4d0edd",
-    "name": "100% Färsk Pressad Ingefära& Citron Dryck 1L"
+    "name": "100% Färsk Pressad Ingefära& Citron Dryck 1L",
+    "articleNumber": "478",
+    "ean": 3904837860295
   },
   {
     "_id": "drafts.d10e92f3-2b9b-450d-9be2-9438082b12aa",
-    "name": "DAMAS LUPIN BÖNOR I GLAS 1000G"
+    "name": "DAMAS LUPIN BÖNOR I GLAS 1000G",
+    "articleNumber": "3636DAMAS",
+    "ean": 40835876715
   },
   {
     "_id": "drafts.d36ac05d-5775-47c6-9b54-478e3bcb9d64",
-    "name": "YESIM GRÖNA OLIVER MED PAPRIKA 900GR"
+    "name": "YESIM GRÖNA OLIVER MED PAPRIKA 900GR",
+    "articleNumber": "22012",
+    "ean": 8698566681153
   },
   {
     "_id": "drafts.e5d4e6c0-ff8b-4c08-877d-a8d67d5c01a6",
-    "name": "Kyckling Burgare 36pack "
+    "name": "Kyckling Burgare 36pack ",
+    "articleNumber": "14870",
+    "ean": 7300035019002
   },
   {
     "_id": "drafts.f7a000c5-003d-449b-8871-a33b0812f37a",
-    "name": "Sköljmedel SEFKATLE GÜL 1440ml"
+    "name": "Sköljmedel SEFKATLE GÜL 1440ml",
+    "articleNumber": "21511",
+    "ean": 8690536905546
   },
   {
     "_id": "drafts.fb1e5a70-ced4-4575-9168-4d6aa32bb830",
-    "name": "Hemlagad Ajvar Stark Mamas 550g"
+    "name": "Hemlagad Ajvar Stark Mamas 550g",
+    "articleNumber": "1274",
+    "ean": 5310146002628
   },
   {
     "_id": "drafts.ff36ed7e-56b7-4baf-ae7e-22fb3c76ec98",
-    "name": "Tea Smak English Breakfast Nr1 - 100 påsar"
+    "name": "Tea Smak English Breakfast Nr1 - 100 påsar",
+    "articleNumber": "1860",
+    "ean": 54881005982
   },
   {
     "_id": "e0903c0a-a6ac-45d4-a4e9-be67dc217480",
-    "name": "Mhk Falafel Fryst"
+    "name": "Mhk Falafel Fryst",
+    "articleNumber": "501789",
+    "ean": 4260075451114
   },
   {
     "_id": "e0e47d31-5699-44c3-9ba0-d6ddb9356ec3",
-    "name": "Paprika Marinerad Lång Röd 1,5kg"
+    "name": "Paprika Marinerad Lång Röd 1,5kg",
+    "articleNumber": "2428",
+    "ean": 890089002183
   },
   {
     "_id": "e15cf246-3300-450b-89ed-3a866148eedd",
-    "name": "VICTORS KYCKLING SCHNITZEL 1,8KG"
+    "name": "VICTORS KYCKLING SCHNITZEL 1,8KG",
+    "articleNumber": "25481",
+    "ean": 5706911000553
   },
   {
     "_id": "e182d3ed-450d-4c2f-bc80-f8452657a8fc",
-    "name": "Sardiner Med Grönsaker 115g"
+    "name": "Sardiner Med Grönsaker 115g",
+    "articleNumber": "1184",
+    "ean": 3859888140561
   },
   {
     "_id": "e1d0feb2-0352-41a3-8f70-11a78a556d9e",
-    "name": "Tea Smak av Kardemmuma Smak 500g"
+    "name": "Tea Smak av Kardemmuma Smak 500g",
+    "articleNumber": "1092",
+    "ean": 54881009768
   },
   {
     "_id": "e25a80c9-2f6b-4e6d-b158-bbe76c8c009e",
-    "name": "BIOACTIVE TVÄTTMEDEL 9KG"
+    "name": "BIOACTIVE TVÄTTMEDEL 9KG",
+    "articleNumber": "201",
+    "ean": 3850105132819
   },
   {
     "_id": "e2c203ea-634c-4da4-a663-58067e263c41",
-    "name": "KRAS DORINO DOMACICA 300G"
+    "name": "KRAS DORINO DOMACICA 300G",
+    "articleNumber": "2165",
+    "ean": 3850102507351
   },
   {
     "_id": "e2c381d6-6fc6-4894-8a1e-8140be95d2ab",
-    "name": "EL MALEKA PASTA PENNE 500G"
+    "name": "EL MALEKA PASTA PENNE 500G",
+    "articleNumber": "3671",
+    "ean": 6223001510659
   },
   {
     "_id": "e30f71a4-c35e-4d2c-ae54-456b1c64b466",
-    "name": "STRÖBRÖD (PREZLE) 800g"
+    "name": "STRÖBRÖD (PREZLE) 800g",
+    "articleNumber": "514",
+    "ean": 3902136970660
   },
   {
     "_id": "e35f1e0b-6b11-44e7-95a9-e0c85dba6dd1",
-    "name": "Napolitanke M Choklad Fyllning 170g"
+    "name": "Napolitanke M Choklad Fyllning 170g",
+    "articleNumber": "700702",
+    "ean": 8606017637929
   },
   {
     "_id": "e35f28c3-0452-4afc-ba4e-bc3d0e97b150",
-    "name": "QIBBLA KYCKLING BEN 2,5KG"
+    "name": "QIBBLA KYCKLING BEN 2,5KG",
+    "articleNumber": "410",
+    "ean": null
   },
   {
     "_id": "e3bec998-6390-4641-b883-1fcf12f3daf1",
-    "name": "Bondbönor 400g"
+    "name": "Bondbönor 400g",
+    "articleNumber": "10786",
+    "ean": 6224007833612
   },
   {
     "_id": "e422a20e-fc5d-44d3-b17a-157504b292d0",
-    "name": "Strösocker 2kg"
+    "name": "Strösocker 2kg",
+    "articleNumber": "1918",
+    "ean": 5907069008891
   },
   {
     "_id": "e42a9fc5-7c7a-46e2-a3b1-82fa34fffe9d",
-    "name": "Flyttande Tvättmedel Universal 2,45L"
+    "name": "Flyttande Tvättmedel Universal 2,45L",
+    "articleNumber": "9454",
+    "ean": 8606015847108
   },
   {
     "_id": "e48623ef-92a1-4423-a255-c58078ec7f01",
-    "name": "Pudding Choklad 3+1 GRATIS - 180g"
+    "name": "Pudding Choklad 3+1 GRATIS - 180g",
+    "articleNumber": "541",
+    "ean": 3902136970752
   },
   {
     "_id": "e49343b5-f544-4459-a262-db1dd59256cf",
-    "name": "Paprika Tomat Fyllda Med Vitkål 1,7kg"
+    "name": "Paprika Tomat Fyllda Med Vitkål 1,7kg",
+    "articleNumber": "2452",
+    "ean": 890089002112
   },
   {
     "_id": "e4d68cb9-4a10-40fd-bb55-f115881d6bbf",
-    "name": "Giardinera Inlagd Grönsaks Mix 1,7kg"
+    "name": "Giardinera Inlagd Grönsaks Mix 1,7kg",
+    "articleNumber": "2444",
+    "ean": 890089002459
   },
   {
     "_id": "e4fb1fe8-f045-4fe4-8886-3da36f0dc3d8",
-    "name": "Malen Kaffe Rostad Aroma 200g"
+    "name": "Malen Kaffe Rostad Aroma 200g",
+    "articleNumber": "400107",
+    "ean": 8606011522771
   },
   {
     "_id": "e52d89d7-3f69-4ca6-b0dd-9bb2e12cf77f",
-    "name": "100% Färsk Pressad Vild Blåbärs Dryck 200ml"
+    "name": "100% Färsk Pressad Vild Blåbärs Dryck 200ml",
+    "articleNumber": "400879",
+    "ean": 3904837860080
   },
   {
     "_id": "e52fdb97-0830-453b-ab4f-0eab8d08daff",
-    "name": "ZWAN KYCKLING LUNCHEON  850G"
+    "name": "ZWAN KYCKLING LUNCHEON  850G",
+    "articleNumber": "231006",
+    "ean": 8714555000188
   },
   {
     "_id": "e533c06c-e6ae-4b03-80b8-d08fe24c2f54",
-    "name": "Cevapcici Sarajevska"
+    "name": "Cevapcici Sarajevska",
+    "articleNumber": "78101",
+    "ean": 9120018530229
   },
   {
     "_id": "e541adf2-fb4e-41f1-b1ae-e40aec6354da",
-    "name": "100% Färsk Pressad Plommon Dryck 1L"
+    "name": "100% Färsk Pressad Plommon Dryck 1L",
+    "articleNumber": "40087",
+    "ean": 3904837860998
   },
   {
     "_id": "e5be7905-a406-4416-8f46-73df7c7ffc3a",
-    "name": "BINGO SOFT BAHCESI 1440MLSJÖLJMEDEL"
+    "name": "BINGO SOFT BAHCESI 1440MLSJÖLJMEDEL",
+    "articleNumber": "21495",
+    "ean": 8690536903955
   },
   {
     "_id": "e5d4e6c0-ff8b-4c08-877d-a8d67d5c01a6",
-    "name": "Kyckling Burgare 36pack "
+    "name": "Kyckling Burgare 36pack ",
+    "articleNumber": "14870",
+    "ean": 7300035019002
   },
   {
     "_id": "e67a2de9-96d4-495c-8264-21b707079e29",
-    "name": "Hemgjord Ajvar Stark 550g"
+    "name": "Hemgjord Ajvar Stark 550g",
+    "articleNumber": "2460",
+    "ean": 858567002375
   },
   {
     "_id": "e6eeacfe-b349-4bad-91d4-6401714e82cd",
-    "name": "AGRAFROS POMMES FRITES "
+    "name": "AGRAFROS POMMES FRITES ",
+    "articleNumber": "772748",
+    "ean": 4003880005031
   },
   {
     "_id": "e7724854-181d-4f10-b2e6-208f5532796f",
-    "name": "Allkrydda Balkan Style 500G"
+    "name": "Allkrydda Balkan Style 500G",
+    "articleNumber": "120038",
+    "ean": 8606011521873
   },
   {
     "_id": "e78aaf0e-80f2-4498-8e00-82c225554bf1",
-    "name": "GULASH KRYDDIG OXSOPPA HALAL 300g"
+    "name": "GULASH KRYDDIG OXSOPPA HALAL 300g",
+    "articleNumber": "100301",
+    "ean": 3858886460572
   },
   {
     "_id": "e7a4815e-2f82-43f7-aeb3-7a194ef47e62",
-    "name": "ELEPHAN ATTA CHAPATIMJÖL 10KG"
+    "name": "ELEPHAN ATTA CHAPATIMJÖL 10KG",
+    "articleNumber": "2281041",
+    "ean": 5015821159528
   },
   {
     "_id": "e7ec1f60-0db0-468b-bb63-88d630be8f35",
-    "name": "Malidzano (Aubergin Stuvning) Stark Brians"
+    "name": "Malidzano (Aubergin Stuvning) Stark Brians",
+    "articleNumber": "2464",
+    "ean": 890089007706
   },
   {
     "_id": "e8cc0deb-6502-4a6c-9e70-7ab6e1887786",
-    "name": "Vit Vinäger 12% 1L"
+    "name": "Vit Vinäger 12% 1L",
+    "articleNumber": "9388",
+    "ean": 5319991751415
   },
   {
     "_id": "e9e10fb6-6263-4a77-adbd-6bbd9d927987",
-    "name": "CEYLON TEA MED KARDEMUMMA LÖS TE 500G"
+    "name": "CEYLON TEA MED KARDEMUMMA LÖS TE 500G",
+    "articleNumber": "9010355",
+    "ean": 4796002516378
   },
   {
     "_id": "ea549adf-c112-449b-842d-674631b7affa",
-    "name": "Kyckling Korv Stark 340g"
+    "name": "Kyckling Korv Stark 340g",
+    "articleNumber": "150741",
+    "ean": 7350000320060
   },
   {
     "_id": "ebbd2910-83bd-4a91-8ac4-23d5be9b8a30",
-    "name": "100% Färsk Pressad Apelsin Dryck 1L"
+    "name": "100% Färsk Pressad Apelsin Dryck 1L",
+    "articleNumber": "40048",
+    "ean": 3904837860929
   },
   {
     "_id": "ec027763-8f0e-43ba-a761-915a60d116cd",
-    "name": "Paprika Rostad Med Vitlök & Persilja 2,35kg"
+    "name": "Paprika Rostad Med Vitlök & Persilja 2,35kg",
+    "articleNumber": "2432",
+    "ean": 890089002527
   },
   {
     "_id": "ec1809c0-ed75-480a-8da3-636f44c4286c",
-    "name": "100% Färsk Pressad Vilda Äpplen Dryck 1L"
+    "name": "100% Färsk Pressad Vilda Äpplen Dryck 1L",
+    "articleNumber": "400654",
+    "ean": 3904837860981
   },
   {
     "_id": "ecb31f9b-b14a-4919-bf06-f8f7fa53e723",
-    "name": "Tvättmedel Lilja Djurdjevak 6kg"
+    "name": "Tvättmedel Lilja Djurdjevak 6kg",
+    "articleNumber": "9438",
+    "ean": 8606013177733
   },
   {
     "_id": "ecfe33a9-75a1-46c8-a384-4713a4d53cb9",
-    "name": "Vit Vinäger 19% Smal Hals 3L"
+    "name": "Vit Vinäger 19% Smal Hals 3L",
+    "articleNumber": "889321",
+    "ean": 5319990918055
   },
   {
     "_id": "ed1cc5d2-cea4-4eb2-85dc-3c92ff7badca",
-    "name": "Lamm Tunga kg/pris"
+    "name": "Lamm Tunga kg/pris",
+    "articleNumber": "52078",
+    "ean": 7300000106508
   },
   {
     "_id": "ed29f3e5-60d5-4374-824e-66df0956fccb",
-    "name": "LIALINA CHIPS 70G"
+    "name": "LIALINA CHIPS 70G",
+    "articleNumber": "3682",
+    "ean": 6224008532323
   },
   {
     "_id": "ed7a9fc6-086b-494e-a89d-4ed34796b319",
-    "name": "Area Glas Rengöring Spray 500ml"
+    "name": "Area Glas Rengöring Spray 500ml",
+    "articleNumber": "210301",
+    "ean": 5319991751026
   },
   {
     "_id": "eebf67f2-f998-4763-afdc-4e9d498e238c",
-    "name": "Tomat Pure 28% 800g"
+    "name": "Tomat Pure 28% 800g",
+    "articleNumber": "8407",
+    "ean": 654561017610
   },
   {
     "_id": "ef9e1c43-5148-4ced-8807-ad7cf893cd98",
-    "name": "100% Färsk Pressad Granatäpple Dryck"
+    "name": "100% Färsk Pressad Granatäpple Dryck",
+    "articleNumber": "40044",
+    "ean": 3904837850418
   },
   {
     "_id": "eff6a446-a708-4af8-ae8d-415f94da95d3",
-    "name": "DURRA TORKAD MOLOKIA 200G"
+    "name": "DURRA TORKAD MOLOKIA 200G",
+    "articleNumber": "423221",
+    "ean": 6210246369050
   },
   {
     "_id": "f04593ef-ac07-4886-b326-f7564ea376e2",
-    "name": "Ajvar Med Ost Mild Brians"
+    "name": "Ajvar Med Ost Mild Brians",
+    "articleNumber": "2467",
+    "ean": 858567002704
   },
   {
     "_id": "f09758bc-c686-4e1f-9126-320c5b46e461",
-    "name": "Grill & Ugn Rengöring Spray 500ml"
+    "name": "Grill & Ugn Rengöring Spray 500ml",
+    "articleNumber": "889305",
+    "ean": 5319990918437
   },
   {
     "_id": "f0c31f5b-9d0b-429c-99ac-175f4f886b45",
-    "name": "Okra Stora Klass A 400g"
+    "name": "Okra Stora Klass A 400g",
+    "articleNumber": "148442",
+    "ean": 6224007341834
   },
   {
     "_id": "f1064064-2686-439d-8ecc-a8534c5cfa61",
-    "name": "Duru Bulgur Extra Fin Malen Cig Köftelik ince 1kg"
+    "name": "Duru Bulgur Extra Fin Malen Cig Köftelik ince 1kg",
+    "articleNumber": "3332",
+    "ean": 8691440301004
   },
   {
     "_id": "f17325e9-e996-411b-947f-fb7280202199",
-    "name": "JORDNÖTTER ROSTADE SALTADE 350g"
+    "name": "JORDNÖTTER ROSTADE SALTADE 350g",
+    "articleNumber": "530",
+    "ean": 3902136970561
   },
   {
     "_id": "f1d16b0c-f8c8-40e9-8e65-26f8b87d3159",
-    "name": "ABU KASS CALROSE RIS 5KG"
+    "name": "ABU KASS CALROSE RIS 5KG",
+    "articleNumber": "405A",
+    "ean": 6281100412076
   },
   {
     "_id": "f2dd96a9-b920-4cf1-98be-93082b25e669",
-    "name": "Kyckling Hel Qibbla"
+    "name": "Kyckling Hel Qibbla",
+    "articleNumber": "148784",
+    "ean": 7330989004236
   },
   {
     "_id": "f2ee3c38-d80f-4879-b179-72c843c2c244",
-    "name": "MAJSSTÄRKELSE (NISHESTE) 400g"
+    "name": "MAJSSTÄRKELSE (NISHESTE) 400g",
+    "articleNumber": "546",
+    "ean": 3902136970844
   },
   {
     "_id": "f30bf4a9-080c-4b16-a138-9ab12e1b433c",
-    "name": "Diskmedel Äppel Doft 3L"
+    "name": "Diskmedel Äppel Doft 3L",
+    "articleNumber": "9821",
+    "ean": 5319990918475
   },
   {
     "_id": "f3b58398-493f-4643-a4c8-07d2bf51b39f",
-    "name": "Qibbla Kyckling Klubbor"
+    "name": "Qibbla Kyckling Klubbor",
+    "articleNumber": "148792",
+    "ean": 7330989004151
   },
   {
     "_id": "f4118ecb-af6b-4715-9065-5a460529da5c",
-    "name": "Cornichon Gurka 1,7kg"
+    "name": "Cornichon Gurka 1,7kg",
+    "articleNumber": "2439",
+    "ean": 890089002213
   },
   {
     "_id": "f43237a3-7f44-4386-a644-81a9357757e5",
-    "name": "Kyckling Vingar Panerade Stark 2kg"
+    "name": "Kyckling Vingar Panerade Stark 2kg",
+    "articleNumber": "158781",
+    "ean": 5900757063929
   },
   {
     "_id": "f439ff3e-3166-4c4e-a247-a9cfdb094531",
-    "name": "AHMAD TEA SPECIAL BLEND LÖS TE 500G"
+    "name": "AHMAD TEA SPECIAL BLEND LÖS TE 500G",
+    "articleNumber": "3913",
+    "ean": 54881005838
   },
   {
     "_id": "f4b78f67-d816-439c-ae04-d52dc75a734e",
-    "name": "Tvättmedel Flytande 4L"
+    "name": "Tvättmedel Flytande 4L",
+    "articleNumber": "2408",
+    "ean": 8594163902186
   },
   {
     "_id": "f5d7aefd-2ad9-4325-a766-604b581b8241",
-    "name": "VICTORS HOT WINGS 2KG"
+    "name": "VICTORS HOT WINGS 2KG",
+    "articleNumber": "25478",
+    "ean": 5706911004094
   },
   {
     "_id": "f6173f5d-e3c6-45bc-8794-d845f203246a",
-    "name": "POTATISMOS 300G"
+    "name": "POTATISMOS 300G",
+    "articleNumber": "526",
+    "ean": 3902136970172
   },
   {
     "_id": "f6298552-d4c8-44f2-bc05-6f5bd6467fd7",
-    "name": "Köttbullar Med Kyckling 900g"
+    "name": "Köttbullar Med Kyckling 900g",
+    "articleNumber": "148791",
+    "ean": 7330989005080
   },
   {
     "_id": "f697afda-32bf-400a-b216-a5f0bee03344",
-    "name": "VANILJ SOCKER 10G 5+1GRATIS 60g"
+    "name": "VANILJ SOCKER 10G 5+1GRATIS 60g",
+    "articleNumber": "545",
+    "ean": 3902136970790
   },
   {
     "_id": "f6a20148-7c06-440f-9659-93533ebbc063",
-    "name": "Plommon Mos (Pekmez) 375g"
+    "name": "Plommon Mos (Pekmez) 375g",
+    "articleNumber": "2419",
+    "ean": 3904837850166
   },
   {
     "_id": "f7286d54-7152-4b35-9728-cf2f68a9b9e9",
-    "name": "Biff Burgare 90g - 1,2kg"
+    "name": "Biff Burgare 90g - 1,2kg",
+    "articleNumber": "14859",
+    "ean": 5701222643840
   },
   {
     "_id": "f7a000c5-003d-449b-8871-a33b0812f37a",
-    "name": "Sköljmedel SEFKATLE GÜL 1440ml"
+    "name": "Sköljmedel SEFKATLE GÜL 1440ml",
+    "articleNumber": "21511",
+    "ean": 8690536905546
   },
   {
     "_id": "f7d4ff9d-0c5a-4d5d-94bc-b775f631c547",
-    "name": "HUNKAR SVARTA OLIVER GEMLIK 1300GR"
+    "name": "HUNKAR SVARTA OLIVER GEMLIK 1300GR",
+    "articleNumber": "29955",
+    "ean": 4262396732965
   },
   {
     "_id": "f8101bb3-8add-43b0-a100-79c3c7d0690f",
-    "name": "Waffer Sticks Med Choklad Fyllning 140g"
+    "name": "Waffer Sticks Med Choklad Fyllning 140g",
+    "articleNumber": "1650",
+    "ean": 8606017638803
   },
   {
     "_id": "f8df3ca3-d4c0-4fef-bb22-4923aceed170",
-    "name": "Pudding Vanilj 45g"
+    "name": "Pudding Vanilj 45g",
+    "articleNumber": "521",
+    "ean": 3902136970028
   },
   {
     "_id": "f9727324-daee-4962-ab62-a6941091b105",
-    "name": "KROSSAD PAPRIKA STARK 200g"
+    "name": "KROSSAD PAPRIKA STARK 200g",
+    "articleNumber": "532",
+    "ean": 3902136970196
   },
   {
     "_id": "f983aebe-97d1-4df1-9311-77f77ef0ede8",
-    "name": "Ayran Dryck 250ml"
+    "name": "Ayran Dryck 250ml",
+    "articleNumber": "14878",
+    "ean": 7350056791500
   },
   {
     "_id": "fa0ff20b-01cf-49aa-94a6-6a416afdeaa6",
-    "name": "Kyckling Nuggets 1kg"
+    "name": "Kyckling Nuggets 1kg",
+    "articleNumber": "140791",
+    "ean": 8718734541691
   },
   {
     "_id": "fa15d05d-a65e-4c9d-b6f7-e3a7fc5dbb14",
-    "name": "Paprika Somborka Hel 2,35kg"
+    "name": "Paprika Somborka Hel 2,35kg",
+    "articleNumber": "2434",
+    "ean": 890089002657
   },
   {
     "_id": "fa95bb7a-85ef-4d86-a7fb-b2c43895ee60",
-    "name": "Napolitanke Cubs M Choklad Överdrag 1kg"
+    "name": "Napolitanke Cubs M Choklad Överdrag 1kg",
+    "articleNumber": "700152",
+    "ean": 8606017637158
   },
   {
     "_id": "fab1bf4d-5e3e-4a6f-8fa7-fe9f70fb1915",
-    "name": "Paprika Tomat  Fyllda Med Vitkål 2,35kg"
+    "name": "Paprika Tomat  Fyllda Med Vitkål 2,35kg",
+    "articleNumber": "2453",
+    "ean": 890089002121
   },
   {
     "_id": "fb1e5a70-ced4-4575-9168-4d6aa32bb830",
-    "name": "Hemlagad Ajvar Stark Mamas 550g"
+    "name": "Hemlagad Ajvar Stark Mamas 550g",
+    "articleNumber": "1274",
+    "ean": 5310146002628
   },
   {
     "_id": "fba139b6-a42c-42f2-99ad-6ee87a11bb39",
-    "name": "PASTA BURCU 500G"
+    "name": "PASTA BURCU 500G",
+    "articleNumber": "55818",
+    "ean": 8690946120003
   },
   {
     "_id": "fbacbfcb-730f-4445-8282-afc1e1551a58",
-    "name": "Ajvar Med Ost Stark"
+    "name": "Ajvar Med Ost Stark",
+    "articleNumber": "2466",
+    "ean": 858567002339
   },
   {
     "_id": "fd017d1f-0376-4565-ad79-684d1972080d",
-    "name": "Area Antical Rengöring 750ml"
+    "name": "Area Antical Rengöring 750ml",
+    "articleNumber": "210314",
+    "ean": 5319990918482
   },
   {
     "_id": "fd6dbb12-e00c-4c7e-8df5-a58a9d518a46",
-    "name": "Özkanfresh Granatäpplesås 1L"
+    "name": "Özkanfresh Granatäpplesås 1L",
+    "articleNumber": "4011",
+    "ean": null
   },
   {
     "_id": "fd80ce9f-a4b8-4408-80b6-a1142d0f7450",
-    "name": "Napolitanke M Nougat Fyllning 170g"
+    "name": "Napolitanke M Nougat Fyllning 170g",
+    "articleNumber": "700704",
+    "ean": 8606017637967
   },
   {
     "_id": "fe4f5a95-2625-458f-a832-dc93108150fc",
-    "name": "Pudding Vanilj 800g"
+    "name": "Pudding Vanilj 800g",
+    "articleNumber": "519",
+    "ean": 3902136970073
   },
   {
     "_id": "ff36ed7e-56b7-4baf-ae7e-22fb3c76ec98",
-    "name": "Tea Smak English Breakfast Nr1 - 100 påsar"
+    "name": "Tea Smak English Breakfast Nr1 - 100 påsar",
+    "articleNumber": "1860",
+    "ean": 54881005982
   },
   {
     "_id": "ff8b6d39-c26c-46ff-85f8-68af03dbf4d5",
-    "name": "Malen Kaffe Rostad Lux Blend 200g"
+    "name": "Malen Kaffe Rostad Lux Blend 200g",
+    "articleNumber": "400108",
+    "ean": 8606017632184
   },
   {
     "_id": "fff2813d-e446-4dc7-a96f-677199c2394f",
-    "name": "100% Färsk Pressad Björnbärs Dryck 1L"
+    "name": "100% Färsk Pressad Björnbärs Dryck 1L",
+    "articleNumber": "471",
+    "ean": 3904837860905
   }
 ]
