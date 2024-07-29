@@ -18,10 +18,6 @@ const Header = () => {
           <Link href="/">
             <Image src="/logo-2.png" alt="logo" width={400} height={250} />
           </Link>
-
-          <p className="text-black font-normal text-[28px]">
-            Balkangross Ab Shop
-          </p>
         </div>
       </div>
     </div>
