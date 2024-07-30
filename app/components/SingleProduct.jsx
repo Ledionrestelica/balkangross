@@ -81,7 +81,7 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl, brand }) => {
               <p className="text-[18px] font-normal text-[#585858]">
                 Pris:{" "}
                 <span className="font-bold text-[18px] text-[#585858]">
-                  {price}
+                  {price} kr
                 </span>
               </p>
             </div>
