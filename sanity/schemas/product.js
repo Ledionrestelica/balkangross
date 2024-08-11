@@ -43,11 +43,15 @@ export default {
       type: 'number',
       title: 'Price per st',
     },
-
     {
       name: 'image',
       type: 'image',
       title: 'Image',
+    },
+    {
+      name: 'description',
+      type: 'description',
+      title: 'description',
     },
     {
       name: 'slug',

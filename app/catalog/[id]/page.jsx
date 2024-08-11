@@ -45,7 +45,7 @@ export default async function Page({ params }) {
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex-1 flex items-center gap-2">
             <SelectCatalog catalogs={catalogs} />
             <SearchBar />
           </div>
