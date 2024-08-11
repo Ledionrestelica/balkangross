@@ -8,6 +8,7 @@ import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import CartButton from "@/app/components/CartButton";
 import SelectCatalog from "@/app/components/SelectCatalog";
+import SearchBar from "@/app/components/SearchBar";
 
 const query = `*[_type == "catalog" && _id == $id] {
   _id,
@@ -44,8 +45,9 @@ export default async function Page({ params }) {
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
             <SelectCatalog catalogs={catalogs} />
+            <SearchBar />
           </div>
           <div className="flex flex-1 justify-end gap-4 items-center py-[30px]">
             <CartButton />

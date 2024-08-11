@@ -39,6 +39,12 @@ export default {
       title: 'Price',
     },
     {
+      name: 'pricest',
+      type: 'number',
+      title: 'Price per st',
+    },
+
+    {
       name: 'image',
       type: 'image',
       title: 'Image',
