@@ -75,7 +75,6 @@ export default async function Page({ params }) {
               ))
             : "No products Found"}
         </div>
-        <Footer />
       </div>
     </>
   );

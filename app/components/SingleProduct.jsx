@@ -79,18 +79,21 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl, brand }) => {
                 )}
               </p>
               <p className="text-[18px] font-normal text-[#585858]">
-                Pris:{" "}
+                Pris/k:{" "}
                 <span className="font-bold text-[18px] text-[#585858]">
                   {price} kr
                 </span>
               </p>
             </div>
-            <div>
+            <div className="flex justify-between">
               <p className="text-[18px] font-normal text-[#585858]">
                 Brand:{" "}
                 <span className="font-bold text-[18px] text-[#585858]">
                   {brand}
                 </span>
+              </p>
+              <p className="text-[18px] font-normal text-[#585858]">
+                Pris/st:{" "}
               </p>
             </div>
           </div>

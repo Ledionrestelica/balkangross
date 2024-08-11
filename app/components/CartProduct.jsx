@@ -78,16 +78,16 @@ const CartProduct = ({ _id, name, price, quantity, artNum, imgUrl }) => {
       </div>
       <div className="flex justify-between mt-[24px] px-[14px]">
         <div className="flex flex-col gap-3">
-          <p className="text-[#4C5760] text-[16px]">Price:</p>
-          <p className="text-[18px]">kr: {price}</p>
+          <p className="text-[#4C5760] text-[16px]">Pris:</p>
+          <p className="text-[18px]">{price} kr</p>
         </div>
         <div className="flex flex-col gap-3">
-          <p className="text-[#4C5760] text-[16px]">Quantity:</p>
+          <p className="text-[#4C5760] text-[16px]">Antal:</p>
           <p className="text-[18px]">{quantity}</p>
         </div>
         <div className="flex flex-col gap-3">
-          <p className="text-[#4C5760] text-[16px]">Total</p>
-          <p className="text-[18px]">{(price * quantity).toFixed(2)}</p>
+          <p className="text-[#4C5760] text-[16px]">Totalsumma</p>
+          <p className="text-[18px]">{(price * quantity).toFixed(2)} kr</p>
         </div>
       </div>
       {editMode && (
