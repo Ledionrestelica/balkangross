@@ -84,5 +84,4 @@ export async function generateStaticParams() {
   }));
 }
 
-// Define ISR configuration
 export const revalidate = 600;

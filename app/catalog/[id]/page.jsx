@@ -1,11 +1,9 @@
-// app/[id]/page.jsx
 import { client } from "@/utils/sanity/_client";
 import Product from "@/app/components/Product";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
 import PdfButton from "@/app/components/PdfButton";
 import CsvButton from "@/app/components/CsvButton";
 import Header from "@/app/components/Header";
-import Footer from "@/app/components/Footer";
 import CartButton from "@/app/components/CartButton";
 import SelectCatalog from "@/app/components/SelectCatalog";
 import SearchBar from "@/app/components/SearchBar";
@@ -31,7 +29,7 @@ const catalogQuery = `*[_type == "catalog"]{
 
 const getCatalogById = async (id) => {
   const data = await client.fetch(query, { id });
-  return data[0]; // Assuming you get an array and you need the first item
+  return data[0];
 };
 
 export default async function Page({ params }) {

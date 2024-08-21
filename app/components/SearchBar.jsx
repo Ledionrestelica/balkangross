@@ -9,26 +9,22 @@ export default function SearchBar() {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [focus, setFocus] = useState(false);
 
-  // Load products from JSON file
   useEffect(() => {
     fetch("/products.json")
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);
 
-  // Debounce the search term
   useEffect(() => {
     const handler = setTimeout(() => {
       setDebouncedSearchTerm(searchTerm);
-    }, 500); // 0.5 second debounce time
+    }, 500);
 
-    // Cleanup function to clear the timeout if searchTerm changes
     return () => {
       clearTimeout(handler);
     };
   }, [searchTerm]);
 
-  // Filter products based on the debounced search term
   useEffect(() => {
     if (debouncedSearchTerm) {
       const lowercasedTerm = debouncedSearchTerm.toLowerCase();
@@ -43,7 +39,7 @@ export default function SearchBar() {
         .slice(0, 20);
       setFilteredProducts(filtered);
     } else {
-      setFilteredProducts([]); // Clear filtered products if search term is empty
+      setFilteredProducts([]);
     }
   }, [debouncedSearchTerm, products]);
 

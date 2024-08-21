@@ -50,7 +50,7 @@ export default {
     },
     {
       name: 'description',
-      type: 'description',
+      type: 'text',
       title: 'description',
     },
     {

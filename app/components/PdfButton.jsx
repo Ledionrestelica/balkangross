@@ -3,8 +3,8 @@
 import React, { useContext } from "react";
 import dynamic from "next/dynamic";
 
-import CartContext from "@/CartContext"; // Adjust the path as per your project structure
-import CartPDF from "@/utils/CartPDF"; // Adjust the path as per your project structure
+import CartContext from "@/CartContext";
+import CartPDF from "@/utils/CartPDF";
 import Image from "next/image";
 
 const PdfButton = () => {

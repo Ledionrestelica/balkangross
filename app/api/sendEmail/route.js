@@ -15,7 +15,6 @@ export async function POST(req) {
     ort,
   } = await req.json();
 
-  // Ensure environment variables are loaded
   const emailUser = process.env.EMAIL_USER;
   const emailPass = process.env.EMAIL_PASS;
 
@@ -27,16 +26,16 @@ export async function POST(req) {
   }
 
   const transporter = nodemailer.createTransport({
-    service: "gmail", // or use another email service
+    service: "gmail",
     auth: {
-      user: emailUser, // your email address
-      pass: emailPass, // your email password
+      user: emailUser,
+      pass: emailPass,
     },
   });
 
   const mailOptions = {
     from: emailUser,
-    to: "info@balkanboden.se", // replace with your email address
+    to: "info@balkanboden.se",
     subject: "New Contact Form Submission",
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.5;">
