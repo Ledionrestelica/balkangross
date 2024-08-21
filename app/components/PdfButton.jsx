@@ -23,7 +23,7 @@ const PdfButton = () => {
   );
 
   return (
-    <div>
+    <div className="flex-shrink-0">
       <PDFDownloadLink
         document={<CartPDF cartItems={cart?.cartItems} />}
         fileName="cart.pdf"

@@ -27,7 +27,7 @@ export default async function Page({ params }) {
     <>
       <AnnouncementBoard text="Announcement board" link="/" />
       <div className="max-w-[1240px] mt-[50px] px-4 mx-auto md:container  min-h-[100vh]">
-        <div className="w-full mb-[20px]  flex justify-between">
+        <div className="w-full mb-[20px] gap-6 flex md:flex-row flex-col justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="text-[14px] text-[#6f6f6f]">
               Home
@@ -49,7 +49,7 @@ export default async function Page({ params }) {
             </svg>
             {product.name}
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 md:flex-nowrap flex-wrap  ">
             <CartButton />
             <PdfButton />
             <CsvButton />

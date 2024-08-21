@@ -47,7 +47,7 @@ export default function SearchBar() {
     <div className="w-full">
       <input
         type="text"
-        className="w-full relative border border-[#E9E9E9] text-[14px] text-[#4d4d4d] outline-none p-2.5 rounded-[8px] placeholder:text-[#848484] placeholder:text-[14px]"
+        className="w-full md:min-w-[80%] relative border border-[#E9E9E9] text-[14px] text-[#4d4d4d] outline-none p-2.5 rounded-[8px] placeholder:text-[#848484] placeholder:text-[14px]"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder="Sök"

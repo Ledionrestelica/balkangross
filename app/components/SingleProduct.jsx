@@ -39,14 +39,14 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl, brand }) => {
 
   return (
     <>
-      <div key={_id} className="w-full flex md:flex-row flex-col">
-        <div className="flex-1  pr-[30px]">
-          <div className="md:w-full flex items-center justify-center relative w-1/2 aspect-square border borded-[#E7E7E7] rounded-[8px] ">
+      <div key={_id} className="w-full mb-6 flex md:flex-row flex-col">
+        <div className="flex-1 md:pr-[30px]">
+          <div className=" md:w-full h-[60vh] flex items-center justify-center relative w-full aspect-square border borded-[#E7E7E7] rounded-[8px] ">
             {imgUrl ? (
               <Image
-                width={300}
-                height={300}
+                fill
                 alt="product"
+                objectFit="contain"
                 src={urlFor(imgUrl).url()}
               ></Image>
             ) : (
@@ -54,10 +54,10 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl, brand }) => {
             )}
           </div>
         </div>
-        <div className="flex-1 mt-[50px] flex flex-col gap-[30px] pl-[30px]">
+        <div className="flex-1 mt-[50px] flex flex-col gap-[30px] md:pl-[30px]">
           <div className="flex flex-col gap-[12px]">
             <p className="text-[32px] font-semibold text-[#040300]">{name}</p>
-            <div className="flex justify-between">
+            <div className="flex justify-between flex-wrap gap-2">
               <p className="text-[18px] font-normal text-[#585858]">
                 Art nr:{" "}
                 <span className="font-bold text-[18px] text-[#585858]">
@@ -85,7 +85,7 @@ const SingleProduct = ({ _id, name, artNum, active, price, imgUrl, brand }) => {
                 </span>
               </p>
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-between flex-wrap gap-4">
               <p className="text-[18px] font-normal text-[#585858]">
                 Brand:{" "}
                 <span className="font-bold text-[18px] text-[#585858]">

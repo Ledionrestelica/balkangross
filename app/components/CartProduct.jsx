@@ -27,7 +27,7 @@ const CartProduct = ({ _id, name, price, quantity, artNum, imgUrl }) => {
   }
 
   return (
-    <div className="flex flex-col relative max-w-[506px] min-h-[223px] rounded-[16px] bg-white border border-[#D4D4D4] px-[26px] py-[34px]">
+    <div className="flex flex-col relative max-w-[506px] min-h-[223px] rounded-[16px] bg-white border border-[#D4D4D4] py-4 px-2 md:px-[26px] md:py-[34px]">
       <div
         onClick={() => deleteItemFromCart(cartItem?.product)}
         className=" cursor-pointer absolute flex justify-center items-center w-[40px] h-[40px] top-[-15px] right-[-20px] bg-white  rounded-full shadow-lg"
@@ -76,7 +76,7 @@ const CartProduct = ({ _id, name, price, quantity, artNum, imgUrl }) => {
           <p className="text-[#4C5760] text-[16px]">{artNum}</p>
         </div>
       </div>
-      <div className="flex justify-between mt-[24px] px-[14px]">
+      <div className="flex justify-between flex-wrap mt-[24px] px-[14px]">
         <div className="flex flex-col gap-3">
           <p className="text-[#4C5760] text-[16px]">Pris:</p>
           <p className="text-[18px]">{price} kr</p>

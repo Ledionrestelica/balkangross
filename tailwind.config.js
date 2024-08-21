@@ -1,3 +1,5 @@
+const { default: product } = require("./sanity/schemas/product");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -27,6 +29,9 @@ module.exports = {
         normal: 400,
         medium: 500,
         bold: 700,
+      },
+      aspectRatio: {
+        product: 3 / 4,
       },
     },
   },

@@ -24,12 +24,12 @@ export default async function Home() {
       <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
-        <div className="flex justify-between">
+        <div className="flex pt-4 flex-col md:flex-row justify-between">
           <div className="flex-1 flex items-center gap-2">
             <SelectCatalog catalogs={catalogs} />
             <SearchBar />
           </div>
-          <div className="flex flex-1 justify-end gap-4 items-center py-[30px]">
+          <div className="flex flex-1 flex-wrap md:flex-nowrap  md:justify-end gap-4 items-center py-[30px]">
             <CartButton />
             <PdfButton />
             <CsvButton />

@@ -10,10 +10,10 @@ import Link from "next/link";
 const page = () => {
   const { cart } = useContext(CartContext);
   return (
-    <div className="flex w-full min-h-[100vh]">
-      <div className="flex-1 pt-[100px] flex justify-end overflow-y-scroll bg-secondary pl-[42px] pr-[68px]">
+    <div className="flex w-full md:flex-row flex-col min-h-[100vh]">
+      <div className="flex-1 pt-[30px] md:pt-[100px] flex justify-center md:justify-end overflow-y-scroll bg-secondary px-6 md:pl-[42px] md:pr-[68px]">
         {!cart?.cartItems?.length > 0 ? (
-          <div className="w-full text-4xl flex flex-col items-center gap-5">
+          <div className="w-full text-xl md:text-4xl mb-10 flex flex-col items-center gap-5">
             Din varukorg är tom
             <Image
               src="/shopping.png"
@@ -61,7 +61,7 @@ const page = () => {
           </div>
         )}
       </div>
-      <div className="flex-1 w-full flex flex-col py-[100px] px-[42px] ">
+      <div className="flex-1 w-full flex justify-center items-center flex-col py-[100px] px-6 md:px-[42px] ">
         <OrderForm />
       </div>
     </div>
