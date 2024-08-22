@@ -7,7 +7,10 @@ import { svSE } from "@clerk/localizations";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Balkangross AB",
+  title: {
+    template: "%s | Balkangross",
+    default: "Balkangross",
+  },
   description: "Balkangross AB shop",
 };
 

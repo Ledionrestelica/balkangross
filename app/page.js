@@ -14,6 +14,9 @@ const query = `*[_type == "catalog"]{
   _id,
   title,
 }`;
+export const metadata = {
+  title: "Home",
+};
 
 export default async function Home() {
   const catalogs = await client.fetch(query);

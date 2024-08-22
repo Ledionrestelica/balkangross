@@ -20,6 +20,9 @@ const productQuery = `*[_type == "product" && _id == $id]{
     }
       
 }[0]`;
+export const metadata = {
+  title: "Product",
+};
 
 export default async function Page({ params }) {
   const { id } = params;
