@@ -14,9 +14,11 @@ const productQuery = `*[_type == "product" && _id == $id]{
   ean,
   articleNumber,
   image,
+  pricest,
   "brand": brand->{
       title,
     }
+      
 }[0]`;
 
 export default async function Page({ params }) {
@@ -67,6 +69,7 @@ export default async function Page({ params }) {
               : null
           }
           brand={product.brand ? product.brand.title : "No brand Available"}
+          pricest={product.pricest ? product.pricest : ""}
         />
       </div>
     </>
