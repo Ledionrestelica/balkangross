@@ -7,10 +7,6 @@ import { useContext } from "react";
 import OrderForm from "../components/OrderForm";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Cart",
-};
-
 const page = () => {
   const { cart } = useContext(CartContext);
   return (
