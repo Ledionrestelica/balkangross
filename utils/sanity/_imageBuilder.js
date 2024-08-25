@@ -4,5 +4,5 @@ import { client } from "./_client";
 const builder = imageUrlBuilder(client);
 
 export function urlFor(source) {
-  return builder.image(source);
+  return builder.image(source).quality(70);
 }
