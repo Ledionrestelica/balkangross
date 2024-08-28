@@ -10,7 +10,9 @@ const SelectCatalog = ({ catalogs }) => {
   const handleChange = (event) => {
     const catalogId = event.target.value;
     setSelectedCatalog(catalogId);
-    if (catalogId !== "default") {
+    if (catalogId === "all") {
+      router.push("/all");
+    } else if (catalogId !== "default") {
       router.push(`/catalog/${catalogId}`);
     }
   };
@@ -26,6 +28,9 @@ const SelectCatalog = ({ catalogs }) => {
       >
         <option value="default" name="default" key="default">
           Vänligen Välj Kategori
+        </option>
+        <option value="all" name="all" key="all">
+          All
         </option>
         {catalogs.map((item) => (
           <option key={item._id} value={item._id} name={item.title}>

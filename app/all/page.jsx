@@ -1,27 +1,37 @@
-import Product from "./components/Product";
-import AnnouncementBoard from "./components/AnnouncementBoard";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import { getProducts } from "./data/getProducts";
-import CartButton from "./components/CartButton";
-import PdfButton from "./components/PdfButton";
-import CsvButton from "./components/CsvButton";
-import SelectCatalog from "./components/SelectCatalog";
+import Product from "../components/Product";
+import AnnouncementBoard from "../components/AnnouncementBoard";
+import Header from "../components/Header";
+import CartButton from "../components/CartButton";
+import PdfButton from "../components/PdfButton";
+import CsvButton from "../components/CsvButton";
+import SelectCatalog from "../components/SelectCatalog";
 import { client } from "@/utils/sanity/_client";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "../components/SearchBar";
 
-const query = `*[_type == "catalog"]{
+const getAllProducts = async () => {
+  "use server";
+  const query = `*[_type == "product"] | order(_createdAt desc) {
   _id,
-  title,
-}`;
-export const metadata = {
-  title: "Home",
+  ean,
+  articleNumber,
+  active,
+  name,
+  image,
+  price,
+  vikt
+}
+`;
+  const products = await client.fetch(query, { cache: "force-cache" });
+  return products;
 };
 
-export default async function Home() {
-  const catalogs = await client.fetch(query);
-  const products = await getProducts();
-
+const catalogquery = `*[_type == "catalog"]{
+    _id,
+    title,
+  }`;
+const page = async () => {
+  const catalogs = await client.fetch(catalogquery);
+  const products = await getAllProducts();
   return (
     <>
       <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
@@ -61,6 +71,6 @@ export default async function Home() {
       </div>
     </>
   );
-}
+};
 
-export const revalidate = 600;
+export default page;
