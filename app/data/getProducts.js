@@ -1,4 +1,4 @@
-import { client } from "@/utils/sanity/_client";
+import { client } from "@/utils/sanity/_client"; // for only featured products
 
 export const getProducts = async () => {
   "use server";

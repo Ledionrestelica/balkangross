@@ -27,8 +27,8 @@ export const metadata = {
 
 export default async function Page({ params }) {
   const { id } = params;
-  //const product = await client.fetch(productQuery, { id });
-  const product = await getProduct(id);
+  const product = await client.fetch(productQuery, { id });
+  //const product = await getProduct(id);
 
   return (
     <>
@@ -54,7 +54,7 @@ export default async function Page({ params }) {
                 d="M1.2 8.6L4.8 5 1.2 1.4"
               ></path>
             </svg>
-            {product.name}
+            <div>{product.name} 1</div>
           </div>
           <div className="flex gap-4 md:flex-nowrap flex-wrap  ">
             <CartButton />
@@ -63,20 +63,18 @@ export default async function Page({ params }) {
           </div>
         </div>
         <SingleProduct
-          _id={product[0]._id}
-          name={product[0].name}
-          price={product[0].price}
-          active={product[0].active}
-          artNum={product[0].articleNumber}
+          _id={product._id}
+          name={product.name}
+          price={product.price}
+          active={product.active}
+          artNum={product.articleNumber}
           imgUrl={
-            product[0].image && product[0].image.asset
-              ? product[0].image.asset._ref
+            product.image && product.image.asset
+              ? product.image.asset._ref
               : null
           }
-          brand={
-            product[0].brand ? product[0].brand.title : "No brand Available"
-          }
-          pricest={product[0].pricest ? product[0].pricest : ""}
+          brand={product.brand ? product.brand.title : "No brand Available"}
+          pricest={product.pricest ? product.pricest : ""}
         />
       </div>
     </>
