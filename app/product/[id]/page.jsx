@@ -5,6 +5,7 @@ import PdfButton from "@/app/components/PdfButton";
 import CsvButton from "@/app/components/CsvButton";
 import CartButton from "@/app/components/CartButton";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
+import { getProduct } from "@/app/actions";
 
 const productQuery = `*[_type == "product" && _id == $id]{
   _id,
@@ -26,7 +27,8 @@ export const metadata = {
 
 export default async function Page({ params }) {
   const { id } = params;
-  const product = await client.fetch(productQuery, { id });
+  //const product = await client.fetch(productQuery, { id });
+  const product = await getProduct(id);
 
   return (
     <>
@@ -61,18 +63,20 @@ export default async function Page({ params }) {
           </div>
         </div>
         <SingleProduct
-          _id={product._id}
-          name={product.name}
-          price={product.price}
-          active={product.active}
-          artNum={product.articleNumber}
+          _id={product[0]._id}
+          name={product[0].name}
+          price={product[0].price}
+          active={product[0].active}
+          artNum={product[0].articleNumber}
           imgUrl={
-            product.image && product.image.asset
-              ? product.image.asset._ref
+            product[0].image && product[0].image.asset
+              ? product[0].image.asset._ref
               : null
           }
-          brand={product.brand ? product.brand.title : "No brand Available"}
-          pricest={product.pricest ? product.pricest : ""}
+          brand={
+            product[0].brand ? product[0].brand.title : "No brand Available"
+          }
+          pricest={product[0].pricest ? product[0].pricest : ""}
         />
       </div>
     </>
