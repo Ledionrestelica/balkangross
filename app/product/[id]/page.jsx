@@ -27,7 +27,11 @@ export const metadata = {
 
 export default async function Page({ params }) {
   const { id } = params;
-  const product = await client.fetch(productQuery, { id });
+  const product = await client.fetch(
+    productQuery,
+    { id },
+    { next: { revalidate: 3600 } }
+  );
   //const product = await getProduct(id);
 
   return (

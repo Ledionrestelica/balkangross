@@ -28,7 +28,7 @@ const catalogQuery = `*[_type == "catalog"]{
 }`;
 
 const getCatalogById = async (id) => {
-  const data = await client.fetch(query, { id }, { next: { revalidate: 60 } });
+  const data = await client.fetch(query, { id }, { cache: "no-cache" });
   return data[0];
 };
 
