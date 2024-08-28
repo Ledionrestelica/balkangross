@@ -28,7 +28,7 @@ const catalogQuery = `*[_type == "catalog"]{
 }`;
 
 const getCatalogById = async (id) => {
-  const data = await client.fetch(query, { id });
+  const data = await client.fetch(query, { id }, { next: { revalidate: 60 } });
   return data[0];
 };
 
@@ -39,7 +39,7 @@ export default async function Page({ params }) {
 
   return (
     <>
-      <AnnouncementBoard text="New Products just launched" link="" />
+      <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex pt-4 flex-col md:flex-row justify-between">

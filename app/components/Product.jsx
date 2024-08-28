@@ -85,7 +85,8 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
         </div>
         <div className="flex justify-between">
           <p className="font-light text-[16px] text-[#585858]">
-            Pris: <span className="font-semibold text-[#585858]">{price}</span>
+            Pris:{" "}
+            <span className="font-semibold text-[#585858]">{price} kr</span>
           </p>
           <p className="font-light text-[16px] text-[#585858]">
             Vikt: <span className="font-semibold text-[#585858]">{vikt}</span>

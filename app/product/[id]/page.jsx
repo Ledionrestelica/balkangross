@@ -32,7 +32,7 @@ export default async function Page({ params }) {
 
   return (
     <>
-      <AnnouncementBoard text="Announcement board" link="/" />
+      <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="/" />
       <div className="max-w-[1240px] mt-[50px] px-4 mx-auto md:container  min-h-[100vh]">
         <div className="w-full mb-[20px] gap-6 flex md:flex-row flex-col justify-between">
           <div className="flex items-center gap-2">
