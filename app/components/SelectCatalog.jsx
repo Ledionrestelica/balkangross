@@ -30,7 +30,7 @@ const SelectCatalog = ({ catalogs }) => {
           Vänligen Välj Kategori
         </option>
         <option value="all" name="all" key="all">
-          All
+          Alla Produkter
         </option>
         {catalogs.map((item) => (
           <option key={item._id} value={item._id} name={item.title}>
