@@ -7,21 +7,23 @@ import CsvButton from "../components/CsvButton";
 import SelectCatalog from "../components/SelectCatalog";
 import { client } from "@/utils/sanity/_client";
 import SearchBar from "../components/SearchBar";
+import Link from "next/link";
 
-const getAllProducts = async () => {
-  "use server";
-  const query = `*[_type == "product"] | order(_createdAt desc) {
-  _id,
-  ean,
-  articleNumber,
-  active,
-  name,
-  image,
-  price,
-  vikt
-}
-`;
-  const products = await client.fetch(query, { cache: "force-cache" });
+const getAllProducts = async (page = 0, limit = 20) => {
+  const start = page * limit;
+  const query = `*[_type == "product"] | order(_createdAt desc) [${start}...${
+    start + limit
+  }] {
+    _id,
+    ean,
+    articleNumber,
+    active,
+    name,
+    image,
+    price,
+    vikt
+  }`;
+  const products = await client.fetch(query);
   return products;
 };
 
@@ -29,9 +31,12 @@ const catalogquery = `*[_type == "catalog"]{
     _id,
     title,
   }`;
-const page = async () => {
+
+const page = async ({ searchParams }) => {
+  const pageNumber = parseInt(searchParams.page) || 0; // Default to 0 if page param is not set
   const catalogs = await client.fetch(catalogquery);
-  const products = await getAllProducts();
+  const products = await getAllProducts(pageNumber);
+
   return (
     <>
       <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
@@ -48,26 +53,38 @@ const page = async () => {
             <CsvButton />
           </div>
         </div>
+        <ProductsSection products={products} page={pageNumber} />
+      </div>
+    </>
+  );
+};
 
-        <div className="gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
-          {products.map((product) => (
-            <Product
-              key={product._id}
-              _id={product._id}
-              ean={product.ean}
-              artNum={product.articleNumber}
-              active={product.active}
-              name={product.name}
-              price={product.price}
-              imgUrl={
-                product.image && product.image.asset
-                  ? product.image.asset._ref
-                  : null
-              }
-              vikt={product.vikt}
-            />
-          ))}
-        </div>
+const ProductsSection = ({ products, page }) => {
+  return (
+    <>
+      <div className="gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+        {products.map((product) => (
+          <Product
+            key={product._id}
+            _id={product._id}
+            ean={product.ean}
+            artNum={product.articleNumber}
+            active={product.active}
+            name={product.name}
+            price={product.price}
+            imgUrl={
+              product.image && product.image.asset
+                ? product.image.asset._ref
+                : null
+            }
+            vikt={product.vikt}
+          />
+        ))}
+      </div>
+      <div className="text-center py-4">
+        <Link href={`?page=${page + 1}`}>
+          <button className="btn">Show More</button>
+        </Link>
       </div>
     </>
   );
