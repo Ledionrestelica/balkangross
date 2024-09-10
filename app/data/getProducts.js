@@ -17,7 +17,7 @@ export const getProducts = async () => {
     vikt,
   }
   }`;
-  const featured = await client.fetch(query, { next: { revalidate: 3600 } });
+  const featured = await client.fetch(query, { cache: "force-cache" });
 
   const products = featured.flatMap((item) => item.products);
 

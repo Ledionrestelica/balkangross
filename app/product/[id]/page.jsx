@@ -5,7 +5,6 @@ import PdfButton from "@/app/components/PdfButton";
 import CsvButton from "@/app/components/CsvButton";
 import CartButton from "@/app/components/CartButton";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
-import { getProduct } from "@/app/actions";
 
 const productQuery = `*[_type == "product" && _id == $id]{
   _id,
@@ -32,7 +31,6 @@ export default async function Page({ params }) {
     { id },
     { next: { revalidate: 3600 } }
   );
-  //const product = await getProduct(id);
 
   return (
     <>
