@@ -9,6 +9,7 @@ import CsvButton from "./components/CsvButton";
 import SelectCatalog from "./components/SelectCatalog";
 import { client } from "@/utils/sanity/_client";
 import SearchBar from "./components/SearchBar";
+import { Suspense } from "react";
 
 const query = `*[_type == "catalog"]{
   _id,
@@ -24,7 +25,7 @@ export default async function Home() {
 
   return (
     <>
-      <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
+      <AnnouncementBoard text="SE VÅRA NYA PRODUKTER" link="" />
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex pt-4 flex-col md:flex-row justify-between">
@@ -40,6 +41,7 @@ export default async function Home() {
         </div>
 
         <div className="gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+          <Suspense fallback={<div>Loading...</div>}></Suspense>
           {products.map((product) => (
             <Product
               key={product._id}
@@ -48,7 +50,7 @@ export default async function Home() {
               artNum={product.articleNumber}
               active={product.active}
               name={product.name}
-              price={product.price}
+              price={product.pricest}
               imgUrl={
                 product.image && product.image.asset
                   ? product.image.asset._ref

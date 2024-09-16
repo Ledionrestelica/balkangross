@@ -1,5 +1,3 @@
-const { revalidate } = require("../page");
-
 const getAllProducts = async (page = 0, limit = 20) => {
   const start = page * limit;
   const query = `*[_type == "product"] | order(_createdAt desc) [${start}...${
@@ -12,6 +10,7 @@ const getAllProducts = async (page = 0, limit = 20) => {
       name,
       image,
       price,
+      pricest,
       vikt
     }`;
   const products = await client.fetch(query, { next: { revalidate: 3600 } });

@@ -8,6 +8,8 @@ import SelectCatalog from "../components/SelectCatalog";
 import { client } from "@/utils/sanity/_client";
 import SearchBar from "../components/SearchBar";
 import Link from "next/link";
+import next from "next";
+import { revalidate } from "../page";
 
 const getAllProducts = async (page = 0, limit = 20) => {
   const start = page * limit;
@@ -23,7 +25,7 @@ const getAllProducts = async (page = 0, limit = 20) => {
     price,
     vikt
   }`;
-  const products = await client.fetch(query);
+  const products = await client.fetch(query, { next: { revalidate: 3600 } });
   return products;
 };
 

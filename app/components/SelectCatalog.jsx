@@ -3,9 +3,9 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-const SelectCatalog = ({ catalogs }) => {
+const SelectCatalog = ({ active, catalogs }) => {
   const router = useRouter();
-  const [selectedCatalog, setSelectedCatalog] = useState("default");
+  const [selectedCatalog, setSelectedCatalog] = useState(active || "default");
 
   const handleChange = (event) => {
     const catalogId = event.target.value;

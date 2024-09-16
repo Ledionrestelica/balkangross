@@ -14,10 +14,13 @@ import { useState, useEffect, useContext } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import CartContext from "@/CartContext";
+import { useUser } from "@clerk/nextjs";
 
 const OrderForm = () => {
   const { cart } = useContext(CartContext);
   const router = useRouter();
+  const { user } = useUser();
+
   const [formData, setFormData] = useState({
     name: "",
     lastName: "",
@@ -36,8 +39,17 @@ const OrderForm = () => {
     const savedOrderData = JSON.parse(localStorage.getItem("orderFormData"));
     if (savedOrderData) {
       setFormData(savedOrderData);
+    } else if (user) {
+      // Populate form with Clerk user data
+      setFormData((prevData) => ({
+        ...prevData,
+        name: user.firstName || "",
+        lastName: user.lastName || "",
+        email: user.emailAddresses[0]?.emailAddress || "",
+        // Add other fields if available from Clerk
+      }));
     }
-  }, []);
+  }, [user]);
 
   useEffect(() => {
     setFormData((prevData) => ({

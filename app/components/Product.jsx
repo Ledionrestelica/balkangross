@@ -45,13 +45,14 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
       key={_id}
       className="flex px-[16px] pb-[17px] flex-col border border-[#E7E7E7] w-[295px] h-[480px] rounded-[12px]"
     >
-      <div className="relative flex-1 flex justify-center items-center">
+      <div className="relative flex-1 flex justify-center items-center p-5">
         <Link href={`/product/${_id}`}>
           {imgUrl ? (
             <Image
               className="object-contain"
               src={urlFor(imgUrl).url()}
               fill
+              alt="Product"
             ></Image>
           ) : (
             <p>No image available</p>
@@ -85,7 +86,7 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
         </div>
         <div className="flex justify-between">
           <p className="font-light text-[16px] text-[#585858]">
-            Pris:{" "}
+            Styckpris:{" "}
             <span className="font-semibold text-[#585858]">{price} kr</span>
           </p>
           <p className="font-light text-[16px] text-[#585858]">

@@ -10,14 +10,14 @@ export const getProducts = async () => {
     name,
     articleNumber,
     description,
-    price,
+    pricest,
     image,
     active,
     ean,
     vikt,
   }
   }`;
-  const featured = await client.fetch(query, { cache: "force-cache" });
+  const featured = await client.fetch(query, { next: { revalidate: 3600 } });
 
   const products = featured.flatMap((item) => item.products);
 
