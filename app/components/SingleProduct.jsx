@@ -4,6 +4,7 @@ import { useContext } from "react";
 import CartContext from "@/CartContext";
 import Image from "next/image";
 import { urlFor } from "@/utils/sanity/_imageBuilder";
+import { motion } from "framer-motion";
 
 const SingleProduct = ({
   _id,
@@ -48,7 +49,13 @@ const SingleProduct = ({
 
   return (
     <>
-      <div key={_id} className="w-full mb-6 flex md:flex-row flex-col">
+      <motion.div
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.2, duration: 0.2, type: "ease" }}
+        key={_id}
+        className="w-full mb-6 flex md:flex-row flex-col"
+      >
         <div className="flex-1 md:pr-[30px]">
           <div className=" md:w-full h-[60vh] flex items-center justify-center relative w-full aspect-square border borded-[#E7E7E7] rounded-[8px] ">
             {imgUrl ? (
@@ -149,7 +156,7 @@ const SingleProduct = ({
             )}
           </button>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
