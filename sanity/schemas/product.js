@@ -43,6 +43,9 @@ export default {
       type: 'number',
       title: 'Price per st',
     },
+    {name: 'grossist_price', type: 'number', title: 'Grossist price'},
+    {name: 'butik_price', type: 'number', title: 'Butik price'},
+    {name: 'norge_price', type: 'number', title: 'Norge price'},
     {
       name: 'image',
       type: 'image',

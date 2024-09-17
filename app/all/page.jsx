@@ -13,7 +13,7 @@ import { revalidate } from "../page";
 
 const getAllProducts = async (page = 0, limit = 20) => {
   const start = page * limit;
-  const query = `*[_type == "product"] | order(_createdAt desc) [${start}...${
+  const query = `*[_type == "product" && active == true] | order(_createdAt desc) [${start}...${
     start + limit
   }] {
     _id,
@@ -22,10 +22,10 @@ const getAllProducts = async (page = 0, limit = 20) => {
     active,
     name,
     image,
-    price,
+    pricest,
     vikt
   }`;
-  const products = await client.fetch(query, { next: { revalidate: 3600 } });
+  const products = await client.fetch(query, { cache: "no-store" });
   return products;
 };
 
@@ -73,7 +73,7 @@ const ProductsSection = ({ products, page }) => {
             artNum={product.articleNumber}
             active={product.active}
             name={product.name}
-            price={product.price}
+            price={product.pricest}
             imgUrl={
               product.image && product.image.asset
                 ? product.image.asset._ref

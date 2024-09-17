@@ -6,7 +6,7 @@ import CsvButton from "@/app/components/CsvButton";
 import CartButton from "@/app/components/CartButton";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
 
-const productQuery = `*[_type == "product" && _id == $id]{
+const productQuery = `*[_type == "product" && _id == $id && active == true]{
   _id,
   name,
   price,
@@ -29,12 +29,12 @@ export default async function Page({ params }) {
   const product = await client.fetch(
     productQuery,
     { id },
-    { next: { revalidate: 3600 } }
+    { cache: "no-store" }
   );
 
   return (
     <>
-      <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="/" />
+      <AnnouncementBoard text="SE VÅRA NYA PRODUKTER" link="/" />
       <div className="max-w-[1240px] mt-[50px] px-4 mx-auto md:container  min-h-[100vh]">
         <div className="w-full mb-[20px] gap-6 flex md:flex-row flex-col justify-between">
           <div className="flex items-center gap-2">

@@ -1,6 +1,6 @@
 const getAllProducts = async (page = 0, limit = 20) => {
   const start = page * limit;
-  const query = `*[_type == "product"] | order(_createdAt desc) [${start}...${
+  const query = `*[_type == "product" && active == true] | order(_createdAt desc) [${start}...${
     start + limit
   }] {
       _id,

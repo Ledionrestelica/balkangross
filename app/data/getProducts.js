@@ -15,7 +15,7 @@ export const getProducts = async () => {
     active,
     ean,
     vikt,
-  }
+  }[active == true]
   }`;
   const featured = await client.fetch(query, { next: { revalidate: 3600 } });
 

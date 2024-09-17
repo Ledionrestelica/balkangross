@@ -21,8 +21,8 @@ const query = `*[_type == "catalog" && _id == $id] {
     pricest,
     image,
     active,
-    vikt,
-  }
+    vikt
+  }[active == true] // This filters products where active is true
 }`;
 const catalogQuery = `*[_type == "catalog"]{
   _id,
@@ -30,11 +30,7 @@ const catalogQuery = `*[_type == "catalog"]{
 }`;
 
 const getCatalogById = async (id) => {
-  const data = await client.fetch(
-    query,
-    { id },
-    { next: { revalidate: 3600 } }
-  );
+  const data = await client.fetch(query, { id }, { cache: "no-store" });
   return data[0];
 };
 
@@ -45,7 +41,7 @@ export default async function Page({ params }) {
 
   return (
     <>
-      <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
+      <AnnouncementBoard text="SE VÅRA NYA PRODUKTER" link="" />
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex pt-4 flex-col md:flex-row justify-between">
