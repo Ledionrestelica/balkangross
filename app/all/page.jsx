@@ -41,7 +41,7 @@ const page = async ({ searchParams }) => {
 
   return (
     <>
-      <AnnouncementBoard text="SE VARÅ NYA PRODUKTER" link="" />
+      <AnnouncementBoard text="SE VÅRA NYA PRODUKTER" link="" />
       <Header />
       <div className="px-4 mx-auto max-w-[1240px]">
         <div className="flex pt-4 flex-col md:flex-row justify-between">
