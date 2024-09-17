@@ -13,7 +13,7 @@ import { revalidate } from "../page";
 
 const getAllProducts = async (page = 0, limit = 20) => {
   const start = page * limit;
-  const query = `*[_type == "product" && active == true] | order(_createdAt desc) [${start}...${
+  const query = `*[_type == "product" && active != false] | order(_createdAt desc) [${start}...${
     start + limit
   }] {
     _id,

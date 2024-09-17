@@ -5,7 +5,7 @@ export const getProducts = async () => {
   const query = `*[_type == "featured"]{
     _id,
     title,
-    "products": products[]->{
+    "products": products[active != false]->{
     _id,
     name,
     articleNumber,
@@ -15,9 +15,9 @@ export const getProducts = async () => {
     active,
     ean,
     vikt,
-  }[active == true]
+  }
   }`;
-  const featured = await client.fetch(query, { next: { revalidate: 3600 } });
+  const featured = await client.fetch(query, { cache: "no-store" });
 
   const products = featured.flatMap((item) => item.products);
 

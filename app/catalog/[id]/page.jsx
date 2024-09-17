@@ -12,7 +12,7 @@ import { Suspense } from "react";
 const query = `*[_type == "catalog" && _id == $id] {
   _id,
   title,
-  "products": products[]->{
+  "products": products[active != false]->{
     _id,
     name,
     articleNumber,
@@ -21,8 +21,8 @@ const query = `*[_type == "catalog" && _id == $id] {
     pricest,
     image,
     active,
-    vikt
-  }[active == true] // This filters products where active is true
+    vikt,
+  }
 }`;
 const catalogQuery = `*[_type == "catalog"]{
   _id,

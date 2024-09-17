@@ -6,7 +6,7 @@ import CsvButton from "@/app/components/CsvButton";
 import CartButton from "@/app/components/CartButton";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
 
-const productQuery = `*[_type == "product" && _id == $id && active == true]{
+const productQuery = `*[_type == "product" && _id == $id && active != false]{
   _id,
   name,
   price,
@@ -26,6 +26,7 @@ export const metadata = {
 
 export default async function Page({ params }) {
   const { id } = params;
+
   const product = await client.fetch(
     productQuery,
     { id },
@@ -94,4 +95,4 @@ export async function generateStaticParams() {
   }));
 }
 
-export const revalidate = 600;
+export const dynmic = false;
