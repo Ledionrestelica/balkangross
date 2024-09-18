@@ -35,7 +35,7 @@ const catalogquery = `*[_type == "catalog"]{
   }`;
 
 const page = async ({ searchParams }) => {
-  const pageNumber = parseInt(searchParams.page) || 0; // Default to 0 if page param is not set
+  const pageNumber = parseInt(searchParams.page) || 0;
   const catalogs = await client.fetch(catalogquery);
   const products = await getAllProducts(pageNumber);
 
