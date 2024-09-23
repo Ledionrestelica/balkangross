@@ -1,7 +1,6 @@
 import { client } from "@/utils/sanity/_client"; // for only featured products
 
 export const getProducts = async () => {
-  "use server";
   const query = `*[_type == "featured"]{
     _id,
     title,

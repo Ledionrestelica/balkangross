@@ -42,23 +42,27 @@ export default async function Home() {
 
         <div className="gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
           <Suspense fallback={<div>Loading...</div>}></Suspense>
-          {products.map((product) => (
-            <Product
-              key={product._id}
-              _id={product._id}
-              ean={product.ean}
-              artNum={product.articleNumber}
-              active={product.active}
-              name={product.name}
-              price={product.pricest}
-              imgUrl={
-                product.image && product.image.asset
-                  ? product.image.asset._ref
-                  : null
-              }
-              vikt={product.vikt}
-            />
-          ))}
+          {products.map((product) =>
+            product && product._id ? (
+              <Product
+                key={product._id}
+                _id={product._id}
+                ean={product.ean}
+                artNum={product.articleNumber}
+                active={product.active}
+                name={product.name}
+                price={product.pricest}
+                imgUrl={
+                  product.image && product.image.asset
+                    ? product.image.asset._ref
+                    : null
+                }
+                vikt={product.vikt}
+              />
+            ) : (
+              "No products found"
+            )
+          )}
         </div>
       </div>
     </>
