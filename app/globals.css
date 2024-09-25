@@ -48,3 +48,9 @@
   max-width: 100%;
   height: auto;
 }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}

@@ -38,6 +38,9 @@ export default async function Page({ params }) {
   const { id } = params;
   const catalog = await getCatalogById(id);
   const catalogs = await client.fetch(catalogQuery);
+  const filteredProducts = catalog.products.filter(
+    (product) => product.active === true
+  );
 
   return (
     <>
@@ -56,9 +59,9 @@ export default async function Page({ params }) {
           </div>
         </div>
         <Suspense fallback={<div>Loading...</div>}>
-          <div className=" gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+          <div className=" gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-4">
             {catalog.products
-              ? catalog.products.map((product) => (
+              ? filteredProducts.map((product) => (
                   <Product
                     key={product._id}
                     _id={product._id}

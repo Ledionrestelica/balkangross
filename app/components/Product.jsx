@@ -45,9 +45,10 @@ const Product = ({ _id, artNum, ean, active, price, name, imgUrl, vikt }) => {
     <motion.div
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
+      whileInView={{ opacity: 1, scale: 1 }}
       transition={{ delay: 0.2, duration: 0.2, type: "ease" }}
       key={_id}
-      className="flex px-[16px] pb-[17px] flex-col border border-[#E7E7E7] w-[295px] h-[480px] rounded-[12px]"
+      className="flex px-[16px] pb-[17px] flex-col border border-[#E7E7E7] w-[295px] h-[480px] rounded-[12px] hover:shadow-md hover:shadow-primary "
     >
       <div className="relative flex-1 flex justify-center items-center p-5">
         <Link href={`/product/${_id}`}>

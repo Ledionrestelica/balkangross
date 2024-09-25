@@ -40,7 +40,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <div className="gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+        <div className="gap-[16px] w-max mx-auto place-items-center grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-4">
           <Suspense fallback={<div>Loading...</div>}></Suspense>
           {products.map((product) =>
             product && product._id ? (

@@ -6,7 +6,7 @@ import CsvButton from "@/app/components/CsvButton";
 import CartButton from "@/app/components/CartButton";
 import AnnouncementBoard from "@/app/components/AnnouncementBoard";
 
-const productQuery = `*[_type == "product" && _id == $id && active != false]{
+const productQuery = `*[_type == "product" && _id == $id]{
   _id,
   name,
   price,
@@ -57,7 +57,7 @@ export default async function Page({ params }) {
                 d="M1.2 8.6L4.8 5 1.2 1.4"
               ></path>
             </svg>
-            <div>{product.name} 1</div>
+            <div>{product.name}</div>
           </div>
           <div className="flex gap-4 md:flex-nowrap flex-wrap  ">
             <CartButton />
