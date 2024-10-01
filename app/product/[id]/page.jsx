@@ -95,4 +95,6 @@ export async function generateStaticParams() {
   }));
 }
 
-export const dynmic = false;
+export const revalidate = 60 * 60;
+
+export const dynmic = true;
